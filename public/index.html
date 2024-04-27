@@ -24,20 +24,81 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Masonry Trzask</title>
+
+    <script src="/js/language_pl.js"></script>
+    <script src="/js/interface.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/style/cursor.css">
+    <link rel="stylesheet" type="text/css" href="/style/hamburger.css">
+    <link rel="stylesheet" type="text/css" href="/style/font.css">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+
+    <style>
+      /*open/close btn normal*/
+      #hamburger {
+        position: fixed;
+        margin-top: 0;
+        transform: translateY(-100%);
+        transition: all .3s;
+      }
+
+      #hamburger.pinned {
+        top: 42px;
+        transform: translateY(0);
+      }
+
+      @media (max-width: 575px) {
+        #hamburger.pinned {
+          top: 30px
+        }
+      }
+
+      /*open/close btn hover */
+      #hamburger:hover span:nth-child(1),
+      #hamburger:hover span:nth-child(3),
+      #hamburger:hover span:nth-child(2) {
+        background-color: #7C59ED;
+      }
+
+      /*open menu background*/
+      #bg-menu-mobile {
+        background-color: black;
+      }
+
+      /*open menu text*/
+      #menu-mobile {
+        position: fixed;
+      }
+
+      #menu-mobile ul li a:link,
+      #menu-mobile ul li a:visited,
+      #menu-mobile ul li a:active,
+      #menu-mobile ul li a {
+        color: white;
+        font-family: "GTWalsheim Black";
+        text-decoration: none;
+        margin-left: 40px;
+      }
+
+      /*open menu text hover*/
+      #menu-mobile ul li a:hover {
+        color: #7C59ED;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div id="lng"></div>
+    <div id="menu-mobile"></div>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <script>
+      getMenu();
+    </script>
   </body>
 </html>
