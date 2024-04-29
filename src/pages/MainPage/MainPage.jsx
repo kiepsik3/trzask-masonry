@@ -1,5 +1,6 @@
 import "./main-page.scss";
 import cn from "classnames";
+import { Link } from "react-router-dom";
 import data from "../../data/masonry.json";
 
 const MainPage = () => {
@@ -11,18 +12,21 @@ const MainPage = () => {
           {wall.elements.map((element, index) => (
             <>
               {element.bgImage ? (
-                <img
+                <Link
+                  to={`/pl/masonry/${element.slug}`}
                   className={cn(`item item-${index + 1}`)}
-                  src={element.bgImage}
-                  alt={element.bgImage}
-                />
+                >
+                  <img src={element.bgImage} alt={element.bgImage} />
+                </Link>
               ) : (
                 <div
                   className={cn(
                     `item item-${index + 1} ${element.bgColor === "red" ? "red" : element.bgColor === "purple" ? "purple" : ""}`,
                   )}
                 >
-                  {element.title}
+                  <h3>{element.title}</h3>
+                  <p>{element.caption}</p>
+                  <Link to={`/pl/masonry/${element.slug}`}>sdf</Link>
                 </div>
               )}
             </>
