@@ -1,0 +1,222 @@
+@import '../../lib/scss/colors.scss';
+
+.element-page {
+  padding-top: 170px;
+  margin-bottom: 120px;
+  @media screen and (max-width: 767px) {
+    padding: 0 12px;
+  }
+
+  &-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 120px;
+    padding-right: 16%;
+    @media screen and (max-width: 1279px) {
+      padding-right: 12%;
+    }
+    @media screen and (max-width: 1023px) {
+      padding: 0;
+      flex-direction: column;
+    }
+
+    .element-page-link {
+      margin-top: 24px
+    }
+
+    div {
+      padding-left: 16%;
+      @media screen and (max-width: 1279px) {
+        padding-left: 12%;
+      }
+
+      @media screen and (max-width: 1023px) {
+        padding-left: 0;
+      }
+
+      h1 {
+        font-size: 50px;
+        font-weight: 800;
+        margin-bottom: 80px;
+        @media screen and (max-width: 1279px) {
+          margin-bottom: 60px;
+        }
+        @media screen and (max-width: 1023px) {
+          margin-bottom: 50px;
+        }
+        @media screen and (max-width: 767px) {
+          margin-bottom: 40px;
+        }
+      }
+
+      h3 {
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 22px;
+        color: $color-grey;
+      }
+    }
+  }
+
+  &-link-header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    margin-top: 0;
+    width: 100%;
+    z-index: 20;
+    margin-left: 100px;
+    transition: all .3s;
+    opacity: 0;
+
+    @media (min-width: 1280px) {
+      margin-left: 85px
+    }
+
+    &.visible {
+      opacity: 1;
+    }
+
+    &.pinned {
+      transform: translateX(-50%) translateY(0);
+      margin-top: 45px;
+
+      @media (max-width: 639px) {
+        margin-top: 35px;
+      }
+    }
+  }
+
+  &-link {
+    font-size: 18px;
+    line-height: 26px;
+    color: black !important;
+    opacity: .37;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 1023px) {
+      margin-bottom: 32px;
+    }
+
+    &:hover {
+      color: #0d6efd !important
+    }
+
+    &.disabled {
+      pointer-events: none;
+      opacity: .1;
+    }
+
+    svg {
+      margin: 0 12px;
+
+      @media (max-width: 1279px) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .other-skills {
+    margin-top: 120px;
+
+    h2 {
+      font-size: 50px;
+      font-weight: 800;
+      margin-bottom: 80px;
+      text-align: center;
+      @media screen and (max-width: 1279px) {
+        margin-bottom: 60px;
+      }
+      @media screen and (max-width: 1023px) {
+        margin-bottom: 50px;
+      }
+      @media screen and (max-width: 767px) {
+        margin-bottom: 40px;
+      }
+    }
+
+    .skills-masonry {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px;
+      @media screen and (max-width: 1535px) {
+        gap: 30px;
+      }
+      @media screen and (max-width: 1279px) {
+        gap: 20px;
+      }
+      @media screen and (max-width: 1023px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+      }
+    }
+
+    .skill {
+      aspect-ratio: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 26px 30px;
+      @media screen and (min-width: 1024px) and (max-width: 1279px) {
+        padding: 21px 28px;
+      }
+
+      &:nth-child(1), &:nth-child(3), &:nth-child(6), &:nth-child(8) {
+        background-color: $color-red;
+      }
+
+      &:nth-child(2), &:nth-child(4), &:nth-child(5), &:nth-child(7) {
+        background-color: $color-blue;
+      }
+
+      h3 {
+        font-size: 22px;
+        font-weight: 800;
+        color: white;
+        @media screen and (min-width: 1024px) and (max-width: 1279px) {
+          font-size: 18px;
+        }
+      }
+
+      p {
+        font-size: 18px;
+        color: white;
+        margin-top: 5px;
+        @media screen and (min-width: 1024px) and (max-width: 1279px) {
+          font-size: 16px;
+          margin-top: 0;
+        }
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        margin-top: 25px;
+        padding: 12px 28px;
+        border: 3px solid white;
+        @media screen and (min-width: 1024px) and (max-width: 1279px) {
+          font-size: 16px;
+          margin-top: 20px;
+          padding: 10px 24px;
+        }
+
+        img {
+          width: 13px;
+          height: 12px;
+          margin-left: 7px;
+        }
+      }
+    }
+  }
+}

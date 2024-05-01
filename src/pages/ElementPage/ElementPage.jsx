@@ -1,9 +1,90 @@
 import { useParams } from "react-router-dom";
+import React, { useState } from "react";
+import "./element-page.scss";
+import { useScrollPosition } from "@n8tb1t/use-scroll-position";
+import { Link } from "react-router-dom";
+import cn from "classnames";
+import { FaArrowLeft } from "react-icons/fa";
+import { MasonryWall } from "../../components/MasonryWall/MasonryWall";
 
 const ElementPage = (props) => {
   const { slug } = useParams();
 
-  return <div className="container 2xl:max-w-[1320px]">elemt</div>;
+  const [visible, setVisible] = useState(false);
+  const [pinned, setPinned] = useState(true);
+  useScrollPosition(
+    ({ currPos, prevPos }) => {
+      if (currPos.y === prevPos.y) {
+        return;
+      }
+
+      const windowHeight = window.innerHeight;
+      const pageHeight = document.body.scrollHeight;
+
+      currPos.y > 99 ? setVisible(true) : setVisible(false);
+      currPos.y > prevPos.y && currPos.y > 0
+        ? setPinned(false)
+        : currPos.y + windowHeight < pageHeight && setPinned(true);
+    },
+    [visible],
+    undefined,
+    true,
+    0,
+  );
+
+  const element = props.walls
+    ?.flatMap((w) => w.elements)
+    .find((e) => e.slug === slug);
+
+  return (
+    <div className="element-page container 2xl:max-w-[1320px]">
+      <div
+        className={cn(
+          "container 2xl:max-w-[1320px] element-page-link-header",
+          visible && "visible",
+          pinned && "pinned",
+        )}
+      >
+        <Link to="/pl/masonry-wall" className="element-page-link">
+          <FaArrowLeft />
+          Lista
+        </Link>
+      </div>
+      <div className="element-page-header">
+        <Link to="/pl/masonry-wall" className="element-page-link">
+          <FaArrowLeft />
+          Lista
+        </Link>
+        <div>
+          <h1>{element?.title}</h1>
+          <h3>{element?.caption}</h3>
+          <p>{element?.description}</p>
+        </div>
+      </div>
+
+      {element?.elements && (
+        <MasonryWall data={element.elements} set="element" />
+      )}
+
+      {element?.otherSkills && (
+        <div className="other-skills">
+          <h2>Pozostałe skille</h2>
+          <div className="skills-masonry">
+            {element.otherSkills.map((skill, index) => (
+              <div className={cn(`skill skill-${index + 1}`)}>
+                <h3>{skill.title}</h3>
+                <p>{skill.caption}</p>
+                <Link to={`/pl/masonry-wall/${skill.slug}`}>
+                  Więcej
+                  <img src="/img/arrow.svg" alt="arrow" />
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
 };
 
 export default ElementPage;
