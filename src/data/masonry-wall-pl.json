@@ -1,0 +1,285 @@
+{
+  "walls": [
+    {
+      "set": 1,
+      "elements": [
+        {
+          "slug": "animacje-3d",
+          "bgColor": "blue",
+          "title": "Animacje 3D",
+          "caption": "Trójwymiarowe wrażenia",
+          "description": "Odkryj trzeci wymiar reklamy! Nasze animacje 3D to istne graficzne perełki, które w kreatywny sposób opowiadają wyjątkowe historie. Przenosimy markę do trójwymiarowej przestrzeni, dostarczając widzom niepowtarzalnych wrażeń wizualnych, które zapadają w pamięć. Gramy w kolory i kształty, sięgamy po nieoczywiste koncepcje, ożywiamy komunikację epickimi obrazami. Każda animacja 3D odkrywa zupełnie nowe pokłady kreatywności.",
+          "elements": [
+            {
+              "slug": "case-studies-3d",
+              "title": "Zobacz Case Studies z kategorii 3D!",
+              "bgColor": "blue"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/image-33.svg"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/image-34.svg"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/image-35.svg"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/image-36.svg"
+            },
+            {
+              "slug": "image-37",
+              "bgImage": "/images/masonry-wall/image-37.svg"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/image-38.svg"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/image-39.svg"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-2d",
+              "title": "Animacje 2D",
+              "caption": "Żywe Obrazy, Silne Przekazy"
+            },
+            {
+              "slug": "landing-page",
+              "title": "Landing Page",
+              "caption": "Zachęta do interakcji"
+            },
+            {
+              "slug": "playable-ads",
+              "title": "Playable Ads",
+              "caption": "Doświadcz interaktywnej reklamy"
+            },
+            {
+              "slug": "social-media",
+              "title": "Social Media",
+              "caption": "Kreujemy obecność marki online"
+            },
+            {
+              "slug": "html5",
+              "title": "HTML 5",
+              "caption": "Dynamiczne animacje, żywa komunikacja"
+            },
+            {
+              "slug": "standardowe-banery",
+              "title": "Standardowe banery",
+              "caption": "Estetyczna skuteczność"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Mini Gry",
+              "caption": "Zabawa, angażowanie, rezultaty!"
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Reklamy do TV i Kina",
+              "caption": "Doświadcz interaktywnej reklamy"
+            }
+          ]
+        },
+        {
+          "slug": "image-1",
+          "bgImage": "/images/masonry-wall/image-1.svg",
+          "title": "Image 1",
+          "caption": "Sample caption",
+          "description": "Lorem ipsum dolor amet"
+        },
+        {
+          "slug": "image-2",
+          "bgImage": "/images/masonry-wall/image-2.svg"
+        },
+        {
+          "slug": "animacje-2d",
+          "bgColor": "red",
+          "title": "Animacje 2D",
+          "caption": "Żywe obrazy, silne przekazy"
+        },
+        {
+          "slug": "image-3",
+          "bgImage": "/images/masonry-wall/image-3.svg"
+        },
+        {
+          "slug": "image-4",
+          "bgImage": "/images/masonry-wall/image-4.svg"
+        },
+        {
+          "slug": "image-5",
+          "bgImage": "/images/masonry-wall/image-5.svg"
+        },
+        {
+          "slug": "image-6",
+          "bgImage": "/images/masonry-wall/image-6.svg"
+        },
+        {
+          "slug": "image-7",
+          "bgImage": "/images/masonry-wall/image-7.svg"
+        },
+        {
+          "slug": "image-8",
+          "bgImage": "/images/masonry-wall/image-8.svg"
+        },
+        {
+          "slug": "landing-page",
+          "bgColor": "blue",
+          "title": "Landing page",
+          "caption": "Zachęta do interakcji"
+        },
+        {
+          "slug": "image-9",
+          "bgImage": "/images/masonry-wall/image-9.svg"
+        },
+        {
+          "slug": "image-10",
+          "bgImage": "/images/masonry-wall/image-10.svg"
+        },
+        {
+          "slug": "image-11",
+          "bgImage": "/images/masonry-wall/image-11.svg"
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "elements": [
+        {
+          "ytId": "0DQcPPZFmZU",
+          "autoplay": 0,
+          "mute": 0,
+          "loop": 1,
+          "bgImage": "/images/masonry-wall/image-12.svg"
+        },
+        {
+          "slug": "image-13",
+          "bgImage": "/images/masonry-wall/image-13.svg"
+        },
+        {
+          "slug": "playable-ads",
+          "bgColor": "red",
+          "title": "Playable Ads",
+          "caption": "Doświadcz interaktywnej reklamy"
+        },
+        {
+          "slug": "image-14",
+          "bgImage": "/images/masonry-wall/image-14.svg"
+        },
+        {
+          "slug": "image-15",
+          "bgImage": "/images/masonry-wall/image-15.svg"
+        },
+        {
+          "slug": "image-16",
+          "bgImage": "/images/masonry-wall/image-16.svg"
+        },
+        {
+          "slug": "image-17",
+          "bgImage": "/images/masonry-wall/image-17.svg"
+        },
+        {
+          "slug": "social-media",
+          "bgColor": "blue",
+          "title": "Social Media",
+          "caption": "Kreujemy obecność marki online"
+        },
+        {
+          "slug": "image-18",
+          "bgImage": "/images/masonry-wall/image-18.svg"
+        },
+        {
+          "slug": "image-19",
+          "bgImage": "/images/masonry-wall/image-19.svg"
+        },
+        {
+          "slug": "image-20",
+          "bgImage": "/images/masonry-wall/image-20.svg"
+        },
+        {
+          "slug": "image-21",
+          "bgImage": "/images/masonry-wall/image-21.svg"
+        },
+        {
+          "slug": "html5",
+          "bgColor": "blue",
+          "title": "HTML 5",
+          "caption": "Dynamiczne animacje, żywa komunikacja"
+        },
+        {
+          "slug": "image-22",
+          "bgImage": "/images/masonry-wall/image-22.svg"
+        },
+        {
+          "slug": "image-23",
+          "bgImage": "/images/masonry-wall/image-23.svg"
+        },
+        {
+          "slug": "image-24",
+          "bgImage": "/images/masonry-wall/image-24.svg"
+        },
+        {
+          "slug": "image-25",
+          "bgImage": "/images/masonry-wall/image-25.svg"
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "elements": [
+        {
+          "slug": "mini-gry",
+          "bgColor": "blue",
+          "title": "Mini Gry",
+          "caption": "Zabawa, angażowanie, rezultaty!"
+        },
+        {
+          "slug": "image-26",
+          "bgImage": "/images/masonry-wall/image-26.svg"
+        },
+        {
+          "slug": "standardowe-banery",
+          "bgColor": "red",
+          "title": "Standardowe banery",
+          "caption": "Estetyczna skuteczność"
+        },
+        {
+          "slug": "image-27",
+          "bgImage": "/images/masonry-wall/image-27.svg"
+        },
+        {
+          "slug": "image-28",
+          "bgImage": "/images/masonry-wall/image-28.svg"
+        },
+        {
+          "slug": "image-29",
+          "bgImage": "/images/masonry-wall/image-29.svg"
+        },
+        {
+          "slug": "image-30",
+          "bgImage": "/images/masonry-wall/image-30.svg"
+        },
+        {
+          "slug": "image-31",
+          "bgImage": "/images/masonry-wall/image-31.svg"
+        },
+        {
+          "slug": "image-32",
+          "bgImage": "/images/masonry-wall/image-32.svg"
+        },
+        {
+          "slug": "reklamy-do-tv-i-kina",
+          "bgColor": "red",
+          "title": "Reklamy do TV i Kina",
+          "caption": "Doświadcz interaktywnej reklamy"
+        }
+      ]
+    }
+  ]
+}

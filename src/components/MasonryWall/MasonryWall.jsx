@@ -3,6 +3,8 @@ import cn from "classnames";
 import { Modal } from "../Modal/Modal";
 import Video from "../Video/Video";
 import { Link } from "react-router-dom";
+import { ReactComponent as Play } from "../../assets/img/play.svg";
+import { ReactComponent as Arrow } from "../../assets/img/arrow.svg";
 
 import "./masonry-wall.scss";
 
@@ -22,7 +24,7 @@ export function MasonryWall(props) {
               >
                 <button onClick={() => setModal(true)}>
                   Oglądaj w showreel
-                  <img src="/img/play.svg" alt="play" />
+                  <Play />
                 </button>
               </div>
               {modal && (
@@ -53,7 +55,7 @@ export function MasonryWall(props) {
               <p>{element.caption}</p>
               <Link to={`/pl/masonry-wall/${element.slug}`}>
                 Więcej
-                <img src="/img/arrow.svg" alt="arrow" />
+                <Arrow />
               </Link>
             </div>
           )}
