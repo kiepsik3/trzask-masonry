@@ -2,7 +2,7 @@
   "name": "trzask-masonry",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://trzask.com/pl/masonry-wall/",
+  "homepage": "https://trzask.com/pl/start/",
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^2.0.3",
     "@testing-library/jest-dom": "^5.14.1",

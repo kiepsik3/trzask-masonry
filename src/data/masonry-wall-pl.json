@@ -29,7 +29,8 @@
             },
             {
               "slug": "image-36",
-              "bgImage": "/images/masonry-wall/image-36.svg"
+              "bgImage": "/images/masonry-wall/image-36.svg",
+              "rotateRight": true
             },
             {
               "slug": "image-37",
@@ -72,7 +73,7 @@
             },
             {
               "slug": "standardowe-banery",
-              "title": "Standardowe banery",
+              "title": "Standardowe Banery",
               "caption": "Estetyczna skuteczność"
             },
             {
@@ -110,7 +111,8 @@
         },
         {
           "slug": "image-4",
-          "bgImage": "/images/masonry-wall/image-4.svg"
+          "bgImage": "/images/masonry-wall/image-4.svg",
+          "rotateRight": true
         },
         {
           "slug": "image-5",
@@ -136,7 +138,8 @@
         },
         {
           "slug": "image-9",
-          "bgImage": "/images/masonry-wall/image-9.svg"
+          "bgImage": "/images/masonry-wall/image-9.svg",
+          "rotateLeft": true
         },
         {
           "slug": "image-10",
@@ -226,7 +229,8 @@
         },
         {
           "slug": "image-25",
-          "bgImage": "/images/masonry-wall/image-25.svg"
+          "bgImage": "/images/masonry-wall/image-25.svg",
+          "rotateRight": true
         }
       ]
     },
@@ -241,12 +245,13 @@
         },
         {
           "slug": "image-26",
-          "bgImage": "/images/masonry-wall/image-26.svg"
+          "bgImage": "/images/masonry-wall/image-26.svg",
+          "rotateLeft": true
         },
         {
           "slug": "standardowe-banery",
           "bgColor": "red",
-          "title": "Standardowe banery",
+          "title": "Standardowe Banery",
           "caption": "Estetyczna skuteczność"
         },
         {
@@ -267,7 +272,8 @@
         },
         {
           "slug": "image-31",
-          "bgImage": "/images/masonry-wall/image-31.svg"
+          "bgImage": "/images/masonry-wall/image-31.svg",
+          "rotateRight": true
         },
         {
           "slug": "image-32",

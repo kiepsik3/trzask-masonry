@@ -14,6 +14,8 @@
 
   .item {
     height: 100%;
+    position: relative;
+    overflow: hidden;
 
     &.red {
       background-color: $color-red;
@@ -55,7 +57,7 @@
         }
       }
 
-      a {
+      button {
         display: flex;
         align-items: center;
         font-size: 18px;
@@ -122,6 +124,22 @@
       object-fit: cover;
       border-radius: 4px;
     }
+
+    &.rotate-left {
+      transform: rotate(-5deg);
+    }
+
+    &.rotate-right {
+      transform: rotate(5deg);
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      transition: all .6s;
+      @media screen and (max-width: 1023px) {
+        display: none;
+      }
+    }
   }
 
   &.set-1 {
@@ -147,6 +165,20 @@
     .item-1 {
       grid-column: 1 / span 6;
       grid-row: 1 / span 8;
+
+      &:after {
+        width: 161px;
+        height: 177px;
+        top: -177px;
+        left: 50px;
+        background: url("../../assets/img/fancy-1.svg") no-repeat;
+      }
+
+      &:hover {
+        &:after {
+          top: 0;
+        }
+      }
     }
 
     .item-2 {
@@ -162,6 +194,21 @@
     .item-4 {
       grid-column: 17 / span 8;
       grid-row: 1 / span 4;
+      overflow: visible;
+      &:after {
+        width: 137px;
+        height: 146px;
+        top: 0;
+        right: 0;
+        background: url("../../assets/img/fancy-2.svg") no-repeat;
+        z-index: -1;
+      }
+
+      &:hover {
+        &:after {
+          top: -75px;
+        }
+      }
     }
 
     .item-5 {
@@ -197,6 +244,18 @@
     .item-11 {
       grid-column: 11 / span 8;
       grid-row: 8 / span 4;
+      &:after {
+        width: 145px;
+        height: 175px;
+        right: -145px;
+        background: url("../../assets/img/fancy-3.svg") no-repeat;
+      }
+
+      &:hover {
+        &:after {
+          right: 0;
+        }
+      }
     }
 
     .item-12 {
@@ -248,6 +307,19 @@
     .item-3 {
       grid-column: 17 / span 8;
       grid-row: 1 / span 4;
+      &:after {
+        width: 113px;
+        height: 113px;
+        top: 0;
+        right: -113px;
+        background: url("../../assets/img/fancy-4.svg") no-repeat;
+      }
+
+      &:hover {
+        &:after {
+          right: 0;
+        }
+      }
     }
 
     .item-4 {
@@ -273,6 +345,19 @@
     .item-8 {
       grid-column: 19 / span 6;
       grid-row: 9 / span 8;
+      &:after {
+        width: 179px;
+        height: 147px;
+        top: -147px;
+        right: 40px;
+        background: url("../../assets/img/fancy-5.svg") no-repeat;
+      }
+
+      &:hover {
+        &:after {
+          top: 0;
+        }
+      }
     }
 
     .item-9 {
@@ -298,6 +383,19 @@
     .item-13 {
       grid-column: 7 / span 8;
       grid-row: 16 / span 4;
+      &:after {
+        width: 172px;
+        height: 99px;
+        bottom: -99px;
+        right: 10px;
+        background: url("../../assets/img/fancy-6.svg") no-repeat;
+      }
+
+      &:hover {
+        &:after {
+          bottom: 0;
+        }
+      }
     }
 
     .item-14 {
@@ -340,6 +438,19 @@
     .item-1 {
       grid-column: 1 / span 8;
       grid-row: 1 / span 8;
+      &:after {
+        width: 286px;
+        height: 186px;
+        top: -186px;
+        right: 0;
+        background: url("../../assets/img/fancy-7.svg") no-repeat;
+      }
+
+      &:hover {
+        &:after {
+          top: 0;
+        }
+      }
     }
 
     .item-2 {
@@ -350,6 +461,19 @@
     .item-3 {
       grid-column: 13 / span 8;
       grid-row: 1 / span 4;
+      &:after {
+        width: 113px;
+        height: 156px;
+        bottom: -156px;
+        right: 0;
+        background: url("../../assets/img/fancy-8.svg") no-repeat;
+      }
+
+      &:hover {
+        &:after {
+          bottom: 0;
+        }
+      }
     }
 
     .item-4 {
@@ -385,6 +509,21 @@
     .item-10 {
       grid-column: 17 / span 8;
       grid-row: 9 / span 4;
+      overflow: visible;
+      &:after {
+        width: 192px;
+        height: 191px;
+        bottom: 0;
+        right: 0;
+        background: url("../../assets/img/fancy-9.svg") no-repeat;
+        z-index: -1;
+      }
+
+      &:hover {
+        &:after {
+          bottom: -135px;
+        }
+      }
     }
   }
 
@@ -407,6 +546,19 @@
     .item-1 {
       grid-column: 1 / span 12;
       grid-row: 1 / span 4;
+      &:after {
+        width: 172px;
+        height: 99px;
+        bottom: -99px;
+        right: 40px;
+        background: url("../../assets/img/fancy-6.svg") no-repeat;
+      }
+
+      &:hover {
+        &:after {
+          bottom: 0;
+        }
+      }
     }
 
     .item-2 {

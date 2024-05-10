@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import cn from "classnames";
 import { FaArrowLeft } from "react-icons/fa";
 import { MasonryWall } from "../../components/MasonryWall/MasonryWall";
+import { ReactComponent as Arrow } from "../../assets/img/arrow.svg";
 
 const ElementPage = (props) => {
   const { slug } = useParams();
@@ -45,13 +46,13 @@ const ElementPage = (props) => {
           pinned && "pinned",
         )}
       >
-        <Link to="/pl/masonry-wall" className="element-page-link">
+        <Link to="/pl/start" className="element-page-link">
           <FaArrowLeft />
           Lista
         </Link>
       </div>
       <div className="element-page-header">
-        <Link to="/pl/masonry-wall" className="element-page-link">
+        <Link to="/pl/start" className="element-page-link">
           <FaArrowLeft />
           Lista
         </Link>
@@ -71,14 +72,17 @@ const ElementPage = (props) => {
           <h2>Pozostałe skille</h2>
           <div className="skills-masonry">
             {element.otherSkills.map((skill, index) => (
-              <div className={cn(`skill skill-${index + 1}`)}>
+              <Link
+                to={`/pl/start/${skill.slug}`}
+                className={cn(`skill skill-${index + 1}`)}
+              >
                 <h3>{skill.title}</h3>
                 <p>{skill.caption}</p>
-                <Link to={`/pl/masonry-wall/${skill.slug}`}>
+                <button>
                   Więcej
-                  <img src="/img/arrow.svg" alt="arrow" />
-                </Link>
-              </div>
+                  <Arrow />
+                </button>
+              </Link>
             ))}
           </div>
         </div>

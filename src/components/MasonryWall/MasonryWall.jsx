@@ -23,7 +23,7 @@ export function MasonryWall(props) {
                 }}
               >
                 <button onClick={() => setModal(true)}>
-                  Oglądaj w showreel
+                  Oglądaj showreel
                   <Play />
                 </button>
               </div>
@@ -40,24 +40,29 @@ export function MasonryWall(props) {
             </>
           ) : element.bgImage ? (
             <Link
-              to={`/pl/masonry-wall/${element.slug}`}
-              className={cn(`item item-${index + 1}`)}
+              to={`/pl/start/${element.slug}`}
+              className={cn(
+                `item item-${index + 1}`,
+                element.rotateRight && "rotate-right",
+                element.rotateLeft && "rotate-left",
+              )}
             >
               <img src={element.bgImage} alt={element.bgImage} />
             </Link>
           ) : (
-            <div
+            <Link
+              to={`/pl/start/${element.slug}`}
               className={cn(
                 `item text item-${index + 1} ${element.bgColor === "red" ? "red" : element.bgColor === "blue" ? "blue" : ""}`,
               )}
             >
               <h3>{element.title}</h3>
               <p>{element.caption}</p>
-              <Link to={`/pl/masonry-wall/${element.slug}`}>
+              <button>
                 Więcej
                 <Arrow />
-              </Link>
-            </div>
+              </button>
+            </Link>
           )}
         </React.Fragment>
       ))}

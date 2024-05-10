@@ -1,12 +1,7 @@
 @import '../../lib/scss/colors.scss';
 
 .video {
-  &-wrapper {
-    overflow: hidden;
-    padding-bottom: 50%;
-    position: relative;
-    height: 0;
-  }
+  height: 90vh;
 
   iframe {
     left: 0;
