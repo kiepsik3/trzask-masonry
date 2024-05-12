@@ -4,12 +4,11 @@ import ElementPage from "./pages/ElementPage/ElementPage";
 import Header from "./components/Heder/Header";
 import Footer from "./components/Footer/Footer";
 import useFetch from "./hooks/useFetch";
-import masonryWall from "./data/masonry-wall-pl.json";
 
 function App() {
   const domain = window.location.origin;
 
-  // const { data: masonryWall } = useFetch(`${domain}/masonry-wall-pl.json`);
+  const { data: masonryWall } = useFetch(`${domain}/masonry-wall-pl.json`);
 
   return (
     <>

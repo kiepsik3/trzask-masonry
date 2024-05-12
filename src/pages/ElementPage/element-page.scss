@@ -4,6 +4,7 @@
   padding-top: 170px;
   margin-bottom: 120px;
   @media screen and (max-width: 767px) {
+    margin-bottom: 80px;
     padding: 120px 12px 0;
   }
 
@@ -18,6 +19,9 @@
     @media screen and (max-width: 1023px) {
       padding: 0;
       flex-direction: column;
+    }
+    @media screen and (max-width: 767px) {
+      margin-bottom: 80px;
     }
 
     .element-page-link {
@@ -43,9 +47,11 @@
         }
         @media screen and (max-width: 1023px) {
           margin-bottom: 50px;
+          font-size: 42px;
         }
         @media screen and (max-width: 767px) {
           margin-bottom: 40px;
+          font-size: 36px;
         }
       }
 
@@ -58,6 +64,9 @@
       p {
         font-size: 22px;
         color: $color-grey;
+        @media screen and (max-width: 767px) {
+          font-size: 18px;
+        }
       }
     }
   }
@@ -125,6 +134,9 @@
 
   .other-skills {
     margin-top: 120px;
+    @media screen and (max-width: 767px) {
+      margin-top: 80px;
+    }
 
     h2 {
       font-size: 50px;
@@ -136,9 +148,11 @@
       }
       @media screen and (max-width: 1023px) {
         margin-bottom: 50px;
+        font-size: 42px;
       }
       @media screen and (max-width: 767px) {
         margin-bottom: 40px;
+        font-size: 36px;
       }
     }
 
