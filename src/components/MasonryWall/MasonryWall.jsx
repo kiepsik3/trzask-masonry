@@ -21,8 +21,9 @@ export function MasonryWall(props) {
                 style={{
                   backgroundImage: `url("${element.bgImage}")`,
                 }}
+                onClick={() => setModal(true)}
               >
-                <button onClick={() => setModal(true)}>
+                <button>
                   Oglądaj showreel
                   <Play />
                 </button>
