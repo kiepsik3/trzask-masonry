@@ -1,14 +1,86 @@
 {
+  "keywords": ["słowo kluczowe 1", "słowo kluczowe 2", "słowo kluczowe 3"],
+  "accordion": [
+    {
+      "title": "Fusce ullamcorper sit amet lorem at varius?",
+      "content": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae rutrum leo, ut fermentum mauris. Integer gravida nunc in libero fringilla, pharetra molestie turpis gravida. Fusce vitae tellus blandit, vehicula metus tincidunt, maximus elit. Suspendisse accumsan semper vehicula. Cras pellentesque rutrum felis. Sed aliquam ullamcorper efficitur.",
+        "Integer elit lacus, bibendum quis varius sit amet, pulvinar vel odio. Nunc dapibus ornare metus, nec sodales est tincidunt eget. Ut lobortis, nunc nec auctor placerat, leo libero convallis nisi, quis ullamcorper urna tellus eget magna."
+      ]
+    },
+    {
+      "title": "Proin quam eros, pulvinar at orci ut, aliquet pellentesque nibh?",
+      "content": [
+        "Donec finibus ligula ut eros sollicitudin, vitae dictum magna vehicula. Suspendisse iaculis mi ac convallis eleifend. Nullam congue eu nisi vitae venenatis. Praesent rutrum nec risus a finibus.",
+        "Donec euismod, est eu viverra tristique, felis risus fringilla lorem, non facilisis odio lorem eu ligula. Morbi at ligula est. Aliquam erat volutpat. Praesent eget turpis nec ante pretium sodales et nec odio. Sed ultricies felis dolor, a ultrices turpis ullamcorper a. Proin sit amet lectus ante. Nullam sagittis, ante ac ultricies suscipit, dolor elit rhoncus dolor, eget varius lectus ex eu tortor."
+      ]
+    }
+  ],
   "walls": [
     {
       "set": 1,
       "elements": [
         {
+          "keywords": ["słowo kluczowe 1", "słowo kluczowe 2"],
           "slug": "animacje-3d",
+          "link": "https://www.google.pl/",
+          "target": "_blank",
           "bgColor": "blue",
           "title": "Animacje 3D",
           "caption": "Trójwymiarowe wrażenia",
           "description": "Odkryj trzeci wymiar reklamy! Nasze animacje 3D to istne graficzne perełki, które w kreatywny sposób opowiadają wyjątkowe historie. Przenosimy markę do trójwymiarowej przestrzeni, dostarczając widzom niepowtarzalnych wrażeń wizualnych, które zapadają w pamięć. Gramy w kolory i kształty, sięgamy po nieoczywiste koncepcje, ożywiamy komunikację epickimi obrazami. Każda animacja 3D odkrywa zupełnie nowe pokłady kreatywności.",
+          "content": [
+            {
+              "text": {
+                "title": "Quest - stworzyć animację",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Jak dosłownie zarazić fanów nowym serwisem gry? Słowo, które użyliśmy, absolutnie nie jest przypadkowe, ponieważ idealnie wpasowuje się w tematykę, o której dzisiaj mówimy. A jest nią… Dying Light 2 Stay Human, oczywiście!"
+                    }
+                  ],
+                  [
+                    {
+                      "paragraph": "Jeden z projektów, przy którym mamy szczęście pracować, należy do firmy "
+                    },
+                    {
+                      "link": "https://techland.net/",
+                      "text": "Techland",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": ", topowego twórcy gier na świecie. Tym razem otrzymaliśmy za zadanie opowiedzieć graczom, na czym polega platforma, znana jako "
+                    },
+                    {
+                      "link": "https://pilgrimoutpost.techlandgg.com/",
+                      "text": "Pilgrim Outpost",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": "."
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "https://picsum.photos/id/237/1920/1080",
+                "caption": "Sekwencje video dostarczone przez Techland.",
+                "link": "https://www.google.pl/"
+              }
+            },
+            {
+              "video": {
+                "ytId": "0DQcPPZFmZU",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Dooti Donuts - Influencer / Production: Trzask Studio (art direction, vfx, sound, animation, 3d modeling) 2023",
+                "withBackground": false
+              }
+            }
+          ],
           "elements": [
             {
               "slug": "case-studies-3d",
@@ -17,137 +89,296 @@
             },
             {
               "slug": "image-33",
-              "bgImage": "/images/masonry-wall/image-33.svg"
+              "bgImage": "/images/masonry-wall/3d/ass1.png"
             },
             {
               "slug": "image-34",
-              "bgImage": "/images/masonry-wall/image-34.svg"
+              "bgImage": "/images/masonry-wall/3d/ass2.png"
             },
             {
               "slug": "image-35",
-              "bgImage": "/images/masonry-wall/image-35.svg"
+              "bgImage": "/images/masonry-wall/3d/ass4.png"
             },
             {
               "slug": "image-36",
-              "bgImage": "/images/masonry-wall/image-36.svg",
+              "bgImage": "/images/masonry-wall/3d/ass3.png",
               "rotateRight": true
             },
             {
               "slug": "image-37",
-              "bgImage": "/images/masonry-wall/image-37.svg"
+              "bgImage": "/images/masonry-wall/3d/kafelki2.webp"
             },
             {
               "slug": "image-38",
-              "bgImage": "/images/masonry-wall/image-38.svg"
+              "bgImage": "/images/masonry-wall/gif/3d/gif-animacje3d-trzask.webp"
             },
             {
               "slug": "image-39",
-              "bgImage": "/images/masonry-wall/image-39.svg"
+              "bgImage": "/images/masonry-wall/3d/ass7.png"
             }
           ],
           "otherSkills": [
             {
-              "slug": "animacje-2d",
-              "title": "Animacje 2D",
-              "caption": "Żywe Obrazy, Silne Przekazy"
+              "slug": "efekty-specjalne",
+              "title": "Efekty specjalne",
+              "caption": "ES Lorem ipsum"
             },
             {
-              "slug": "landing-page",
-              "title": "Landing Page",
-              "caption": "Zachęta do interakcji"
-            },
-            {
-              "slug": "playable-ads",
-              "title": "Playable Ads",
-              "caption": "Doświadcz interaktywnej reklamy"
+              "slug": "richmedia",
+              "title": "Richmedia",
+              "caption": "RM Lorem ipsum"
             },
             {
               "slug": "social-media",
               "title": "Social Media",
-              "caption": "Kreujemy obecność marki online"
+              "caption": "Kreujemy Obecność Marki Online"
             },
             {
               "slug": "html5",
               "title": "HTML 5",
-              "caption": "Dynamiczne animacje, żywa komunikacja"
+              "caption": "Estetyczna Skuteczność"
             },
             {
-              "slug": "standardowe-banery",
-              "title": "Standardowe Banery",
-              "caption": "Estetyczna skuteczność"
+              "slug": "montaz-i-postprodukcja",
+              "title": "Montaż i postprodukcja",
+              "caption": "Perfekcyjne Dopełnienie Twojej reklamy"
             },
             {
               "slug": "mini-gry",
               "title": "Mini Gry",
-              "caption": "Zabawa, angażowanie, rezultaty!"
+              "caption": "Fun, zaangażowanie, skuteczność!"
             },
             {
               "slug": "reklamy-do-tv-i-kina",
               "title": "Reklamy do TV i Kina",
-              "caption": "Doświadcz interaktywnej reklamy"
+              "caption": "Wyróżnij się na Ekranie"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Animacje eventowe i LED",
+              "caption": "LED Lorem ipsum"
             }
           ]
         },
         {
           "slug": "image-1",
-          "bgImage": "/images/masonry-wall/image-1.svg",
+          "bgImage": "/images/masonry-wall/SG/Line1_1.png",
+          "alt": "Obrazek nr 33",
           "title": "Image 1",
           "caption": "Sample caption",
           "description": "Lorem ipsum dolor amet"
         },
         {
           "slug": "image-2",
-          "bgImage": "/images/masonry-wall/image-2.svg"
+          "bgImage": "/images/masonry-wall/gif/main-page/gif1-lowicz.gif"
         },
         {
-          "slug": "animacje-2d",
+          "slug": "efekty-specjalne",
           "bgColor": "red",
-          "title": "Animacje 2D",
-          "caption": "Żywe obrazy, silne przekazy"
+          "title": "Efekty specjalne",
+          "caption": "ES Lorem ipsum",
+          "description": "ES Lorem ipsum des",
+          "elements": [
+            {
+              "slug": "case-studies-3d",
+              "title": "Zobacz nasz projekt dla FROSTPUNKA!",
+              "bgColor": "blue"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/ES/ass1.png"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/ES/ass2.png"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/ES/ass4.png"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/ES/ass3.png",
+              "rotateRight": true
+            },
+            {
+              "slug": "image-37",
+              "bgImage": "/images/masonry-wall/gif/efekty-sepcjalne/Efekty.webp"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/gif/efekty-sepcjalne/gif-efekty-trzask.webp"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/ES/ass7.png"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animacje 3D",
+              "caption": "Trójwymiarowe wrażenia"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Richmedia",
+              "caption": "RM Lorem ipsum"
+            },
+            {
+              "slug": "social-media",
+              "title": "Social Media",
+              "caption": "Kreujemy Obecność Marki Online"
+            },
+            {
+              "slug": "html5",
+              "title": "HTML 5",
+              "caption": "Estetyczna Skuteczność"
+            },
+            {
+              "slug": "montaz-i-postprodukcja",
+              "title": "Montaż i postprodukcja",
+              "caption": "Perfekcyjne Dopełnienie Twojej reklamy"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Mini Gry",
+              "caption": "Fun, zaangażowanie, skuteczność!"
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Reklamy do TV i Kina",
+              "caption": "Wyróżnij się na Ekranie"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Animacje eventowe i LED",
+              "caption": "LED Lorem ipsum"
+            }
+          ]
         },
         {
           "slug": "image-3",
-          "bgImage": "/images/masonry-wall/image-3.svg"
+          "bgImage": "/images/masonry-wall/gif/main-page/gif2-donut.webp"
         },
         {
           "slug": "image-4",
-          "bgImage": "/images/masonry-wall/image-4.svg",
+          "bgImage": "/images/masonry-wall/SG/Line2_2.png",
           "rotateRight": true
         },
         {
           "slug": "image-5",
-          "bgImage": "/images/masonry-wall/image-5.svg"
+          "bgImage": "/images/masonry-wall/SG/Line2_3.png"
         },
         {
           "slug": "image-6",
-          "bgImage": "/images/masonry-wall/image-6.svg"
+          "bgImage": "/images/masonry-wall/gif/main-page/gif2-musly.webp"
         },
         {
           "slug": "image-7",
-          "bgImage": "/images/masonry-wall/image-7.svg"
+          "bgImage": "/images/masonry-wall/SG/line3_1.png"
         },
         {
           "slug": "image-8",
-          "bgImage": "/images/masonry-wall/image-8.svg"
+          "bgImage": "/images/masonry-wall/SG/line3_2.png"
         },
         {
-          "slug": "landing-page",
+          "slug": "richmedia",
           "bgColor": "blue",
-          "title": "Landing page",
-          "caption": "Zachęta do interakcji"
+          "title": "Richmedia",
+          "caption": "RM Lorem ipsum",
+          "description": "RM Lorem ipsum des",
+          "elements": [
+            {
+              "slug": "case-studies-3d",
+              "title": "Zobacz Case Studies z kategorii Richmedia!",
+              "bgColor": "blue"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/RM/ass1.png"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/RM/ass2.png"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/gif/richmedia/gif1-richmedia-lowicz.webp"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/RM/ass3.png",
+              "rotateRight": true
+            },
+            {
+              "slug": "image-37",
+              "bgImage": "/images/masonry-wall/RM/ass5.png"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/gif/richmedia/gif2-richmedia-tiger.webp"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/RM/ass7.png"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animacje 3D",
+              "caption": "Trójwymiarowe wrażenia"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Efekty specjalne",
+              "caption": "ES Lorem ipsum"
+            },
+            {
+              "slug": "social-media",
+              "title": "Social Media",
+              "caption": "Kreujemy Obecność Marki Online"
+            },
+            {
+              "slug": "html5",
+              "title": "HTML 5",
+              "caption": "Estetyczna Skuteczność"
+            },
+            {
+              "slug": "montaz-i-postprodukcja",
+              "title": "Montaż i postprodukcja",
+              "caption": "Perfekcyjne Dopełnienie Twojej reklamy"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Mini Gry",
+              "caption": "Fun, zaangażowanie, skuteczność!"
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Reklamy do TV i Kina",
+              "caption": "Wyróżnij się na Ekranie"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Animacje eventowe i LED",
+              "caption": "LED Lorem ipsum"
+            }
+          ]
         },
         {
           "slug": "image-9",
-          "bgImage": "/images/masonry-wall/image-9.svg",
+          "bgImage": "/images/masonry-wall/SG/line3_3.png",
           "rotateLeft": true
         },
         {
           "slug": "image-10",
-          "bgImage": "/images/masonry-wall/image-10.svg"
+          "bgImage": "/images/masonry-wall/gif/main-page/gif3-baner-trzask.gif"
         },
         {
           "slug": "image-11",
-          "bgImage": "/images/masonry-wall/image-11.svg"
+          "bgImage": "/images/masonry-wall/SG/line3_5.png"
         }
       ]
     },
@@ -156,80 +387,318 @@
       "elements": [
         {
           "ytId": "0DQcPPZFmZU",
+          "ytIdMobile": "jeRegzjS7ok",
           "autoplay": 0,
           "mute": 0,
           "loop": 1,
-          "bgImage": "/images/masonry-wall/image-12.svg"
+          "bgImage": "/images/masonry-wall/SG/showreel.png"
         },
         {
           "slug": "image-13",
-          "bgImage": "/images/masonry-wall/image-13.svg"
+          "bgImage": "/images/masonry-wall/SG/line4_1.png"
         },
         {
-          "slug": "playable-ads",
+          "slug": "social-media-video",
           "bgColor": "red",
-          "title": "Playable Ads",
-          "caption": "Doświadcz interaktywnej reklamy"
+          "title": "Social Media Video",
+          "caption": "Kreujemy Obecność Marki Online",
+          "description": "Działamy kreatywnie na platformach społecznościowych! Tworzymy estetyczne spoty i animacje, które z łatwością generują polubienia i komentarze, zachęcając odbiorców do interakcji. Budujemy silną obecność marki w mediach społecznościowych poprzez innowacyjne i angażujące treści. Kreujemy historie za pomocą obrazu, który żyje, żeby wzbudzać zainteresowanie i podziw.",
+          "elements": [
+            {
+              "slug": "case-studies-3d",
+              "title": "Zobacz nasz projekt dla Dooti Donuts x 3 Króli!",
+              "bgColor": "blue"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/SM/ass1.png"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/SM/ass2.png"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/SM/ass4.png"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/SM/ass3.png",
+              "rotateRight": true
+            },
+            {
+              "slug": "image-37",
+              "bgImage": "/images/masonry-wall/SM/ass5.png"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/gif/social/gif1-pasieki.webp"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/SM/ass7.png"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animacje 3D",
+              "caption": "Trójwymiarowe wrażenia"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Efekty specjalne",
+              "caption": "ES Lorem ipsum"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Richmedia",
+              "caption": "RM Lorem ipsum"
+            },
+            {
+              "slug": "html5",
+              "title": "HTML 5",
+              "caption": "Estetyczna Skuteczność"
+            },
+            {
+              "slug": "montaz-i-postprodukcja",
+              "title": "Montaż i postprodukcja",
+              "caption": "Perfekcyjne Dopełnienie Twojej reklamy"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Mini Gry",
+              "caption": "Fun, zaangażowanie, skuteczność!"
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Reklamy do TV i Kina",
+              "caption": "Wyróżnij się na Ekranie"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Animacje eventowe i LED",
+              "caption": "LED Lorem ipsum"
+            }
+          ]
         },
         {
           "slug": "image-14",
-          "bgImage": "/images/masonry-wall/image-14.svg"
+          "bgImage": "/images/masonry-wall/SG/line4_2.png"
         },
         {
           "slug": "image-15",
-          "bgImage": "/images/masonry-wall/image-15.svg"
+          "bgImage": "/images/masonry-wall/SG/line5_1.png"
         },
         {
           "slug": "image-16",
-          "bgImage": "/images/masonry-wall/image-16.svg"
+          "bgImage": "/images/masonry-wall/gif/main-page/gif4-goodyear.webp"
         },
         {
           "slug": "image-17",
-          "bgImage": "/images/masonry-wall/image-17.svg"
-        },
-        {
-          "slug": "social-media",
-          "bgColor": "blue",
-          "title": "Social Media",
-          "caption": "Kreujemy obecność marki online"
-        },
-        {
-          "slug": "image-18",
-          "bgImage": "/images/masonry-wall/image-18.svg"
-        },
-        {
-          "slug": "image-19",
-          "bgImage": "/images/masonry-wall/image-19.svg"
-        },
-        {
-          "slug": "image-20",
-          "bgImage": "/images/masonry-wall/image-20.svg"
-        },
-        {
-          "slug": "image-21",
-          "bgImage": "/images/masonry-wall/image-21.svg"
+          "bgImage": "/images/masonry-wall/SG/line5_3.png"
         },
         {
           "slug": "html5",
           "bgColor": "blue",
           "title": "HTML 5",
-          "caption": "Dynamiczne animacje, żywa komunikacja"
+          "caption": "Estetyczna Skuteczność",
+          "description": "Tworzymy banery reklamowe, które przyciągają wzrok. Rzucamy wyzwanie nudnym grafikom i stawiamy na estetyczne obrazy z maksymalnie kreatywnym visualem. Do tego tworzymy energiczny przekaz, który skutecznie oddaje przesłanie marki, a jednocześnie pozwala na budowanie interakcji z użytkownikiem. Nasze kreacje są zoptymalizowane pod kątem różnych platform reklamowych i precyzyjnie dopasowane do odpowiednich specyfikacji. Kreatywnie ożywiamy obrazy, żeby przyciągnąć uwagę i podkręcić doświadczenie. Dzięki najnowszym technologiom webowym tworzymy treści, które doskonale komunikują przekaz marki. ",
+          "elements": [
+            {
+              "slug": "case-studies-3d",
+              "title": "Zobacz Case Studies z kategorii html5!",
+              "bgColor": "blue"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/H5/ass1.png"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/H5/ass2.png"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/H5/ass4.png"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/H5/ass3.png",
+              "rotateRight": true
+            },
+            {
+              "slug": "image-37",
+              "bgImage": "/images/masonry-wall/gif/html5/HTML5.webp"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/gif/html5/tymbark-gif.webp"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/H5/ass7.png"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animacje 3D",
+              "caption": "Trójwymiarowe wrażenia"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Efekty specjalne",
+              "caption": "ES Lorem ipsum"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Richmedia",
+              "caption": "RM Lorem ipsum"
+            },
+            {
+              "slug": "social-media",
+              "title": "Social Media",
+              "caption": "Kreujemy Obecność Marki Online"
+            },
+            {
+              "slug": "montaz-i-postprodukcja",
+              "title": "Montaż i postprodukcja",
+              "caption": "Perfekcyjne Dopełnienie Twojej reklamy"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Mini Gry",
+              "caption": "Fun, zaangażowanie, skuteczność!"
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Reklamy do TV i Kina",
+              "caption": "Wyróżnij się na Ekranie"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Animacje eventowe i LED",
+              "caption": "LED Lorem ipsum"
+            }
+          ]
+        },
+        {
+          "slug": "image-18",
+          "bgImage": "/images/masonry-wall/SG/line6_1.png"
+        },
+        {
+          "slug": "image-19",
+          "bgImage": "/images/masonry-wall/SG/line6_2.png"
+        },
+        {
+          "slug": "image-20",
+          "bgImage": "/images/masonry-wall/SG/line6_3.png"
+        },
+        {
+          "slug": "image-21",
+          "bgImage": "/images/masonry-wall/gif/main-page/gif6-banshee.webp"
+        },
+        {
+          "slug": "montaz-i-lokalizacja",
+          "bgColor": "blue",
+          "title": "Montaż i lokalizacja",
+          "caption": "Perfekcyjne Dopełnienie Twojej reklamy",
+          "description": "Wykorzystując zaawansowane narzędzia i różnorodne źródła, mistrzowsko kreujemy świat na nowo, tworząc zupełnie nową jakość materiałów reklamowych. Czerpiąc z dostępnych materiałów tworzymy świeże, dynamiczne treści, spełniając oczekiwania naszych klientów przy oszczędności zarówno czasu, jak i budżetu.",
+          "elements": [
+            {
+              "slug": "case-studies-3d",
+              "title": "Zobacz nasz projekt dla Cyberpunk 2077: Ultimate Edition!",
+              "bgColor": "blue"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/MiL/ass1.png"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/MiL/ass2.png"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/MiL/ass4.png"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/MiL/ass3.png",
+              "rotateRight": true
+            },
+            {
+              "slug": "image-37",
+              "bgImage": "/images/masonry-wall/MiL/ass5.png"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/MiL/ass6.png"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/MiL/ass7.png"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animacje 3D",
+              "caption": "Trójwymiarowe wrażenia"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Efekty specjalne",
+              "caption": "ES Lorem ipsum"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Richmedia",
+              "caption": "RM Lorem ipsum"
+            },
+            {
+              "slug": "social-media",
+              "title": "Social Media",
+              "caption": "Kreujemy Obecność Marki Online"
+            },
+            {
+              "slug": "html5",
+              "title": "HTML 5",
+              "caption": "Estetyczna Skuteczność"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Mini Gry",
+              "caption": "Fun, zaangażowanie, skuteczność!"
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Reklamy do TV i Kina",
+              "caption": "Wyróżnij się na Ekranie"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Animacje eventowe i LED",
+              "caption": "LED Lorem ipsum"
+            }
+          ]
         },
         {
           "slug": "image-22",
-          "bgImage": "/images/masonry-wall/image-22.svg"
+          "bgImage": "/images/masonry-wall/gif/main-page/gif5-trzask-baner.gif"
         },
         {
           "slug": "image-23",
-          "bgImage": "/images/masonry-wall/image-23.svg"
+          "bgImage": "/images/masonry-wall/SG/line7_5.png"
         },
         {
           "slug": "image-24",
-          "bgImage": "/images/masonry-wall/image-24.svg"
+          "bgImage": "/images/masonry-wall/SG/line7_2.png"
         },
         {
           "slug": "image-25",
-          "bgImage": "/images/masonry-wall/image-25.svg",
+          "bgImage": "/images/masonry-wall/SG/line7_4.png",
           "rotateRight": true
         }
       ]
@@ -241,49 +710,286 @@
           "slug": "mini-gry",
           "bgColor": "blue",
           "title": "Mini Gry",
-          "caption": "Zabawa, angażowanie, rezultaty!"
+          "caption": "Fun, zaangażowanie, skuteczność!",
+          "description": "Przenosimy reklamę na nowy poziom. Znamy skuteczny sposób na zwiększenie zainteresowania odbiorców i nie zawahamy się go użyć! Nasze mini gry to źródło czystej rozrywki i idealne narzędzie do zwiększenia zaangażowania. Zabieramy odbiorców w szaloną podróż, wykorzystując kreatywne animacje i zaskakujące koncepty. Tworzymy je z myślą o interaktywnym doświadczeniu i ekscytującej zabawie, podkreślając pozytywny wizerunek marki. Zabawne, angażujące i idealne do budowania kontaktu z odbiorcą!",
+          "elements": [
+            {
+              "slug": "case-studies-3d",
+              "title": "Zobacz nasz projekt dla Paczki Donutów!",
+              "bgColor": "blue"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/gif/mini-gry/gif1-minigry-trzask.webp"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/MG/ass2.png"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/MG/ass4.png"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/MG/ass3.png",
+              "rotateRight": true
+            },
+            {
+              "slug": "image-37",
+              "bgImage": "/images/masonry-wall/MG/ass5.png"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/gif/mini-gry/gif2-minigry-mucha.webp"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/MG/ass7.png"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animacje 3D",
+              "caption": "Trójwymiarowe wrażenia"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Efekty specjalne",
+              "caption": "ES Lorem ipsum"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Richmedia",
+              "caption": "RM Lorem ipsum"
+            },
+            {
+              "slug": "social-media",
+              "title": "Social Media",
+              "caption": "Kreujemy Obecność Marki Online"
+            },
+            {
+              "slug": "html5",
+              "title": "HTML 5",
+              "caption": "Estetyczna Skuteczność"
+            },
+            {
+              "slug": "montaz-i-postprodukcja",
+              "title": "Montaż i postprodukcja",
+              "caption": "Perfekcyjne Dopełnienie Twojej reklamy"
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Reklamy do TV i Kina",
+              "caption": "Wyróżnij się na Ekranie"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Animacje eventowe i LED",
+              "caption": "LED Lorem ipsum"
+            }
+          ]
         },
         {
           "slug": "image-26",
-          "bgImage": "/images/masonry-wall/image-26.svg",
+          "bgImage": "/images/masonry-wall/SG/line8_1.png",
           "rotateLeft": true
-        },
-        {
-          "slug": "standardowe-banery",
-          "bgColor": "red",
-          "title": "Standardowe Banery",
-          "caption": "Estetyczna skuteczność"
-        },
-        {
-          "slug": "image-27",
-          "bgImage": "/images/masonry-wall/image-27.svg"
-        },
-        {
-          "slug": "image-28",
-          "bgImage": "/images/masonry-wall/image-28.svg"
-        },
-        {
-          "slug": "image-29",
-          "bgImage": "/images/masonry-wall/image-29.svg"
-        },
-        {
-          "slug": "image-30",
-          "bgImage": "/images/masonry-wall/image-30.svg"
-        },
-        {
-          "slug": "image-31",
-          "bgImage": "/images/masonry-wall/image-31.svg",
-          "rotateRight": true
-        },
-        {
-          "slug": "image-32",
-          "bgImage": "/images/masonry-wall/image-32.svg"
         },
         {
           "slug": "reklamy-do-tv-i-kina",
           "bgColor": "red",
           "title": "Reklamy do TV i Kina",
-          "caption": "Doświadcz interaktywnej reklamy"
+          "caption": "Wyróżnij się na Ekranie ",
+          "description": "Tworzymy reklamy, które wyróżniają się w telewizji i kinie, stając się niekwestionowanymi gwiazdami ekranu. Kreujemy uniwersalne w formie animacje, przyciągające wzrok i rozbudzające wyobraźnię. Nasze produkcje są estetyczne i przyjemne w odbiorze, ale przede wszystkim skoncentrowane na przekazie. Komunikujemy treści reklamowe w kreatywnych obrazach, o których trudno zapomnieć.",
+          "elements": [
+            {
+              "slug": "case-studies-3d",
+              "title": "Zobacz nasz projekt dla Tymbark Deli&Fruits!",
+              "bgColor": "blue"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/gif/tv/gif1-tv-trzask.webp"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/TV/ass2.png"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/TV/ass4.png"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/TV/ass3.png",
+              "rotateRight": true
+            },
+            {
+              "slug": "image-37",
+              "bgImage": "/images/masonry-wall/TV/ass5.png"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/gif/tv/gif2-tv-tofflairs.webp"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/TV/ass7.png"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animacje 3D",
+              "caption": "Trójwymiarowe wrażenia"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Efekty specjalne",
+              "caption": "ES Lorem ipsum"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Richmedia",
+              "caption": "RM Lorem ipsum"
+            },
+            {
+              "slug": "social-media",
+              "title": "Social Media",
+              "caption": "Kreujemy Obecność Marki Online"
+            },
+            {
+              "slug": "html5",
+              "title": "HTML 5",
+              "caption": "Estetyczna Skuteczność"
+            },
+            {
+              "slug": "montaz-i-postprodukcja",
+              "title": "Montaż i postprodukcja",
+              "caption": "Perfekcyjne Dopełnienie Twojej reklamy"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Mini Gry",
+              "caption": "Fun, zaangażowanie, skuteczność!"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Animacje eventowe i LED",
+              "caption": "LED Lorem ipsum"
+            }
+          ]
+        },
+        {
+          "slug": "image-27",
+          "bgImage": "/images/masonry-wall/SG/line8_2.png"
+        },
+        {
+          "slug": "image-28",
+          "bgImage": "/images/masonry-wall/SG/line8_3.png"
+        },
+        {
+          "slug": "image-29",
+          "bgImage": "/images/masonry-wall/gif/main-page/gif7-dl2.webp"
+        },
+        {
+          "slug": "image-30",
+          "bgImage": "/images/masonry-wall/SG/line9_1.png"
+        },
+        {
+          "slug": "image-31",
+          "bgImage": "/images/masonry-wall/SG/line9_2.png",
+          "rotateRight": true
+        },
+        {
+          "slug": "image-32",
+          "bgImage": "/images/masonry-wall/SG/line9_3.png"
+        },
+        {
+          "slug": "animacje-eventowe-i-LED",
+          "bgColor": "red",
+          "title": "Animacje eventowe i LED",
+          "caption": "LED Lorem ipsum",
+          "description": "Tworzymy reklamy, które wyróżniają się w telewizji i kinie, stając się niekwestionowanymi gwiazdami ekranu. Kreujemy uniwersalne w formie animacje, przyciągające wzrok i rozbudzające wyobraźnię. Nasze produkcje są estetyczne i przyjemne w odbiorze, ale przede wszystkim skoncentrowane na przekazie. Komunikujemy treści reklamowe w kreatywnych obrazach, o których trudno zapomnieć.",
+          "elements": [
+            {
+              "slug": "case-studies-3d",
+              "title": "Zobacz nasz projekt dla SaarGummi Neo!",
+              "bgColor": "blue"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/TV/ass1.png"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/TV/ass2.png"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/TV/ass4.png"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/TV/ass3.png",
+              "rotateRight": true
+            },
+            {
+              "slug": "image-37",
+              "bgImage": "/images/masonry-wall/TV/ass5.png"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/TV/ass6.png"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/TV/ass7.png"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animacje 3D",
+              "caption": "Trójwymiarowe wrażenia"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Efekty specjalne",
+              "caption": "ES Lorem ipsum"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Richmedia",
+              "caption": "RM Lorem ipsum"
+            },
+            {
+              "slug": "social-media",
+              "title": "Social Media",
+              "caption": "Kreujemy Obecność Marki Online"
+            },
+            {
+              "slug": "html5",
+              "title": "HTML 5",
+              "caption": "Estetyczna Skuteczność"
+            },
+            {
+              "slug": "montaz-i-postprodukcja",
+              "title": "Montaż i postprodukcja",
+              "caption": "Perfekcyjne Dopełnienie Twojej reklamy"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Mini Gry",
+              "caption": "Fun, zaangażowanie, skuteczność!"
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Reklamy do TV i Kina",
+              "caption": "Wyróżnij się na Ekranie"
+            }
+          ]
         }
       ]
     }

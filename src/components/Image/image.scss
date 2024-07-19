@@ -1,7 +1,16 @@
 @import '../../lib/scss/colors.scss';
 
-.video {
-  position: relative;
+
+.image {
+  margin-bottom: 80px;
+
+  @media (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
+  @media (max-width: 575px) {
+    margin-bottom: 50px;
+  }
 
   &.with-background {
     background-color: $turquoise;
@@ -29,7 +38,6 @@
   }
 
   &.caption {
-
     padding-bottom: 32px;
 
     @media (max-width: 575px) {
@@ -37,16 +45,9 @@
     }
   }
 
-  &-wrapper {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-    box-shadow: 0 0 0 1px $color-light-grey;
-
-    .with-background & {
-      box-shadow: none
-    }
+  img {
+    width: 100%;
+    border-radius: 4px;
   }
 
   &-caption {
@@ -63,7 +64,6 @@
       margin-top: 20px;
     }
 
-
     &::before {
       content: "\A";
       width: 10px;
@@ -73,13 +73,5 @@
       display: inline-block;
       margin-right: 5px;
     }
-  }
-
-  iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
   }
 }
