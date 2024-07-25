@@ -57,13 +57,13 @@ const ElementPage = (props) => {
             pinned && "pinned",
           )}
         >
-          <Link to="/pl/skills" className="element-page-link">
+          <Link to="/pl" className="element-page-link">
             <FaArrowLeft />
             Lista
           </Link>
         </div>
         <div className="element-page-header">
-          <Link to="/pl/skills" className="element-page-link">
+          <Link to="/pl" className="element-page-link">
             <FaArrowLeft />
             Lista
           </Link>
@@ -79,8 +79,8 @@ const ElementPage = (props) => {
         )}
 
         <div className="sections">
-          {element.content?.map((section) => (
-            <div className="section">
+          {element?.content?.map((section, idx) => (
+            <div className="section" key={idx}>
               {section.text && (
                 <div className="text">
                   <h2>{section.text.title}</h2>
@@ -89,8 +89,8 @@ const ElementPage = (props) => {
                   ))}
                 </div>
               )}
-              {section.img && <Image {...section.img} inContent />}
-              {section.video && <Video {...section.video} inContent />}
+              {section.img && <Image {...section.img} />}
+              {section.video && <Video {...section.video} />}
             </div>
           ))}
         </div>

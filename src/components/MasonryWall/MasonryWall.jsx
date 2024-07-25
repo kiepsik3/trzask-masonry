@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import cn from "classnames";
-import { Modal } from "../Modal/Modal";
 import Video from "../Video/Video";
 import { Link } from "react-router-dom";
 import { ReactComponent as Play } from "../../assets/img/play.svg";
@@ -8,7 +7,7 @@ import { ReactComponent as Arrow } from "../../assets/img/arrow.svg";
 import "./masonry-wall.scss";
 
 export function MasonryWall(props) {
-  const [modal, setModal] = useState(false);
+  const [cover, setCover] = useState(true);
   const [width, setWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -28,29 +27,47 @@ export function MasonryWall(props) {
     <div className={cn("masonry-wall", `set-${props.set}`)}>
       {props.data?.map((element, index) => (
         <React.Fragment key={index}>
-          {element.ytId ? (
+          {element.showReelUrl ? (
             <>
-              <div
-                className={cn(`item video item-${index + 1}`)}
-                style={{
-                  backgroundImage: `url("${element.bgImage}")`,
-                }}
-                onClick={() => setModal(true)}
-              >
-                <button>
-                  Oglądaj showreel
-                  <Play />
-                </button>
-              </div>
-              {modal && (
-                <Modal onClose={setModal}>
+              <div className={cn(`item video item-${index + 1}`)}>
+                {cover ? (
+                  <>
+                    <video autoPlay muted loop src={element.showReelUrl} />
+                    <button onClick={() => setCover(false)}>
+                      Oglądaj showreel
+                      <Play />
+                    </button>
+                  </>
+                ) : (
                   <Video
-                    ytId={isMobile ? element.ytIdMobile : element.ytId}
-                    autoplay={element.autoplay}
+                    ytId={isMobile ? element?.ytIdMobile : element?.ytId}
+                    autoplay={!cover}
                     mute={element.mute}
                     loop={element.loop}
                   />
-                </Modal>
+                )}
+              </div>
+            </>
+          ) : element.videoUrl ? (
+            <>
+              {element.link || element.slug ? (
+                <Link
+                  to={
+                    element.link ? element.link : `/pl/skills/${element.slug}`
+                  }
+                  target={element.target}
+                  className={cn(
+                    `item video item-${index + 1}`,
+                    element.rotateRight && "rotate-right",
+                    element.rotateLeft && "rotate-left",
+                  )}
+                >
+                  <video autoPlay muted loop src={element.videoUrl} />
+                </Link>
+              ) : (
+                <div className={cn(`item video item-${index + 1}`)}>
+                  <video autoPlay muted loop src={element.videoUrl} />
+                </div>
               )}
             </>
           ) : element.bgImage ? (

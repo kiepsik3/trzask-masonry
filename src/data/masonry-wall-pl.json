@@ -1,4 +1,5 @@
 {
+  "title": "Co potrafi?",
   "keywords": ["słowo kluczowe 1", "słowo kluczowe 2", "słowo kluczowe 3"],
   "accordion": [
     {
@@ -23,8 +24,6 @@
         {
           "keywords": ["słowo kluczowe 1", "słowo kluczowe 2"],
           "slug": "animacje-3d",
-          "link": "https://www.google.pl/",
-          "target": "_blank",
           "bgColor": "blue",
           "title": "Animacje 3D",
           "caption": "Trójwymiarowe wrażenia",
@@ -66,6 +65,7 @@
             {
               "img": {
                 "src": "https://picsum.photos/id/237/1920/1080",
+                "alt": "Jakiś obrazek",
                 "caption": "Sekwencje video dostarczone przez Techland.",
                 "link": "https://www.google.pl/"
               }
@@ -89,7 +89,8 @@
             },
             {
               "slug": "image-33",
-              "bgImage": "/images/masonry-wall/3d/ass1.png"
+              "bgImage": "/images/masonry-wall/3d/ass1.png",
+              "alt": "Image 33"
             },
             {
               "slug": "image-34",
@@ -163,10 +164,9 @@
         {
           "slug": "image-1",
           "bgImage": "/images/masonry-wall/SG/Line1_1.png",
-          "alt": "Obrazek nr 33",
-          "title": "Image 1",
-          "caption": "Sample caption",
-          "description": "Lorem ipsum dolor amet"
+          "link": "https://www.google.pl/",
+          "target": "_blank",
+          "alt": "Obrazek nr 1"
         },
         {
           "slug": "image-2",
@@ -272,7 +272,7 @@
         },
         {
           "slug": "image-6",
-          "bgImage": "/images/masonry-wall/gif/main-page/gif2-musly.webp"
+          "videoUrl": "/video/trzask_aboutus.mp4"
         },
         {
           "slug": "image-7",
@@ -386,12 +386,9 @@
       "set": 2,
       "elements": [
         {
+          "showReelUrl": "/video/trzask_en.mp4",
           "ytId": "0DQcPPZFmZU",
-          "ytIdMobile": "jeRegzjS7ok",
-          "autoplay": 0,
-          "mute": 0,
-          "loop": 1,
-          "bgImage": "/images/masonry-wall/SG/showreel.png"
+          "ytIdMobile": "jeRegzjS7ok"
         },
         {
           "slug": "image-13",

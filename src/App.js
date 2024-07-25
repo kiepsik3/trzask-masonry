@@ -5,6 +5,8 @@ import Header from "./components/Heder/Header";
 import Footer from "./components/Footer/Footer";
 import { Helmet } from "react-helmet";
 import useFetch from "./hooks/useFetch";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import { Newsletter } from "./components/Newsletter/Newsletter";
 
 function App() {
   const domain = window.location.origin;
@@ -23,14 +25,11 @@ function App() {
       </Helmet>
       <Header />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Navigate to="/pl/skills" />} />
+          <Route path="/" element={<Navigate to="/pl" />} />
           {masonryWall && (
-            <Route
-              path="/pl/skills"
-              exact
-              element={<MainPage {...masonryWall} />}
-            />
+            <Route path="/pl" exact element={<MainPage {...masonryWall} />} />
           )}
           {masonryWall && (
             <Route
@@ -40,6 +39,7 @@ function App() {
           )}
         </Routes>
       </BrowserRouter>
+      <Newsletter />
       <Footer />
     </>
   );

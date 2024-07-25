@@ -90,7 +90,7 @@ const MainPage = (props) => {
   return (
     <div className="main-page container 2xl:max-w-[1320px]">
       {/*<button onClick={aa}>dsad</button>*/}
-      <h1 className="main-page-header">Co potrafi?</h1>
+      <h1 className="main-page-header">{props.title}</h1>
       {props.walls?.map((wall, idx) => (
         <MasonryWall data={wall.elements} set={wall.set} key={idx} />
       ))}

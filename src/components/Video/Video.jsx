@@ -10,9 +10,8 @@ export default function Video(props) {
         props.withBackground && "with-background",
         props.caption && "caption",
       )}
-      style={{ height: props.inContent ? "" : "90vh" }}
     >
-      <div className={cn(props.inContent ? "video-wrapper" : "")}>
+      <div className="video-wrapper">
         <iframe
           width="100%"
           height="100%"
@@ -21,7 +20,7 @@ export default function Video(props) {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
+        />
       </div>
       {props.caption && <span className="video-caption">{props.caption}</span>}
     </div>
