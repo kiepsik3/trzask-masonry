@@ -74,10 +74,9 @@
   &-link-header {
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%) translateY(-100%);
+    transform: translateY(-100%);
     margin-top: 0;
-    width: 100%;
+    width: auto;
     z-index: 20;
     margin-left: 100px;
     transition: all .3s;
@@ -92,7 +91,7 @@
     }
 
     &.pinned {
-      transform: translateX(-50%) translateY(0);
+      transform: translateY(0);
       margin-top: 45px;
 
       @media (max-width: 639px) {
@@ -151,6 +150,45 @@
 
       @media (max-width: 1279px) {
         margin-left: 0;
+      }
+    }
+  }
+
+  .faq-section {
+    display: flex;
+    gap: 72px;
+    margin-top: 72px;
+    @media screen and (max-width: 767px) {
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    > div {
+      &:first-child {
+        flex-basis: 30%;
+        @media screen and (max-width: 767px) {
+          flex-basis: 100%;
+        }
+
+        h2 {
+          font-size: 32px;
+          line-height: 42px;
+          font-weight: 800;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-size: 18px;
+          margin-bottom: 16px;
+          opacity: .6;
+        }
+      }
+
+      &:last-child {
+        flex-basis: 70%;
+        @media screen and (max-width: 767px) {
+          flex-basis: 100%;
+        }
       }
     }
   }

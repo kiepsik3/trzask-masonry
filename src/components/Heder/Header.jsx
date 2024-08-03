@@ -3,8 +3,9 @@ import { ReactComponent as Logo } from "../../assets/img/logo.svg";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import cn from "classnames";
 import "./header.scss";
+import { Menu } from "../Menu/Menu";
 
-export default function Header() {
+export default function Header(props) {
   const [collapsed, setCollapsed] = useState(false);
   const [pinned, setPinned] = useState(true);
   useScrollPosition(
@@ -28,17 +29,15 @@ export default function Header() {
     0,
   );
 
-  const menu = document.getElementById("hamburger");
-  pinned ? menu.classList.add("pinned") : menu.classList.remove("pinned");
-
   return (
     <header
       className={cn("header", collapsed && "collapsed", pinned && "pinned")}
     >
-      <div className="container 2xl:max-w-[1320px]">
+      <div className="container 2xl:max-w-[1320px] flex items-center justify-between">
         <a href="/pl" className="header-logo">
           <Logo />
         </a>
+        <Menu menu={props.menu} />
       </div>
     </header>
   );

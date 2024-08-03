@@ -94,17 +94,6 @@ const MainPage = (props) => {
       {props.walls?.map((wall, idx) => (
         <MasonryWall data={wall.elements} set={wall.set} key={idx} />
       ))}
-
-      <div className="faq-section">
-        <div>
-          <h2>Najczęściej zadawane pytania</h2>
-          <p>
-            Jeżeli nie znajdujesz odpowiedzi na swoje pytanie, nie wahaj sie i
-            skontaktuj się z nami.
-          </p>
-        </div>
-        <Accordion items={props.accordion} />
-      </div>
     </div>
   );
 };

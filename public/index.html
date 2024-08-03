@@ -22,76 +22,12 @@
     <script src="/js/interface.js"></script>
 
     <link rel="stylesheet" type="text/css" href="/style/cursor.css">
-    <link rel="stylesheet" type="text/css" href="/style/hamburger.css">
     <link rel="stylesheet" type="text/css" href="/style/font.css">
     <link rel="stylesheet" type="text/css" href="/style/main.css">
-
-    <style>
-      /*open/close btn normal*/
-      #hamburger {
-        position: fixed;
-        margin-top: 0;
-        transform: translateY(-100%);
-        transition: all .3s;
-      }
-
-      #hamburger.pinned {
-        top: 42px;
-        transform: translateY(0);
-      }
-
-      @media (max-width: 575px) {
-        #hamburger.pinned {
-          top: 30px
-        }
-      }
-
-      /*open/close btn hover */
-      #hamburger:hover span:nth-child(1),
-      #hamburger:hover span:nth-child(3),
-      #hamburger:hover span:nth-child(2) {
-        background-color: #7C59ED;
-      }
-
-      /*open menu background*/
-      #bg-menu-mobile {
-        background-color: black;
-      }
-
-      /*open menu text*/
-      #menu-mobile {
-        position: fixed;
-      }
-
-      #menu-mobile ul li a:link,
-      #menu-mobile ul li a:visited,
-      #menu-mobile ul li a:active,
-      #menu-mobile ul li a {
-        color: white;
-        font-family: "GTWalsheim";
-        text-decoration: none;
-        margin-left: 40px;
-        font-weight: 800;
-      }
-
-      /*open menu text hover*/
-      #menu-mobile ul li a:hover {
-        color: #7C59ED;
-      }
-    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
     <div id="lng"></div>
-    <div id="menu-mobile"></div>
     <div id="root"></div>
-    <script>
-      getMenu();
-    </script>
   </body>
 </html>

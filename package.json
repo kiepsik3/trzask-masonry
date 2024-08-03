@@ -11,6 +11,7 @@
     "buffer": "^6.0.3",
     "classnames": "^2.5.1",
     "export-from-json": "^1.7.4",
+    "hamburger-react": "^2.5.1",
     "jsonp": "^0.2.1",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",

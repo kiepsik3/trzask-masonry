@@ -11,6 +11,7 @@ import { Helmet } from "react-helmet";
 import Text from "../../components/Text/Text";
 import Image from "../../components/Image/Image";
 import Video from "../../components/Video/Video";
+import { Accordion } from "../../components/Accordion/Accordion";
 
 const ElementPage = (props) => {
   const { slug } = useParams();
@@ -94,6 +95,19 @@ const ElementPage = (props) => {
             </div>
           ))}
         </div>
+
+        {element?.accordion && (
+          <div className="faq-section">
+            <div>
+              <h2>Najczęściej zadawane pytania</h2>
+              <p>
+                Jeżeli nie znajdujesz odpowiedzi na swoje pytanie, nie wahaj sie
+                i skontaktuj się z nami.
+              </p>
+            </div>
+            <Accordion items={element.accordion} />
+          </div>
+        )}
 
         {element?.otherSkills && (
           <div className="other-skills">

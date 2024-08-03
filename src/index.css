@@ -22,4 +22,7 @@
 
 body {
     font-family: "GTWalsheim";
+    @media screen and (max-width: 600px) {
+        overflow: auto !important;
+    }
 }

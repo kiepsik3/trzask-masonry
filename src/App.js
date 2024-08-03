@@ -23,8 +23,8 @@ function App() {
         <meta name="keywords" content={masonryWall?.keywords?.join(", ")} />
         <link rel="canonical" href={window.location.href} />
       </Helmet>
-      <Header />
       <BrowserRouter>
+        <Header menu={masonryWall?.menu} />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Navigate to="/pl" />} />

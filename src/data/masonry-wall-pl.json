@@ -1,20 +1,63 @@
 {
   "title": "Co potrafi?",
   "keywords": ["słowo kluczowe 1", "słowo kluczowe 2", "słowo kluczowe 3"],
-  "accordion": [
+  "menu": [
     {
-      "title": "Fusce ullamcorper sit amet lorem at varius?",
-      "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae rutrum leo, ut fermentum mauris. Integer gravida nunc in libero fringilla, pharetra molestie turpis gravida. Fusce vitae tellus blandit, vehicula metus tincidunt, maximus elit. Suspendisse accumsan semper vehicula. Cras pellentesque rutrum felis. Sed aliquam ullamcorper efficitur.",
-        "Integer elit lacus, bibendum quis varius sit amet, pulvinar vel odio. Nunc dapibus ornare metus, nec sodales est tincidunt eget. Ut lobortis, nunc nec auctor placerat, leo libero convallis nisi, quis ullamcorper urna tellus eget magna."
+      "name": "KTO TO?",
+      "slug": "/about"
+    },
+    {
+      "name": "CO POTRAFI?",
+      "items": [
+        {
+          "name": "Animacje 3D",
+          "slug": "/animacje-3d"
+        },
+        {
+          "name": "Efekty specjalne",
+          "slug": "/efekty-specjalne"
+        },
+        {
+          "name": "Richmedia",
+          "slug": "/richmedia"
+        },
+        {
+          "name": "Social Media Video",
+          "slug": "/social-media-video"
+        },
+        {
+          "name": "HMTL 5",
+          "slug": "/html5"
+        },
+        {
+          "name": "Montaż i lokalizacja",
+          "slug": "/montaz-i-lokalizacja"
+        },
+        {
+          "name": "Mini Gry",
+          "slug": "/mini-gry"
+        },
+        {
+          "name": "Reklamy do TV i Kina",
+          "slug": "/reklamy-do-tv-i-kina"
+        },
+        {
+          "name": "Animacje eventowe i LED",
+          "slug": "/animacje-eventowe-i-LED"
+        }
       ]
     },
     {
-      "title": "Proin quam eros, pulvinar at orci ut, aliquet pellentesque nibh?",
-      "content": [
-        "Donec finibus ligula ut eros sollicitudin, vitae dictum magna vehicula. Suspendisse iaculis mi ac convallis eleifend. Nullam congue eu nisi vitae venenatis. Praesent rutrum nec risus a finibus.",
-        "Donec euismod, est eu viverra tristique, felis risus fringilla lorem, non facilisis odio lorem eu ligula. Morbi at ligula est. Aliquam erat volutpat. Praesent eget turpis nec ante pretium sodales et nec odio. Sed ultricies felis dolor, a ultrices turpis ullamcorper a. Proin sit amet lectus ante. Nullam sagittis, ante ac ultricies suscipit, dolor elit rhoncus dolor, eget varius lectus ex eu tortor."
-      ]
+      "name": "JEGO PROJEKTY",
+      "slug": "/case-studies"
+    },
+    {
+      "name": "CO NOWEGO?",
+      "slug": "/blog"
+    },
+    {
+      "name": "KONTAKT",
+      "slug": "/contact"
     }
   ],
   "walls": [
@@ -65,9 +108,10 @@
             {
               "img": {
                 "src": "https://picsum.photos/id/237/1920/1080",
-                "alt": "Jakiś obrazek",
                 "caption": "Sekwencje video dostarczone przez Techland.",
-                "link": "https://www.google.pl/"
+                "link": "https://www.google.pl/",
+                "target": "_blank",
+                "alt": "Obrazek nr 1"
               }
             },
             {
@@ -89,8 +133,7 @@
             },
             {
               "slug": "image-33",
-              "bgImage": "/images/masonry-wall/3d/ass1.png",
-              "alt": "Image 33"
+              "bgImage": "/images/masonry-wall/3d/ass1.png"
             },
             {
               "slug": "image-34",
@@ -107,7 +150,7 @@
             },
             {
               "slug": "image-37",
-              "bgImage": "/images/masonry-wall/3d/kafelki2.webp"
+              "videoUrl": "/video/tymbark-musly.mp4"
             },
             {
               "slug": "image-38",
@@ -159,18 +202,35 @@
               "title": "Animacje eventowe i LED",
               "caption": "LED Lorem ipsum"
             }
+          ],
+          "accordion": [
+            {
+              "title": "Fusce ullamcorper sit amet lorem at varius?",
+              "content": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae rutrum leo, ut fermentum mauris. Integer gravida nunc in libero fringilla, pharetra molestie turpis gravida. Fusce vitae tellus blandit, vehicula metus tincidunt, maximus elit. Suspendisse accumsan semper vehicula. Cras pellentesque rutrum felis. Sed aliquam ullamcorper efficitur.",
+                "Integer elit lacus, bibendum quis varius sit amet, pulvinar vel odio. Nunc dapibus ornare metus, nec sodales est tincidunt eget. Ut lobortis, nunc nec auctor placerat, leo libero convallis nisi, quis ullamcorper urna tellus eget magna."
+              ]
+            },
+            {
+              "title": "Proin quam eros, pulvinar at orci ut, aliquet pellentesque nibh?",
+              "content": [
+                "Donec finibus ligula ut eros sollicitudin, vitae dictum magna vehicula. Suspendisse iaculis mi ac convallis eleifend. Nullam congue eu nisi vitae venenatis. Praesent rutrum nec risus a finibus.",
+                "Donec euismod, est eu viverra tristique, felis risus fringilla lorem, non facilisis odio lorem eu ligula. Morbi at ligula est. Aliquam erat volutpat. Praesent eget turpis nec ante pretium sodales et nec odio. Sed ultricies felis dolor, a ultrices turpis ullamcorper a. Proin sit amet lectus ante. Nullam sagittis, ante ac ultricies suscipit, dolor elit rhoncus dolor, eget varius lectus ex eu tortor."
+              ]
+            }
           ]
         },
         {
           "slug": "image-1",
-          "bgImage": "/images/masonry-wall/SG/Line1_1.png",
-          "link": "https://www.google.pl/",
-          "target": "_blank",
-          "alt": "Obrazek nr 1"
+          "bgImage": "/images/masonry-wall/SG/CDPROJEKTRED1.png",
+          "link": "https://trzask.com/pl/blog/AnimationsforCDPROJEKTRED",
+          "alt": "Efekty specjalne CD PROJEKT"
         },
         {
           "slug": "image-2",
-          "bgImage": "/images/masonry-wall/gif/main-page/gif1-lowicz.gif"
+          "bgImage": "/images/masonry-wall/SG/Lowicz1.gif",
+          "link": "https://trzask.com/pl/case-studies/przetworki",
+          "alt": "Richmedia Łowicz"
         },
         {
           "slug": "efekty-specjalne",
@@ -190,16 +250,22 @@
             },
             {
               "slug": "image-34",
-              "bgImage": "/images/masonry-wall/ES/ass2.png"
+              "bgImage": "/images/masonry-wall/ES/ass2.png",
+              "link": "https://trzask.com/pl/blog/CreaturesofAva",
+              "alt": "Efekty specjalne Creatures of Ava"
             },
             {
               "slug": "image-35",
-              "bgImage": "/images/masonry-wall/ES/ass4.png"
+              "bgImage": "/images/masonry-wall/ES/ass4.png",
+              "link": "/pl/blog/StockPolskaLub",
+              "alt": "Efekty specjalne Stock Polska | Lubelska"
             },
             {
               "slug": "image-36",
               "bgImage": "/images/masonry-wall/ES/ass3.png",
-              "rotateRight": true
+              "rotateRight": true,
+              "link": "/pl/blog/AnimationsforCDPROJEKTRED",
+              "alt": "Efekty specjalne CD PROJEKT"
             },
             {
               "slug": "image-37",
@@ -259,28 +325,38 @@
         },
         {
           "slug": "image-3",
-          "bgImage": "/images/masonry-wall/gif/main-page/gif2-donut.webp"
+          "bgImage": "/images/masonry-wall/SG/DootiDonuts_3Kroli_CGI1.webp",
+          "link": "https://trzask.com/pl/blog/DootiDonutsx3Kroli",
+          "alt": "Animacje 3D Dooti Donuts"
         },
         {
           "slug": "image-4",
-          "bgImage": "/images/masonry-wall/SG/Line2_2.png",
-          "rotateRight": true
+          "bgImage": "/images/masonry-wall/SG/DyingLight2_4.png",
+          "rotateRight": true,
+          "link": "szukaj",
+          "alt": "Montaż i lokalizacja Dying Light 2"
         },
         {
-          "slug": "image-5",
-          "bgImage": "/images/masonry-wall/SG/Line2_3.png"
+          "bgImage": "/images/masonry-wall/SG/TrzaskStudio1.png",
+          "alt": "Trzask Studio agencja reklamy"
         },
         {
           "slug": "image-6",
-          "videoUrl": "/video/trzask_aboutus.mp4"
+          "videoUrl": "/video/tymbark-musly.mp4",
+          "alt": "Animacje 3D Tymbark Musly"
         },
         {
           "slug": "image-7",
-          "bgImage": "/images/masonry-wall/SG/line3_1.png"
+          "bgImage": "/images/masonry-wall/SG/DootiDonuts2.png",
+          "link": "https://trzask.com/pl/case-studies/DootiDonutsTiktok",
+          "alt": "Social Media Video Dooti Donuts"
         },
         {
           "slug": "image-8",
-          "bgImage": "/images/masonry-wall/SG/line3_2.png"
+          "bgImage": "/images/masonry-wall/SG/PasiekiSadowskich_SocialMedia3.png",
+          "link": "https://trzask.com/pl/blog/Pasieki%20Rodziny%20Sadowskich%20x%20Zakwasownia",
+          "alt": "Social Media Video Pasieki Sadowskich"
+
         },
         {
           "slug": "richmedia",
@@ -369,16 +445,19 @@
         },
         {
           "slug": "image-9",
-          "bgImage": "/images/masonry-wall/SG/line3_3.png",
-          "rotateLeft": true
+          "bgImage": "/images/masonry-wall/SG/PasiekiSadowskich_SocialMedia2.png",
+          "rotateLeft": true,
+          "link": "https://trzask.com/pl/case-studies/PasiekiRodzinySadowskich",
+          "alt": "Social Media Video Pasieki Sadowskich"
         },
         {
-          "slug": "image-10",
-          "bgImage": "/images/masonry-wall/gif/main-page/gif3-baner-trzask.gif"
+          "bgImage": "/images/masonry-wall/SG/TrzaskStudio1.gif",
+          "alt": "Trzask Studio agencja reklamy"
         },
         {
           "slug": "image-11",
-          "bgImage": "/images/masonry-wall/SG/line3_5.png"
+          "bgImage": "/images/masonry-wall/SG/Amol.png",
+          "alt": "HTML 5 Amol"
         }
       ]
     },
@@ -386,13 +465,13 @@
       "set": 2,
       "elements": [
         {
-          "showReelUrl": "/video/trzask_en.mp4",
-          "ytId": "0DQcPPZFmZU",
+          "showReelUrl": "/video/Trzask_ShowReel_2024_852x522.mp4",
+          "ytId": "KbbjhfmcoxI",
           "ytIdMobile": "jeRegzjS7ok"
         },
         {
-          "slug": "image-13",
-          "bgImage": "/images/masonry-wall/SG/line4_1.png"
+          "bgImage": "/images/masonry-wall/SG/TrzaskStudio3.png",
+          "alt": "Trzask Studio agencja reklamy"
         },
         {
           "slug": "social-media-video",
@@ -481,19 +560,25 @@
         },
         {
           "slug": "image-14",
-          "bgImage": "/images/masonry-wall/SG/line4_2.png"
+          "bgImage": "/images/masonry-wall/SG/Tymbark.png",
+          "link": "https://trzask.com/pl/case-studies/tymbark",
+          "alt": "HTML 5 Tymbark"
         },
         {
           "slug": "image-15",
-          "bgImage": "/images/masonry-wall/SG/line5_1.png"
+          "bgImage": "/images/masonry-wall/SG/Kubus.png",
+          "link": "https://trzask.com/pl/case-studies/kubus",
+          "alt": "Richmedia Kubuś"
         },
         {
-          "slug": "image-16",
-          "bgImage": "/images/masonry-wall/gif/main-page/gif4-goodyear.webp"
+          "bgImage": "/images/masonry-wall/SG/Goodyear.webp",
+          "alt": "Richmedia Goodyear"
         },
         {
           "slug": "image-17",
-          "bgImage": "/images/masonry-wall/SG/line5_3.png"
+          "bgImage": "/images/masonry-wall/SG/CreaturesofAva.png",
+          "link": "https://trzask.com/pl/blog/CreaturesofAva",
+          "alt": "Efekty specjalne Creatures of Ava"
         },
         {
           "slug": "html5",
@@ -582,19 +667,27 @@
         },
         {
           "slug": "image-18",
-          "bgImage": "/images/masonry-wall/SG/line6_1.png"
+          "bgImage": "/images/masonry-wall/SG/HealthLabs3.png",
+          "link": "https://trzask.com/pl/case-studies/HealthLabsCare",
+          "alt": "Social Media Video Health Labs Care"
         },
         {
           "slug": "image-19",
-          "bgImage": "/images/masonry-wall/SG/line6_2.png"
+          "bgImage": "/images/masonry-wall/SG/Cyberpunk3.png",
+          "link": "https://trzask.com/pl/blog/Cyberpunk2077UltimateEdition",
+          "alt": "Montaż i lokalizacja Cyberpunk 2077 CD PROJEKT RED"
         },
         {
           "slug": "image-20",
-          "bgImage": "/images/masonry-wall/SG/line6_3.png"
+          "bgImage": "/images/masonry-wall/SG/Jars.png",
+          "link": "https://trzask.com/pl/case-studies/jars",
+          "alt": "Montaż i lokalizacja Jars"
         },
         {
           "slug": "image-21",
-          "bgImage": "/images/masonry-wall/gif/main-page/gif6-banshee.webp"
+          "bgImage": "/images/masonry-wall/SG/DyingLight2_1.webp",
+          "link": "szukaj",
+          "alt": "Montaż i lokalizacja Dying Light 2"
         },
         {
           "slug": "montaz-i-lokalizacja",
@@ -682,21 +775,27 @@
           ]
         },
         {
-          "slug": "image-22",
-          "bgImage": "/images/masonry-wall/gif/main-page/gif5-trzask-baner.gif"
+          "bgImage": "/images/masonry-wall/SG/TrzaskStudio2.gif",
+          "alt": "Trzask Studio agencja reklamy"
         },
         {
           "slug": "image-23",
-          "bgImage": "/images/masonry-wall/SG/line7_5.png"
+          "bgImage": "/images/masonry-wall/SG/Cyberpunk2.png",
+          "link": "https://trzask.com/pl/case-studies/Eurogamer_Cyberpunk2077",
+          "alt": "Montaż i lokalizacja Cyberpunk 2077 CD PROJEKT RED"
         },
         {
           "slug": "image-24",
-          "bgImage": "/images/masonry-wall/SG/line7_2.png"
+          "bgImage": "/images/masonry-wall/SG/DyingLight2_3.png",
+          "link": "szukaj",
+          "alt": "Montaż i lokalizacja Dying Light 2"
         },
         {
           "slug": "image-25",
-          "bgImage": "/images/masonry-wall/SG/line7_4.png",
-          "rotateRight": true
+          "bgImage": "/images/masonry-wall/SG/TheInvincible.png",
+          "rotateRight": true,
+          "link": "https://trzask.com/pl/blog/11%20bit%20studios%20x%20Trzask",
+          "alt": "Montaż i lokalizacja The Invincible"
         }
       ]
     },
@@ -789,9 +888,9 @@
           ]
         },
         {
-          "slug": "image-26",
-          "bgImage": "/images/masonry-wall/SG/line8_1.png",
-          "rotateLeft": true
+          "bgImage": "/images/masonry-wall/SG/TrzaskStudio5.png",
+          "rotateLeft": true,
+          "alt": "Trzask Studio agencja reklamy"
         },
         {
           "slug": "reklamy-do-tv-i-kina",
@@ -880,28 +979,38 @@
         },
         {
           "slug": "image-27",
-          "bgImage": "/images/masonry-wall/SG/line8_2.png"
+          "bgImage": "/images/masonry-wall/SG/Blik.png",
+          "link": "https://trzask.com/pl/case-studies/blik",
+          "alt": "Efekty specjalne Blik"
         },
         {
           "slug": "image-28",
-          "bgImage": "/images/masonry-wall/SG/line8_3.png"
+          "bgImage": "/images/masonry-wall/SG/Frostpunk1.png",
+          "link": "https://trzask.com/pl/blog/FROSTPUNK2xTrzask",
+          "alt": "Efekty specjalne Frostpunk"
         },
         {
           "slug": "image-29",
-          "bgImage": "/images/masonry-wall/gif/main-page/gif7-dl2.webp"
+          "bgImage": "/images/masonry-wall/SG/DyingLight2_2.webp",
+          "link": "szukaj",
+          "alt": "Montaż i lokalizacja Dying Light 2"
         },
         {
           "slug": "image-30",
-          "bgImage": "/images/masonry-wall/SG/line9_1.png"
+          "bgImage": "/images/masonry-wall/SG/Loreal.png",
+          "link": "https://trzask.com/pl/blog/Podwodny%20Event",
+          "alt": "Animacje eventowe i LED L'Oréal"
         },
         {
-          "slug": "image-31",
-          "bgImage": "/images/masonry-wall/SG/line9_2.png",
-          "rotateRight": true
+          "bgImage": "/images/masonry-wall/SG/DootiDonuts_Game3.png",
+          "rotateRight": true,
+          "alt": "Mini Gry Dooti Donuts"
         },
         {
           "slug": "image-32",
-          "bgImage": "/images/masonry-wall/SG/line9_3.png"
+          "bgImage": "/images/masonry-wall/SG/DyingLight2_2.png",
+          "link": "szukaj",
+          "alt": "Montaż i lokalizacja Dying Light 2"
         },
         {
           "slug": "animacje-eventowe-i-LED",
