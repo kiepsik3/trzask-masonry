@@ -129,36 +129,55 @@
             {
               "slug": "case-studies-3d",
               "title": "Zobacz Case Studies z kategorii 3D!",
-              "bgColor": "blue"
+              "bgColor": "blue",
+              "link": "https://new.trzask.com/pl/case-studies/?filters=3D",
+              "alt": "Animacje 3D"
             },
             {
+<<<<<<< HEAD
+              "bgImage": "/images/masonry-wall/3d/TrzaskStudio1.png",
+              "alt": "Trzask Studio agencja reklamy"
+=======
               "slug": "image-33",
               "bgImage": "/images/masonry-wall/3d/ass1.png"
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
             },
             {
               "slug": "image-34",
-              "bgImage": "/images/masonry-wall/3d/ass2.png"
+              "bgImage": "/images/masonry-wall/3d/DyingLight2_9.png",
+              "link": "https://trzask.com/pl/case-studies/Dying%20Light%202",
+              "alt": "Animacje 3D Dying Light 2"
             },
             {
               "slug": "image-35",
-              "bgImage": "/images/masonry-wall/3d/ass4.png"
+              "bgImage": "/images/masonry-wall/3d/Stock_Lubelska3.png",
+              "link": "https://trzask.com/pl/blog/StockPolskaLub",
+              "alt": "Animacje 3D Stock Polska | Lubelska"
             },
             {
               "slug": "image-36",
-              "bgImage": "/images/masonry-wall/3d/ass3.png",
-              "rotateRight": true
+              "bgImage": "/images/masonry-wall/3d/DootiDonuts_3Kroli_CGI3.png",
+              "rotateRight": true,
+              "link": "https://trzask.com/pl/blog/DootiDonutsx3Kroli",
+              "alt": "Animacje 3D Dooti Donuts" 
             },
             {
               "slug": "image-37",
+<<<<<<< HEAD
+              "videoUrl": "/video/tymbark-musly.mp4",
+              "link": "https://new.trzask.com/pl/case-studies/?filters=3D",
+              "alt": "Animacje 3D"
+=======
               "videoUrl": "/video/tymbark-musly.mp4"
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
             },
             {
-              "slug": "image-38",
-              "bgImage": "/images/masonry-wall/gif/3d/gif-animacje3d-trzask.webp"
+              "bgImage": "/images/masonry-wall/3d/TrzaskStudio4.webp",
+              "alt": "Trzask Studio agencja reklamy"
             },
             {
-              "slug": "image-39",
-              "bgImage": "/images/masonry-wall/3d/ass7.png"
+              "bgImage": "/images/masonry-wall/3d/Lowicz.png",
+              "alt": "Animacje 3D Łowicz"
             }
           ],
           "otherSkills": [
@@ -224,7 +243,11 @@
           "slug": "image-1",
           "bgImage": "/images/masonry-wall/SG/CDPROJEKTRED1.png",
           "link": "https://trzask.com/pl/blog/AnimationsforCDPROJEKTRED",
+<<<<<<< HEAD
+          "alt": "Efekty specjalne CD PROJEKT RED"
+=======
           "alt": "Efekty specjalne CD PROJEKT"
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
         },
         {
           "slug": "image-2",
@@ -242,42 +265,64 @@
             {
               "slug": "case-studies-3d",
               "title": "Zobacz nasz projekt dla FROSTPUNKA!",
-              "bgColor": "blue"
+              "bgColor": "blue",
+              "link": "https://trzask.com/pl/blog/FROSTPUNK2xTrzask",
+              "alt": "Efekty specjalne Frostpunk"
             },
             {
-              "slug": "image-33",
-              "bgImage": "/images/masonry-wall/ES/ass1.png"
+              "bgImage": "/images/masonry-wall/ES/TrzaskStudio1.png",
+              "alt": "Trzask Studio agencja reklamy"
             },
             {
               "slug": "image-34",
+<<<<<<< HEAD
+              "bgImage": "/images/masonry-wall/ES/CreaturesofAva3.png",
+=======
               "bgImage": "/images/masonry-wall/ES/ass2.png",
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
               "link": "https://trzask.com/pl/blog/CreaturesofAva",
               "alt": "Efekty specjalne Creatures of Ava"
             },
             {
               "slug": "image-35",
+<<<<<<< HEAD
+              "bgImage": "/images/masonry-wall/ES/Stock_Lubelska1.png",
+              "link": "https://trzask.com/pl/blog/StockPolskaLub",
+=======
               "bgImage": "/images/masonry-wall/ES/ass4.png",
               "link": "/pl/blog/StockPolskaLub",
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
               "alt": "Efekty specjalne Stock Polska | Lubelska"
             },
             {
               "slug": "image-36",
+<<<<<<< HEAD
+              "bgImage": "/images/masonry-wall/ES/CDPROJEKTRED2.png",
+              "rotateRight": true,
+              "link": "https://trzask.com/pl/blog/AnimationsforCDPROJEKTRED",
+              "alt": "Efekty specjalne CD PROJEKT RED Witcher Cyberpunk 2077"
+=======
               "bgImage": "/images/masonry-wall/ES/ass3.png",
               "rotateRight": true,
               "link": "/pl/blog/AnimationsforCDPROJEKTRED",
               "alt": "Efekty specjalne CD PROJEKT"
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
             },
             {
               "slug": "image-37",
-              "bgImage": "/images/masonry-wall/gif/efekty-sepcjalne/Efekty.webp"
+              "videoUrl": "/video/tymbark-musly.mp4",
+              "link": "https://trzask.com/pl/blog/FROSTPUNK2xTrzask",
+              "alt": "Efekty specjalne"
             },
             {
-              "slug": "image-38",
-              "bgImage": "/images/masonry-wall/gif/efekty-sepcjalne/gif-efekty-trzask.webp"
+              "bgImage": "/images/masonry-wall/ES/TrzaskStudio3.webp",
+              "alt": "Trzask Studio agencja reklamy"
             },
             {
               "slug": "image-39",
-              "bgImage": "/images/masonry-wall/ES/ass7.png"
+              "bgImage": "/images/masonry-wall/ES/DyingLight2_8.png",
+              "link": "https://trzask.com/pl/case-studies/Dying%20Light%202",
+              "alt": "Efekty specjalne Dying Light 2"
             }
           ],
           "otherSkills": [
@@ -321,6 +366,22 @@
               "title": "Animacje eventowe i LED",
               "caption": "LED Lorem ipsum"
             }
+          ],
+          "accordion": [
+            {
+              "title": "Fusce ullamcorper sit amet lorem at varius?",
+              "content": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae rutrum leo, ut fermentum mauris. Integer gravida nunc in libero fringilla, pharetra molestie turpis gravida. Fusce vitae tellus blandit, vehicula metus tincidunt, maximus elit. Suspendisse accumsan semper vehicula. Cras pellentesque rutrum felis. Sed aliquam ullamcorper efficitur.",
+                "Integer elit lacus, bibendum quis varius sit amet, pulvinar vel odio. Nunc dapibus ornare metus, nec sodales est tincidunt eget. Ut lobortis, nunc nec auctor placerat, leo libero convallis nisi, quis ullamcorper urna tellus eget magna."
+              ]
+            },
+            {
+              "title": "Proin quam eros, pulvinar at orci ut, aliquet pellentesque nibh?",
+              "content": [
+                "Donec finibus ligula ut eros sollicitudin, vitae dictum magna vehicula. Suspendisse iaculis mi ac convallis eleifend. Nullam congue eu nisi vitae venenatis. Praesent rutrum nec risus a finibus.",
+                "Donec euismod, est eu viverra tristique, felis risus fringilla lorem, non facilisis odio lorem eu ligula. Morbi at ligula est. Aliquam erat volutpat. Praesent eget turpis nec ante pretium sodales et nec odio. Sed ultricies felis dolor, a ultrices turpis ullamcorper a. Proin sit amet lectus ante. Nullam sagittis, ante ac ultricies suscipit, dolor elit rhoncus dolor, eget varius lectus ex eu tortor."
+              ]
+            }
           ]
         },
         {
@@ -333,7 +394,11 @@
           "slug": "image-4",
           "bgImage": "/images/masonry-wall/SG/DyingLight2_4.png",
           "rotateRight": true,
+<<<<<<< HEAD
+          "link": "https://trzask.com/pl/case-studies/Dying%20Light%202",
+=======
           "link": "szukaj",
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
           "alt": "Montaż i lokalizacja Dying Light 2"
         },
         {
@@ -356,7 +421,10 @@
           "bgImage": "/images/masonry-wall/SG/PasiekiSadowskich_SocialMedia3.png",
           "link": "https://trzask.com/pl/blog/Pasieki%20Rodziny%20Sadowskich%20x%20Zakwasownia",
           "alt": "Social Media Video Pasieki Sadowskich"
+<<<<<<< HEAD
+=======
 
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
         },
         {
           "slug": "richmedia",
@@ -368,36 +436,48 @@
             {
               "slug": "case-studies-3d",
               "title": "Zobacz Case Studies z kategorii Richmedia!",
-              "bgColor": "blue"
+              "bgColor": "blue",
+              "link": "https://new.trzask.com/pl/case-studies/?filters=Rich%20media",
+              "alt": "Richmedia"
             },
             {
-              "slug": "image-33",
-              "bgImage": "/images/masonry-wall/RM/ass1.png"
+              "bgImage": "/images/masonry-wall/RM/TrzaskStudio1.png",
+              "alt": "Trzask Studio agencja reklamy"
             },
             {
-              "slug": "image-34",
-              "bgImage": "/images/masonry-wall/RM/ass2.png"
+              "bgImage": "/images/masonry-wall/RM/Neonet_Babyliss.png",
+              "alt": "Richmedia Neonet Babyliss"
             },
             {
               "slug": "image-35",
-              "bgImage": "/images/masonry-wall/gif/richmedia/gif1-richmedia-lowicz.webp"
+              "bgImage": "/images/masonry-wall/RM/Lowicz2.webp",
+              "link": "https://trzask.com/pl/case-studies/przetworki",
+              "alt": "Richmedia Łowicz"
             },
             {
               "slug": "image-36",
-              "bgImage": "/images/masonry-wall/RM/ass3.png",
-              "rotateRight": true
+              "bgImage": "/images/masonry-wall/RM/Max.png",
+              "rotateRight": true,
+              "link": "https://trzask.com/pl/blog/WPMAX",
+              "alt": "Richmedia MAX"
             },
             {
               "slug": "image-37",
-              "bgImage": "/images/masonry-wall/RM/ass5.png"
+              "videoUrl": "/video/tymbark-musly.mp4",
+              "link": "https://new.trzask.com/pl/case-studies/?filters=Rich%20media",
+              "alt": "Richmedia"
             },
             {
               "slug": "image-38",
-              "bgImage": "/images/masonry-wall/gif/richmedia/gif2-richmedia-tiger.webp"
+              "bgImage": "/images/masonry-wall/RM/Tiger_game.webp",
+              "link": "https://trzask.com/pl/case-studies/tiger",
+              "alt": "Richmedia Tiger"
             },
             {
               "slug": "image-39",
-              "bgImage": "/images/masonry-wall/RM/ass7.png"
+              "bgImage": "/images/masonry-wall/RM/Kubus2.png",
+              "link": "https://trzask.com/pl/case-studies/kubus",
+              "alt": "Richmedia Kubuś"
             }
           ],
           "otherSkills": [
@@ -455,7 +535,10 @@
           "alt": "Trzask Studio agencja reklamy"
         },
         {
+<<<<<<< HEAD
+=======
           "slug": "image-11",
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
           "bgImage": "/images/masonry-wall/SG/Amol.png",
           "alt": "HTML 5 Amol"
         }
@@ -686,7 +769,11 @@
         {
           "slug": "image-21",
           "bgImage": "/images/masonry-wall/SG/DyingLight2_1.webp",
+<<<<<<< HEAD
+          "link": "https://trzask.com/pl/case-studies/Dying%20Light%202",
+=======
           "link": "szukaj",
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
           "alt": "Montaż i lokalizacja Dying Light 2"
         },
         {
@@ -787,7 +874,11 @@
         {
           "slug": "image-24",
           "bgImage": "/images/masonry-wall/SG/DyingLight2_3.png",
+<<<<<<< HEAD
+          "link": "https://trzask.com/pl/case-studies/Dying%20Light%202",
+=======
           "link": "szukaj",
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
           "alt": "Montaż i lokalizacja Dying Light 2"
         },
         {
@@ -992,7 +1083,11 @@
         {
           "slug": "image-29",
           "bgImage": "/images/masonry-wall/SG/DyingLight2_2.webp",
+<<<<<<< HEAD
+          "link": "https://trzask.com/pl/case-studies/Dying%20Light%202",
+=======
           "link": "szukaj",
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
           "alt": "Montaż i lokalizacja Dying Light 2"
         },
         {
@@ -1009,7 +1104,11 @@
         {
           "slug": "image-32",
           "bgImage": "/images/masonry-wall/SG/DyingLight2_2.png",
+<<<<<<< HEAD
+          "link": "https://trzask.com/pl/case-studies/Dying%20Light%202",
+=======
           "link": "szukaj",
+>>>>>>> 90a5b8b8d718ced9bb5f4c85967362bcf48b28cd
           "alt": "Montaż i lokalizacja Dying Light 2"
         },
         {

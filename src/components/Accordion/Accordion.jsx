@@ -6,7 +6,7 @@ import "./accordion.scss";
 export function Accordion(props) {
   return (
     <div className="accordion">
-      {props.items.map((item, idx) => (
+      {props.items?.map((item, idx) => (
         <AccordionItem {...item} key={idx} />
       ))}
     </div>
