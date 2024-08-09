@@ -7,6 +7,9 @@
   top: 0;
   right: -100%;
   transition: all .42s;
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 
   + .hamburger-react {
     width: 50px !important;
@@ -29,9 +32,6 @@
 
   &.active {
     right: 0;
-    @media screen and (max-width: 600px) {
-      width: 100%;
-    }
 
     ul li {
       left: 0;

@@ -48,7 +48,7 @@ export function Newsletter() {
                 <br />
                 do newslettera!
               </h2>
-              <p>Zapisz sie do naszego newslettera.</p>
+              <p>Odkryj garść szalonych pomysłów Trzaska.</p>
             </div>
             <img src={isMobile ? monsterDown : monster} alt="monster" />
             <form onSubmit={onSubmit}>
