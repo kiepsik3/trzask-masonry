@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Spin as Hamburger } from "hamburger-react";
-import { Link } from "react-router-dom";
 import cn from "classnames";
 import { useLocation } from "react-router-dom";
 import "./menu.scss";

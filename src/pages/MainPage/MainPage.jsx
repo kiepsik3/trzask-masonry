@@ -11,6 +11,7 @@ const MainPage = (props) => {
   //     .then((response) => response.text())
   //     .then((xmlText) => {
   //       // Parse the XML text into a DOM object
+  //       console.log(xmlText);
   //       const parser = new DOMParser();
   //       const xmlDoc = parser.parseFromString(xmlText, "application/xml");
   //

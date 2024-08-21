@@ -76,8 +76,14 @@ export function Newsletter() {
                   required
                 />
                 <label htmlFor="terms">
-                  Akceptuję <a href="#">Regulamin</a> i{" "}
-                  <a href="#">Politykę prywatności</a>
+                  Akceptuję{" "}
+                  <a href="/Trzask_NewsletterTerms.pdf" target="_blank">
+                    Regulamin
+                  </a>{" "}
+                  i{" "}
+                  <a href="/Trzask_PolitykaBezpieczenstwa.pdf" target="_blank">
+                    Politykę prywatności
+                  </a>
                 </label>
               </div>
             </form>
