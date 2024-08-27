@@ -17,8 +17,13 @@
     position: absolute !important;
     transition: all .42s !important;
 
+    @media (max-width: 575px) {
+      right: 12px !important;
+    }
+
     &:hover {
       cursor: url("../../assets/img/hand.png") 0 0, auto !important;
+
       > div {
         background-color: $color-blue !important;
       }
@@ -40,10 +45,6 @@
 
   ul {
     li {
-      font-size: 30px;
-      font-weight: 800;
-      color: white;
-      line-height: 1;
       margin-bottom: 8px;
       position: relative;
 
@@ -72,12 +73,8 @@
       margin-bottom: 24px;
       padding-left: 20px;
 
-      li {
+      li a {
         font-size: 20px;
-
-        a {
-          font-size: 20px;
-        }
       }
     }
   }

@@ -46,7 +46,7 @@ const ElementPage = (props) => {
     <>
       <Helmet>
         <title>{`TRZ / SKILLS ${element?.title ? `/ ${element.title}` : ""}`}</title>
-        <meta name="description" content={element?.description} />
+        <meta name="description" content={element?.description[0]} />
         <meta name="keywords" content={element?.keywords?.join(", ")} />
         <link rel="canonical" href={window.location.href} />
       </Helmet>
@@ -71,7 +71,9 @@ const ElementPage = (props) => {
           <div>
             <h1>{element?.title}</h1>
             <h3>{element?.caption}</h3>
-            <p>{element?.description}</p>
+            {element?.description?.map((d, idx) => (
+              <p key={idx}>{d}</p>
+            ))}
           </div>
         </div>
 

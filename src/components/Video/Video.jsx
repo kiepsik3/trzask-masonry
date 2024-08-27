@@ -17,9 +17,9 @@ export default function Video(props) {
           height="100%"
           src={`https://www.youtube.com/embed/${props.ytId}?autoplay=${props.autoplay}&mute=${props.mute}&loop=${props.loop}`}
           title="Video"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         />
       </div>
       {props.caption && <span className="video-caption">{props.caption}</span>}

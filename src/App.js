@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet";
 import useFetch from "./hooks/useFetch";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { Newsletter } from "./components/Newsletter/Newsletter";
+// import masonryWall from "./data/masonry-wall-pl.json";
 
 function App() {
   const domain = window.location.origin;

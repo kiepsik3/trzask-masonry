@@ -11,6 +11,20 @@ export function MasonryWall(props) {
   const [width, setWidth] = useState(window.innerWidth);
 
   useEffect(() => {
+    const videoElement = document.getElementById("video");
+
+    document.body.addEventListener("click", () => {
+      videoElement.play();
+    });
+
+    document.body.addEventListener("touchstart", () => {
+      videoElement.play();
+    });
+
+    videoElement.addEventListener("suspend", () => {
+      videoElement.play();
+    });
+
     window.addEventListener("resize", () => {
       setWidth(window.innerWidth);
     });
@@ -32,7 +46,14 @@ export function MasonryWall(props) {
               <div className={cn(`item video item-${index + 1}`)}>
                 {cover ? (
                   <>
-                    <video autoPlay muted loop src={element.showReelUrl} />
+                    <video
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      src={element.showReelUrl}
+                      onClick={() => setCover(false)}
+                    />
                     <button onClick={() => setCover(false)}>
                       Oglądaj showreel
                       <Play />
@@ -60,7 +81,14 @@ export function MasonryWall(props) {
                     element.rotateLeft && "rotate-left",
                   )}
                 >
-                  <video autoPlay muted loop src={element.videoUrl} />
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    src={element.videoUrl}
+                    id="video"
+                  />
                 </a>
               ) : element.slug ? (
                 <Link
@@ -71,11 +99,25 @@ export function MasonryWall(props) {
                     element.rotateLeft && "rotate-left",
                   )}
                 >
-                  <video autoPlay muted loop src={element.videoUrl} />
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    src={element.videoUrl}
+                    id="video"
+                  />
                 </Link>
               ) : (
                 <div className={cn(`item video item-${index + 1}`)}>
-                  <video autoPlay muted loop src={element.videoUrl} />
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    src={element.videoUrl}
+                    id="video"
+                  />
                 </div>
               )}
             </>
@@ -105,7 +147,10 @@ export function MasonryWall(props) {
                     element.rotateLeft && "rotate-left",
                   )}
                 >
-                  <video autoPlay muted loop src={element.videoUrl} />
+                  <img
+                    src={element.bgImage}
+                    alt={element.alt ? element.alt : element.bgImage}
+                  />
                 </Link>
               ) : (
                 <div

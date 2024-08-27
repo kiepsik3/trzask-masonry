@@ -1,8 +1,10 @@
+import React from "react";
+
 export default function Text(props) {
   return (
     <p>
-      {props.text.map((e) => (
-        <>
+      {props.text.map((e, idx) => (
+        <React.Fragment key={idx}>
           {e.paragraph ? (
             <span
               style={{
@@ -29,7 +31,7 @@ export default function Text(props) {
               {e.text}
             </a>
           )}
-        </>
+        </React.Fragment>
       ))}
     </p>
   );
