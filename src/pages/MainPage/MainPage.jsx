@@ -10,13 +10,15 @@ const MainPage = (props) => {
       .then((response) => response.text())
       .then((xmlText) => {
         // Parse the XML text into a DOM object
-        console.log(xmlText);
+        console.log("xmlText", xmlText);
         const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+        const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+
+        console.log("xmlDoc", xmlDoc);
 
         // Tutaj możesz zmodyfikować xmlDoc
         const root = xmlDoc.documentElement;
-        const newElement = xmlDoc.createElement("newElement");
+        const newElement = xmlDoc.createElement("url");
         newElement.textContent = "New Content";
         root.appendChild(newElement);
 
@@ -24,7 +26,7 @@ const MainPage = (props) => {
         const serializer = new XMLSerializer();
         const updatedXML = serializer.serializeToString(xmlDoc);
 
-        console.log(updatedXML);
+        console.log("updatedXML", updatedXML);
 
         // Wyślij zaktualizowany XML z powrotem na serwer
         return fetch("https://new.trzask.com/map2.xml", {
@@ -45,6 +47,51 @@ const MainPage = (props) => {
       .catch((error) => {
         console.error("Error:", error);
       });
+  }
+
+  function bb() {
+    fetch("https://new.trzask.com/map2.xml")
+      .then((response) => response.text())
+      .then((data) => {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(data, "text/xml");
+
+        // Przykład odczytu elementu z pliku XML
+        const someElement = xmlDoc.getElementsByTagName("url")[0];
+        someElement.childNodes[0].nodeValue = "aaa";
+        // console.log(someElement);
+        const serializer = new XMLSerializer();
+        const updatedXMLString = serializer.serializeToString(xmlDoc);
+
+        return fetch("https://new.trzask.com/map2.xml", {
+          method: "POST",
+          headers: {
+            "Content-Type": "text/xml",
+          },
+          body: updatedXMLString,
+        })
+          .then((response) => {
+            console.log(response);
+            console.log("json", response.json());
+            return response.json();
+          })
+          .then((data) => {
+            console.log("Success:", data);
+          })
+          .catch((error) => console.error("Error:", error));
+      })
+      .catch((error) => console.error("Error loading XML:", error));
+  }
+
+  function cc() {
+    return new Promise((resolve, reject) => {
+      const req = new XMLHttpRequest();
+      req.open("POST", "https://new.trzask.com/map2.xml");
+      req.onload = function () {
+        resolve(req.response);
+      };
+      req.send("dasda");
+    }).then((resData) => console.log(resData));
   }
 
   // const [xml, setXML] = useState();
@@ -89,7 +136,9 @@ const MainPage = (props) => {
 
   return (
     <div className="main-page container 2xl:max-w-[1320px]">
-      {/*<button onClick={aa}>dsad</button>*/}
+      {/*<button onClick={() => aa()}>aa</button>*/}
+      {/*<button onClick={() => bb()}>bb</button>*/}
+      {/*<button onClick={() => cc()}>cc</button>*/}
       <h1 className="main-page-header">{props.title}</h1>
       {props.walls?.map((wall, idx) => (
         <MasonryWall data={wall.elements} set={wall.set} key={idx} />

@@ -751,7 +751,7 @@
       grid-template-rows: repeat(16, 22.4px);
     }
     @media screen and (max-width: 767px) {
-      grid-template-rows: repeat(39, 39.3px);
+      grid-template-rows: repeat(43, 39.3px);
       gap: 20px;
       margin-bottom: 20px;
     }
@@ -833,15 +833,15 @@
       }
       .item-6 {
         grid-column: 1 / span 6;
-        grid-row: 28 / span 5;
+        grid-row: 28 / span 9;
       }
       .item-7 {
         grid-column: 1 / span 6;
-        grid-row: 33 / span 4;
+        grid-row: 37 / span 4;
       }
       .item-8 {
         grid-column: 1 / span 6;
-        grid-row: 37 / span 3;
+        grid-row: 41 / span 3;
       }
     }
   }

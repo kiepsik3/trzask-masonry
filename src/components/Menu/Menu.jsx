@@ -63,9 +63,9 @@ export function Menu(props) {
               </li>
             ),
           )}
-          <li>
-            <a href="/en">IN ENGLISH</a>
-          </li>
+          {/*<li>*/}
+          {/*  <a href="/en">IN ENGLISH</a>*/}
+          {/*</li>*/}
         </ul>
       </div>
       <Hamburger
