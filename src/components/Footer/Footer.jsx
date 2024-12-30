@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container 2xl:max-w-[1320px]">
         <div className="footer-content">
           <address className="footer-address">
-            Pana Balcera 6B/77, 20-631 Lublin, Polska
+            Jana Pawła II 13, 20-535 Lublin, Polska
           </address>
           <div className="footer-links">
             <ul>

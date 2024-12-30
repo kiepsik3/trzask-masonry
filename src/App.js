@@ -7,11 +7,19 @@ import { Helmet } from "react-helmet";
 import useFetch from "./hooks/useFetch";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { Newsletter } from "./components/Newsletter/Newsletter";
+import RecommendationsPage from "./pages/Recommendations/RecommendationsPage";
 
 function App() {
   const domain = window.location.origin;
 
   const { data: masonryWall } = useFetch(`${domain}/masonry-wall-pl.json`);
+
+  const currentSlug = window.location.pathname.substring(
+    window.location.pathname.lastIndexOf("/"),
+  );
+
+  const isRecommendationsPage = currentSlug === "/recommendations";
+
   return (
     <>
       <Helmet>
@@ -24,7 +32,10 @@ function App() {
         <link rel="canonical" href={window.location.href} />
       </Helmet>
       <BrowserRouter>
-        <Header menu={masonryWall?.menu} />
+        <Header
+          menu={masonryWall?.menu}
+          isRecommendationsPage={isRecommendationsPage}
+        />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Navigate to="/pl" />} />
@@ -37,10 +48,15 @@ function App() {
               element={<ElementPage {...masonryWall} />}
             />
           )}
+          <Route path="/pl/recommendations" element={<RecommendationsPage />} />
         </Routes>
       </BrowserRouter>
-      <Newsletter />
-      <Footer />
+      {!isRecommendationsPage && (
+        <>
+          <Newsletter />
+          <Footer />
+        </>
+      )}
     </>
   );
 }

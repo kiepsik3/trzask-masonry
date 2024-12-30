@@ -80,6 +80,8 @@
         font-size: 18px;
         font-weight: 800;
         color: black;
+        position: relative;
+        background-color: white;
         margin-top: auto;
         padding: 12px 28px;
         border: 3px solid $color-blue;
@@ -90,6 +92,30 @@
         &:disabled {
           opacity: 0.5;
           cursor: not-allowed;
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          transition: all .6s;
+          width: 70px;
+          height: 75px;
+          top: -20px;
+          left: 55px;
+          background: url("../../assets/img/fancy-2.svg") no-repeat;
+          background-size: cover;
+          z-index: -1;
+          visibility: hidden;
+          opacity: 0;
+        }
+
+        &:hover:not(:disabled) {
+          background-color: rgb(232, 240, 254);
+          &:after {
+            top: -45px;
+            visibility: visible;
+            opacity: 1;
+          }
         }
 
         svg {

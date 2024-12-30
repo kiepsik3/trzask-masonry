@@ -27,23 +27,24 @@
       align-items: flex-start;
       justify-content: flex-end;
       padding: 26px 30px;
-      @media screen and (max-width: 1279px) {
-        padding: 21px 28px;
+      @media screen and (min-width: 1024px) and (max-width: 1279px) {
+        padding: 14px 18px;
       }
       @media screen and (min-width: 768px) and (max-width: 1023px) {
-        padding: 16px 24px;
-      }
-
-      @media screen and (max-width: 767px) {
-        padding: 30px;
+        padding: 10px 14px;
       }
 
       h3 {
         font-size: 22px;
         font-weight: 800;
         color: white;
-        @media screen and (min-width: 768px) and (max-width: 1279px) {
+        @media screen and (min-width: 1024px) and (max-width: 1279px) {
+          font-size: 20px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
           font-size: 18px;
+          line-height: 1.1em;
+
         }
       }
 
@@ -51,9 +52,14 @@
         font-size: 18px;
         color: white;
         margin-top: 12px;
-        @media screen and (min-width: 768px) and (max-width: 1279px) {
+        @media screen and (min-width: 1024px) and (max-width: 1279px) {
           font-size: 16px;
           margin-top: 0;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+          font-size: 14px;
+          margin-top: 0;
+          line-height: 1.3em;
         }
       }
 
@@ -66,15 +72,17 @@
         margin-top: 16px;
         padding: 12px 28px;
         border: 3px solid white;
-        @media screen and (max-width: 1279px) {
+
+        @media screen and (min-width: 1024px) and (max-width: 1279px) {
           font-size: 16px;
           margin-top: 12px;
-          padding: 10px 24px;
+          padding: 6px 20px;
         }
         @media screen and (min-width: 768px) and (max-width: 1023px) {
           border: none;
+          font-size: 14px;
           padding: 0;
-          margin-top: 5px;
+          margin-top: 4px;
         }
 
         svg {

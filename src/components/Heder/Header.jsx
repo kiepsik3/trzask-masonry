@@ -31,10 +31,21 @@ export default function Header(props) {
 
   return (
     <header
-      className={cn("header", collapsed && "collapsed", pinned && "pinned")}
+      className={cn(
+        "header",
+        props.isRecommendationsPage && "transparent",
+        collapsed && "collapsed",
+        pinned && "pinned",
+      )}
     >
       <div className="container 2xl:max-w-[1320px] flex items-center justify-between">
-        <a href="/pl" className="header-logo">
+        <a
+          href="/pl"
+          className={cn(
+            "header-logo",
+            props.isRecommendationsPage && "centered",
+          )}
+        >
           <Logo />
         </a>
         <Menu menu={props.menu} />
