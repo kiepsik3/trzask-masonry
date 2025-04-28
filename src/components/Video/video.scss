@@ -37,6 +37,18 @@
     }
   }
 
+  &.square {
+    @media (min-width: 992px) {
+      max-width: 75%;
+      margin: 0 auto;
+    }
+
+    .video-wrapper {
+      padding-bottom: 100%;
+    }
+  }
+
+
   &-wrapper {
     overflow: hidden;
     padding-bottom: 56.25%;

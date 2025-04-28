@@ -54,7 +54,8 @@ export function Menu(props) {
             ) : (
               <li key={idx}>
                 <a
-                  href={`/pl${item.slug}`}
+                  href={item.external ? item.slug : `/pl${item.slug}`}
+                  target={item.external ? "_blank" : "_self"}
                   className={item.slug === currentSlug ? "selected" : ""}
                   key={idx}
                 >
@@ -63,9 +64,9 @@ export function Menu(props) {
               </li>
             ),
           )}
-          {/*<li>*/}
-          {/*  <a href="/en">IN ENGLISH</a>*/}
-          {/*</li>*/}
+          <li>
+            <a href="/en">IN ENGLISH</a>
+          </li>
         </ul>
       </div>
       <Hamburger

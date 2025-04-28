@@ -9,6 +9,8 @@ export default function Image(props) {
       className={cn(
         "image",
         props.withBackground && "with-background",
+        props.isLeft && "left",
+        props.isRight && "right",
         props.caption && "caption",
       )}
     >

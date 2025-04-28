@@ -4,10 +4,10 @@ import "./footer.scss";
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="container 2xl:max-w-[1320px]">
+      <div className="container">
         <div className="footer-content">
           <address className="footer-address">
-            Jana Pawła II 13, 20-535 Lublin, Polska
+            Cicha 4/3, 20-057 Lublin, Polska
           </address>
           <div className="footer-links">
             <ul>

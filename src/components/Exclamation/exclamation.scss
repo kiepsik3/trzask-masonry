@@ -1,0 +1,39 @@
+@import '../../lib/scss/colors.scss';
+
+.exclamation {
+  display: flex;
+  align-items: center;
+  height: 328px;
+  position: relative;
+  margin-bottom: 20px;
+
+  @media (max-width: 767px) {
+    height: 200px
+  }
+
+  @media (max-width: 575px) {
+    height: 150px
+  }
+
+  &-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-size: contain;
+  }
+
+  &.right {
+    margin-left: 60px;
+
+    @media (max-width: 575px) {
+      margin-left: 0;
+    }
+  }
+
+  &-featured {
+    font-weight: 800;
+    color: $color-blue;
+  }
+}

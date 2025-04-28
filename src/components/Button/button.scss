@@ -1,0 +1,102 @@
+@import '../../lib/scss/colors.scss';
+
+.button {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 800;
+  background-color: white;
+  border: none;
+  position: relative;
+  padding: 15px 40px;
+
+  &:hover {
+    &::before {
+      transform: rotate(-6deg) translateY(-50%);
+      top: 42%;
+      left: 2px;
+      height: 80%;
+    }
+
+    &::after {
+      transform: rotate(8deg) translateY(-50%);
+      top: 47%;
+      height: 78%;
+      right: 2px;
+    }
+
+    svg {
+      margin-left: 10px;
+    }
+  }
+
+  &::before,
+  &::after {
+    transition: all .2s;
+    content: '';
+    display: block;
+    width: 3px;
+    height: 100%;
+    background-color: $color-blue;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &::before {
+    left: -1px;
+  }
+
+  &::after {
+    right: 0;
+  }
+
+  &-border {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    &:hover {
+
+      &::before {
+        transform: rotate(-2deg) translateX(-50%);
+        left: 53%;
+      }
+
+      &::after {
+        transform: rotate(2deg) translateX(-50%);
+        width: 105%;
+      }
+    }
+
+    &::before,
+    &::after {
+      transition: all .2s;
+      content: '';
+      display: block;
+      width: 100%;
+      height: 3px;
+      background-color: $color-blue;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &::before {
+      top: 0;
+    }
+
+    &::after {
+      bottom: 0;
+    }
+  }
+
+  svg {
+    transition: margin .2s;
+    margin-left: 6px;
+    font-size: 14px
+  }
+}

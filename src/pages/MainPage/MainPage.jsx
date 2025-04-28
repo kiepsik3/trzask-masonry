@@ -3,6 +3,7 @@ import "./main-page.scss";
 import { MasonryWall } from "../../components/MasonryWall/MasonryWall";
 // import exportFromJSON from "export-from-json";
 import { Builder, Parser } from "xml2js";
+import { Helmet } from "react-helmet";
 
 const MainPage = (props) => {
   function aa() {
@@ -135,15 +136,26 @@ const MainPage = (props) => {
   // }, []);
 
   return (
-    <div className="main-page container 2xl:max-w-[1320px]">
-      {/*<button onClick={() => aa()}>aa</button>*/}
-      {/*<button onClick={() => bb()}>bb</button>*/}
-      {/*<button onClick={() => cc()}>cc</button>*/}
-      <h1 className="main-page-header">{props.title}</h1>
-      {props.walls?.map((wall, idx) => (
-        <MasonryWall data={wall.elements} set={wall.set} key={idx} />
-      ))}
-    </div>
+    <>
+      <Helmet>
+        <title>TRZ / SKILLS</title>
+        <meta
+          name="description"
+          content="Profesjonalne studio animacji specjalizujące się w reklamie internetowej. Tworzymy interaktywne rich media, grywalne playable ads, gry na landing page'ach, reklamy video oraz spektakularne animacje wszelkiej maści."
+        />
+        <meta name="keywords" content={props.keywords.join(", ")} />
+        <link rel="canonical" href={window.location.href} />
+      </Helmet>
+      <div className="main-page container 2xl:max-w-[1320px]">
+        {/*<button onClick={() => aa()}>aa</button>*/}
+        {/*<button onClick={() => bb()}>bb</button>*/}
+        {/*<button onClick={() => cc()}>cc</button>*/}
+        <h1 className="main-page-header">{props.title}</h1>
+        {props.walls?.map((wall, idx) => (
+          <MasonryWall data={wall.elements} set={wall.set} key={idx} />
+        ))}
+      </div>
+    </>
   );
 };
 

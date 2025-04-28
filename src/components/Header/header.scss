@@ -10,9 +10,30 @@
   transform: translateY(-100%);
   transition: all .3s;
   z-index: 10;
+
   &.transparent {
-    background-color: transparent;
-    border-bottom: none;
+    &.pinned:not(.collapsed) {
+      background-color: transparent;
+      border-bottom: none;
+
+      a svg {
+        fill: white;
+
+        &:hover {
+          fill: $color-blue
+        }
+      }
+
+      .menu + .hamburger-react {
+        > div {
+          background-color: white !important;
+        }
+
+        &:hover > div {
+          background-color: $color-blue !important;
+        }
+      }
+    }
   }
 
   @media (max-width: 639px) {
@@ -29,11 +50,6 @@
   }
 
   a svg:hover {
-    fill: #7c59ed
-  }
-  .header-logo {
-    &.centered {
-      margin: 0 auto;
-    }
+    fill: $color-blue;
   }
 }

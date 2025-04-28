@@ -1,0 +1,131 @@
+@import '../../../lib/scss/colors.scss';
+
+.filters {
+  max-width: 1920px;
+  margin: 0 auto 120px;
+  background-color: $color-blue;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  @media (max-width: 767px) {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  @media (max-width: 575px) {
+    margin-bottom: 50px;
+    border-top: none;
+    background-color: transparent;
+  }
+
+  h3 {
+    color: white;
+    margin-bottom: 0;
+    padding: 0 70px;
+    @media (max-width: 991px) {
+      padding: 0 50px;
+    }
+    @media (max-width: 991px) {
+      padding: 0 24px;
+    }
+    @media (max-width: 767px) {
+      padding: 24px 0;
+      width: 100%;
+      text-align: center;
+      border-bottom: 2px solid black;
+    }
+    @media (max-width: 575px) {
+      background-color: white;
+      color: $color-blue;
+      padding: 0 0 8px;
+    }
+  }
+
+  .filters-rows {
+    width: 100%;
+    border-left: 2px solid black;
+    background-color: $color-blue;
+    @media (max-width: 767px) {
+      border-left: 0;
+    }
+
+    .filters-row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 24px 0 16px 70px;
+      @media (max-width: 1199px) {
+        padding-left: 50px;
+      }
+      @media (max-width: 991px) {
+        padding-left: 24px;
+      }
+
+      @media (max-width: 575px) {
+        padding: 12px 0 4px 12px;
+      }
+
+      &:first-child {
+        border-bottom: 1px solid black;
+      }
+
+      &:last-child {
+        border-top: 1px solid black;
+      }
+
+      p {
+        color: white;
+        margin-bottom: 0;
+        flex-basis: 195px;
+        @media (max-width: 1199px) {
+          flex-basis: 100%;
+          margin-bottom: 12px;
+        }
+        @media (max-width: 575px) {
+          margin-bottom: 8px;
+          font-size: 16px
+        }
+      }
+
+      .checkboxes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+      }
+
+      .checkbox {
+        margin-right: 24px;
+        margin-bottom: 8px;
+        @media (max-width: 575px) {
+          margin-right: 6px;
+          flex-basis: calc(33% - 18px);
+          flex-grow: 1;
+        }
+
+        input[type=checkbox] {
+          display: none;
+        }
+
+        input[type=checkbox] + label {
+          font-size: 18px;
+          padding-left: 30px;
+          background: url("../../../assets/img/checkbox.svg") no-repeat;
+          color: white;
+          cursor: url("../../../assets/img/hand.png") 0 0, auto;
+          @media (max-width: 575px) {
+            font-size: 15px;
+          }
+        }
+
+        input[type=checkbox]:hover + label {
+          padding-left: 30px;
+          background: url("../../../assets/img/checkbox-hover.svg") no-repeat;
+        }
+
+        input[type=checkbox]:checked + label {
+          background: url("../../../assets/img/checkbox-checked.svg") no-repeat;
+        }
+      }
+    }
+  }
+}

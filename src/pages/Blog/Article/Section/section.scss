@@ -1,0 +1,15 @@
+.section {
+    margin-top: 60px;
+
+    @media (max-width: 991px) {
+        margin-top: 40px;
+    }
+
+    @media (max-width: 767px) {
+        margin-top: 30px;
+    }
+
+    @media (max-width: 575px) {
+        margin-top: 20px;
+    }
+}

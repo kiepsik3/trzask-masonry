@@ -9,5 +9,8 @@ module.exports = {
     extend: {},
     container: { center: true },
   },
+  corePlugins: {
+    container: false,
+  },
   plugins: [],
 };

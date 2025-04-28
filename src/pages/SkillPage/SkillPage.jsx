@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import React, { useState } from "react";
-import "./element-page.scss";
+import "./skill-page.scss";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { Link } from "react-router-dom";
 import cn from "classnames";
@@ -13,7 +13,7 @@ import Image from "../../components/Image/Image";
 import Video from "../../components/Video/Video";
 import { Accordion } from "../../components/Accordion/Accordion";
 
-const ElementPage = (props) => {
+const SkillPage = (props) => {
   const { slug } = useParams();
 
   const [visible, setVisible] = useState(false);
@@ -47,7 +47,14 @@ const ElementPage = (props) => {
       <Helmet>
         <title>{`TRZ / SKILLS ${element?.title ? `/ ${element.title}` : ""}`}</title>
         <meta name="description" content={element?.description[0]} />
-        <meta name="keywords" content={element?.keywords?.join(", ")} />
+        <meta
+          name="keywords"
+          content={
+            element.keywords
+              ? element.keywords.join(", ")
+              : props.keywords.join(", ")
+          }
+        />
         <link rel="canonical" href={window.location.href} />
       </Helmet>
       <div className="element-page container 2xl:max-w-[1320px]">
@@ -137,4 +144,4 @@ const ElementPage = (props) => {
   );
 };
 
-export default ElementPage;
+export default SkillPage;

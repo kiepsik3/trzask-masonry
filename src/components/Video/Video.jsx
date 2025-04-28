@@ -9,6 +9,7 @@ export default function Video(props) {
         "video",
         props.withBackground && "with-background",
         props.caption && "caption",
+        props.square && "square",
       )}
     >
       <div className="video-wrapper">

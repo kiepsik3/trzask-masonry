@@ -6,6 +6,7 @@
   .newsletter {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 72px;
     margin-top: 36px;
     margin-bottom: 36px;
@@ -19,7 +20,12 @@
     }
 
     .info {
+      text-align: right;
+      @media screen and (max-width: 767px) {
+        text-align: left;
+      }
       h2 {
+        color: black;
         font-size: 32px;
         line-height: 42px;
         font-weight: 800;
@@ -31,121 +37,55 @@
       }
     }
 
-    img {
-      margin-left: auto;
-      @media screen and (max-width: 767px) {
-       margin-left: 0;
-      }
+    a {
+      text-decoration: none;
     }
 
-    form {
+    button {
       display: flex;
-      flex-wrap: wrap;
-      row-gap: 8px;
-      flex-basis: 572px;
-
-      @media screen and (max-width: 767px) {
-        flex-direction: column;
-        flex-basis: auto;
+      align-items: center;
+      font-size: 18px;
+      color: black;
+      font-weight: 800;
+      position: relative;
+      background-color: white;
+      padding: 12px 28px;
+      border: 3px solid $color-blue;
+      text-decoration: none;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: all .3s;
+      @media screen and (max-width: 575px) {
         align-self: stretch;
       }
 
-      input {
-        font-size: 18px;
-        font-weight: 800;
-        color: black;
-        margin-right: 8px;
-        padding: 12px 20px;
-        border: 3px solid $color-blue;
-        flex-grow: 1;
-        outline: none;
-        transition: all .3s;
-
-        @media screen and (max-width: 767px) {
-          margin-right: 0;
-        }
-
-        &::placeholder {
-          color: black;
-        }
-
-        &:focus {
-          background-color: rgb(240, 235, 255);
-        }
+      &:after {
+        content: "";
+        position: absolute;
+        transition: all .6s;
+        width: 70px;
+        height: 75px;
+        top: -20px;
+        left: 55px;
+        background: url("../../assets/img/fancy-2.svg") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        visibility: hidden;
+        opacity: 0;
       }
 
-      button {
-        display: flex;
-        align-items: center;
-        font-size: 18px;
-        font-weight: 800;
-        color: black;
-        position: relative;
-        background-color: white;
-        margin-top: auto;
-        padding: 12px 28px;
-        border: 3px solid $color-blue;
-        cursor: pointer;
-        flex-shrink: 0;
-        transition: all .3s;
-
-        &:disabled {
-          opacity: 0.5;
-          cursor: not-allowed;
-        }
+      &:hover:not(:disabled) {
+        background-color: rgb(232, 240, 254);
 
         &:after {
-          content: "";
-          position: absolute;
-          transition: all .6s;
-          width: 70px;
-          height: 75px;
-          top: -20px;
-          left: 55px;
-          background: url("../../assets/img/fancy-2.svg") no-repeat;
-          background-size: cover;
-          z-index: -1;
-          visibility: hidden;
-          opacity: 0;
-        }
-
-        &:hover:not(:disabled) {
-          background-color: rgb(232, 240, 254);
-          &:after {
-            top: -45px;
-            visibility: visible;
-            opacity: 1;
-          }
-        }
-
-        svg {
-          margin-left: 8px;
+          top: -45px;
+          visibility: visible;
+          opacity: 1;
         }
       }
 
-      .checkbox {
-        flex-basis: 100%;
-        margin-top: 16px;
-
-        input[type=checkbox] {
-          display: none;
-        }
-
-        input[type=checkbox] + label {
-          font-size: 16px;
-          padding-left: 30px;
-          background: url("../../assets/img/checkbox.svg") no-repeat;
-          color: #A1A1A1;
-          cursor: url("../../assets/img/hand.png") 0 0, auto;
-          transition: all .3s;
-          a {
-            text-decoration: underline;
-          }
-        }
-
-        input[type=checkbox]:checked + label {
-          background: url("../../assets/img/checkbox-checked.svg") no-repeat;
-        }
+      svg {
+        margin-left: 8px;
       }
     }
   }

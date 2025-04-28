@@ -1,0 +1,66 @@
+@import '../../lib/scss/colors.scss';
+
+.quote {
+  &.bold {
+    p,
+    span {
+      font-weight: 800;
+    }
+
+    span {
+      color: $color-blue;
+      font-size: 22px;
+      line-height: 32px;
+      opacity: 1;
+
+      @media (max-width: 575px) {
+        font-size: 18px;
+        line-height: 26px;
+      }
+
+    }
+  }
+
+  &-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    &.right {
+      margin-left: auto;
+      text-align: right;
+
+      img {
+        margin-left: 16px;
+        margin-right: 0;
+      }
+    }
+
+    img {
+      width: 74px;
+      height: 74px;
+      border-radius: 50%;
+      margin-right: 16px;
+    }
+
+    &-info {
+      span {
+        display: block;
+        line-height: 26px;
+
+        &:last-child {
+          opacity: .6;
+        }
+      }
+    }
+  }
+
+  &-fancy-img {
+    position: absolute;
+    top: 0;
+
+    @media (max-width: 1199px) {
+      display: none;
+    }
+  }
+}

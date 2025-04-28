@@ -1,0 +1,40 @@
+@import '../../lib/scss/colors.scss';
+
+.violet {
+  color: $color-blue;
+}
+
+.headline {
+  &-1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 24px;
+    font-weight: 800;
+    @media (max-width: 575px) {
+      font-size: 36px;
+      line-height: 44px;
+    }
+  }
+
+  &-2 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    @media (max-width: 575px) {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+
+  &-3 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    font-weight: 800;
+    @media (max-width: 575px) {
+      font-size: 18px;
+
+    }
+  }
+}

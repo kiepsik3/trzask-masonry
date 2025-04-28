@@ -1,0 +1,2552 @@
+{
+  "title": "Co potrafi Trzask?",
+  "keywords": [
+    "reklama",
+    "platforma",
+    "tracking",
+    "portfolio",
+    "gaming",
+    "glitch",
+    "baner",
+    "screening",
+    "interaktywny",
+    "formaty",
+    "kreacja",
+    "futurystyczny",
+    "cgi",
+    "vfx",
+    "game over",
+    "trailer",
+    "social media",
+    "video",
+    "animacja",
+    "banery reklamowe",
+    "agencja reklamy",
+    "marketing w social media",
+    "manager reklam",
+    "animacja poklatkowa"
+  ],
+  "menu": [
+    {
+      "name": "KTO TO?",
+      "slug": "/about"
+    },
+    {
+      "name": "CO POTRAFI?",
+      "slug": "/",
+      "items": [
+        {
+          "name": "Animacje 3D",
+          "slug": "/animacje-3d"
+        },
+        {
+          "name": "Efekty specjalne",
+          "slug": "/efekty-specjalne"
+        },
+        {
+          "name": "Richmedia",
+          "slug": "/richmedia"
+        },
+        {
+          "name": "Social Media Video",
+          "slug": "/social-media-video"
+        },
+        {
+          "name": "HMTL 5",
+          "slug": "/html5"
+        },
+        {
+          "name": "Montaż i lokalizacja",
+          "slug": "/montaz-i-lokalizacja"
+        },
+        {
+          "name": "Mini Gry",
+          "slug": "/mini-gry"
+        },
+        {
+          "name": "Reklamy do TV i Kina",
+          "slug": "/reklamy-do-tv-i-kina"
+        },
+        {
+          "name": "Animacje eventowe i LED",
+          "slug": "/animacje-eventowe-i-LED"
+        }
+      ]
+    },
+    {
+      "name": "JEGO PROJEKTY",
+      "slug": "/case-studies"
+    },
+    {
+      "name": "CO NOWEGO?",
+      "slug": "/blog"
+    },
+    {
+      "name": "REKOMENDACJE",
+      "slug": "/recommendations"
+    },
+    {
+      "name": "NEWSLETTER",
+      "slug": "https://trzask.com/pl/subscribe",
+      "external": true
+    },
+    {
+      "name": "KONTAKT",
+      "slug": "/contact"
+    }
+  ],
+  "walls": [
+    {
+      "set": 1,
+      "elements": [
+        {
+          "keywords": [
+            "reklama",
+            "platforma",
+            "tracking",
+            "portfolio",
+            "gaming",
+            "glitch",
+            "baner",
+            "screening",
+            "interaktywny",
+            "formaty",
+            "kreacja",
+            "futurystyczny",
+            "cgi",
+            "vfx",
+            "game over",
+            "trailer",
+            "social media",
+            "video",
+            "animacja",
+            "banery reklamowe",
+            "agencja reklamy",
+            "marketing w social media",
+            "manager reklam",
+            "animacja poklatkowa"
+          ],
+          "slug": "animacje-3d",
+          "bgColor": "blue",
+          "title": "Animuje w 3D",
+          "caption": "Ożywia ruchome postacie i obiekty w trójwymiarze",
+          "description": [
+            "Odkryj trzeci wymiar reklamy! Nasze animacje 3D to istne graficzne perełki, które w kreatywny sposób opowiadają wyjątkowe historie.",
+            "Przenosimy markę do trójwymiarowej przestrzeni, dostarczając widzom niepowtarzalnych wrażeń wizualnych, które zapadają w pamięć. Gramy w kolory i kształty, sięgamy po nieoczywiste koncepcje, ożywiamy komunikację epickimi obrazami. Każda animacja 3D odkrywa zupełnie nowe pokłady kreatywności."
+          ],
+          "content": [
+            {
+              "text": {
+                "title": "SaarGummi Neo - Innowacyjne video instruktażowe",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Krótki explainer montażu uszczelek, który totalnie wciąga! Precyzyjnie odwzorowane animacje 3D i misterna dbałość o każdy szczegół to klucz do sukcesu! "
+                    },
+                    {
+                      "link": "/pl/case-studies/SaarGummi%20Neo",
+                      "text": "Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "T0BsEG1kacs",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "SaarGummi Neo / Promo video / Production: Trzask Studio",
+                "withBackground": true
+              }
+            },
+            {
+              "text": {
+                "title": "Dooti Donuts - Interaktywna zabawa z konkursem w tle",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Donut z charakterem? Stworzyliśmy go w niezliczonych wariantach i zanimowaliśmy w wielu przeróżnych sytuacjach. My go ożywiliśmy, a on namieszał w Internecie! "
+                    },
+                    {
+                      "link": "/pl/case-studies/dooti-donuts",
+                      "text": "Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "vJ1wzxhusnM",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Dooti Donuts - Creator App / Production: Trzask Studio (concept, design, animation, programming, 3D), Stokson - brand owner (coordination of works), Get Hero (influencer materials), Adheads (promoting the competition, managing social media) 2023"
+              }
+            },
+            {
+              "text": {
+                "title": "Dying Light 2 - Reklamy wciągające w mroczny klimat gry",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Epicki tytuł wymaga epickich reklam. Skupiliśmy się na animowanych efektach dymu, migoczących światłach i najdrobniejszych ruchach postaci - wszystko to, żeby kreacje przyciągały wzrok! "
+                    },
+                    {
+                      "link": "/pl/case-studies/Dying%20Light%202",
+                      "text": "Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/posts/DL2_WWW_DLC.gif",
+                "link": "/pl/case-studies/Dying%20Light%202",
+                "target": "_blank",
+                "alt": "Animacje 3D Dying Light 2",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Dooti Donuts x 3 Króli - Nierealna reklama w przestrzeni publicznej",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Latający nad miastem donut to efekt dopracowanego trackingu i idealnego spasowania ruchów donuta i influencerów. No i perfekcyjne oddanie fizyki tego ruchu - totalne złoto! "
+                    },
+                    {
+                      "link": "/pl/blog/DootiDonutsx3Kroli",
+                      "text": "Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/3kroli/Donut_3Kroli_Asset_2.webp",
+                "link": "/pl/blog/DootiDonutsx3Kroli",
+                "target": "_blank",
+                "alt": "Animacje 3D Dooti Donuts"
+              }
+            },
+            {
+              "text": {
+                "title": "Skontaktuj się z nami",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz stworzyć mega kreatywny, wychodzący poza schematy i maksymalnie angażujący projekt dla swojej marki? "
+                    }
+                  ],
+                  [
+                    {
+                      "paragraph": "Napisz do "
+                    },
+                    {
+                      "link": "/pl/contact",
+                      "text": "Joanny lub Piotra",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": " - oni wiedzą, jak to się robi!"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/Trzask_ContactUs_v4.gif",
+                "link": "/pl/contact",
+                "target": "_blank",
+                "alt": "Trzask Studio agencja reklamy"
+              }
+            }
+          ],
+          "elements": [
+            {
+              "slug": "case-studies-3d",
+              "title": "Zobacz Case Studies z kategorii 3D!",
+              "bgColor": "blue",
+              "link": "/pl/case-studies/?filters=3D",
+              "alt": "Animacje 3D"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/3d/TrzaskStudio1_v2.png",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/3d/DyingLight2_9.png",
+              "link": "/pl/case-studies/Dying%20Light%202",
+              "alt": "Animacje 3D Dying Light 2"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/3d/Stock_Lubelska3.png",
+              "link": "pl/blog/StockPolskaLub",
+              "alt": "Animacje 3D Stock Polska | Lubelska"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/3d/DootiDonuts_3Kroli_CGI3.png",
+              "rotateRight": true,
+              "link": "/pl/blog/DootiDonutsx3Kroli",
+              "alt": "Animacje 3D Dooti Donuts"
+            },
+            {
+              "slug": "image-37",
+              "videoUrl": "/video/3DAnimation.mp4",
+              "link": "/pl/case-studies/?filters=3D",
+              "alt": "Animacje 3D"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/3d/TrzaskStudio4.webp",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "bgImage": "/images/masonry-wall/3d/Lowicz.png",
+              "alt": "Animacje 3D Łowicz"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "efekty-specjalne",
+              "title": "Realizuje efekty specjalne",
+              "caption": "Niezwykłe wizualne triki w video"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Ma pomysły na richmedia",
+              "caption": "Interaktywne reklamy html5"
+            },
+            {
+              "slug": "social-media-video",
+              "title": "Kreuje Social Media Video",
+              "caption": "Animacje, które przyciągają uwagę w sieci"
+            },
+            {
+              "slug": "html5",
+              "title": "Zadziwia w banerach HTML5",
+              "caption": " Ma sposób na dynamiczne kreacje"
+            },
+            {
+              "slug": "montaz-i-lokalizacja",
+              "title": "Montuje i lokalizuje wideo",
+              "caption": "Wie, co to łączenie ujęć i wymiana treści"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Wymyśla mini gry",
+              "caption": "Interaktywne zabawy zwiększające zainteresowanie odbiorców  "
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Tworzy reklamy do TV i kina",
+              "caption": "Spoty do telewizji i na duże ekrany"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Robi animacje eventowe i LED",
+              "caption": "Efektowne realizacje na targi i ekrany"
+            }
+          ],
+          "accordion": [
+            {
+              "title": "Czy możecie zintegrować animacje 3D z materiałami wideo, aby stworzyć interaktywne doświadczenia?",
+              "content": [
+                "Tak, możemy osadzić animacje 3D w filmach promocyjnych i stworzyć interaktywne elementy, które pozwalają użytkownikom na bezpośrednią interakcję z trójwymiarowymi obiektami. Takie integracje tworzą naprawdę angażujące doświadczenia."
+              ]
+            },
+            {
+              "title": "Czy oferujecie usługi modelowania 3D na podstawie dostarczonych rysunków technicznych lub CAD?",
+              "content": [
+                "Oczywiście. Na podstawie dostarczonych rysunków technicznych i CAD tworzymy precyzyjne i szczegółowe modele 3D, które wykorzystujemy w animacjach, wizualizacjach produktów czy symulacjach."
+              ]
+            },
+            {
+              "title": "Jakie materiały przesłać, aby uruchomić projekt 3D?",
+              "content": [
+                "Potrzebny będzie brief kreatywny, który określi cele projektu, np. zwiększenie świadomości marki lub kampania reklamowa. Prosimy także o materiały referencyjne, brand book, inspiracje oraz grafiki Twojego brandu w formatach .jpg lub .psd."
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "image-1",
+          "bgImage": "/images/masonry-wall/SG/CDPROJEKTRED1.png",
+          "link": "/pl/blog/AnimationsforCDPROJEKTRED",
+          "alt": "Efekty specjalne CD PROJEKT RED"
+        },
+        {
+          "slug": "image-2",
+          "bgImage": "/images/masonry-wall/SG/Lowicz1.gif",
+          "link": "/pl/case-studies/przetworki",
+          "alt": "Richmedia Łowicz"
+        },
+        {
+          "slug": "efekty-specjalne",
+          "bgColor": "red",
+          "title": "Realizuje efekty specjalne",
+          "caption": "Niezwykłe wizualne triki w video",
+          "description": [
+            "Przenosimy wizualne kreacje na zupełnie nowy poziom. Tworzymy nie tylko niesamowicie realistyczne i spektakularne animacje, ale też najdrobniejsze detale graficzne, które podkręcają efekt.",
+            " Z pasją wkraczamy w zapierające dech w piersiach futurystyczne światy i wczuwamy się w unikatowe klimaty marek, żeby stworzyć materiały reklamowe zapadające odbiorcom w pamięć. Dzięki CGI sprawiamy, że nasze projekty mają wyjątkowy, nowatorski charakter."
+          ],
+          "content": [
+            {
+              "text": {
+                "title": "Frostpunk 2 -  Spektakularne VFX w epickim trailerze",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Podkręciliśmy zwiastun gorącego tytułu na listach gamingowych. Stworzyliśmy niesamowite efekty wizualne, które wpisały się w mroźny klimat skutego lodem uniwersum gry. "
+                    },
+                    {
+                      "link": "/pl/blog/Frostpunk2Trailer",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/posts/frostpunk2-animation-1.webp",
+                "link": "/pl/blog/Frostpunk2Trailer",
+                "target": "_blank",
+                "alt": "Efekty specjalne Frostpunk",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Creatures of Ava - Detale, które robią różnicę",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Dodaliśmy efekty wizualne, które wprowadziły atmosferę grozy w pięknej wizualnie, pełnej ciepła grze. Trailer podbił internet i serca gamerów na całym świecie! "
+                    },
+                    {
+                      "link": "/pl/blog/CreaturesofAva",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "y0i3YpiCRNg",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Creatures of Ava | Announcement Trailer / Developer: Inverge Studios S.L. x Chibig / Publisher: 11 bit studios S.A. / Producer: Karolina Uzarek x Kuba Sobek / Project Manager: Marcin Sikora / Director: Kuba Sobek / Unreal Cinematographers: Krzysztof Szafraniec x Adam Kubrakiewicz x Inverge / Editing: Kuba Sobek / Additional VFX: Piotr Bielecki (Trzask) / Script: Maciek Wolański / Gameplay Capture: Permadeath Studios / Music: OST Audio Mastering: Konrad Karolczyk 2024",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "inSTREAMLY x BLIK - Płatności w inventory ",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz zaskoczyć ciekawym konceptem w swojej reklamie? Sprawdź, jak zestawiliśmy motyw popularnej gry ze światem płatności bezgotówkowych BLIK."
+                    },
+                    {
+                      "link": "/pl/case-studies/blik",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "lwA6B5_ptN0",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Blik - Instream ad / Concept: Instreamly / Production: Trzask Studio (design, animation) 2020",
+                "withBackground": true
+              }
+            },
+
+            {
+              "text": {
+                "title": "Skontaktuj się z nami",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz stworzyć mega kreatywny, wychodzący poza schematy i maksymalnie angażujący projekt dla swojej marki? "
+                    }
+                  ],
+                  [
+                    {
+                      "paragraph": "Napisz do "
+                    },
+                    {
+                      "link": "/pl/contact",
+                      "text": "Joanny lub Piotra",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": " - oni wiedzą, jak to się robi!"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/Trzask_ContactUs_v4.gif",
+                "link": "/pl/contact",
+                "target": "_blank",
+                "alt": "Trzask Studio agencja reklamy"
+              }
+            }
+          ],
+          "elements": [
+            {
+              "slug": "case-studies-efekty-specjalne",
+              "title": "Zobacz nasz projekt dla FROSTPUNKA!",
+              "bgColor": "blue",
+              "link": "/pl/blog/FROSTPUNK2xTrzask",
+              "alt": "Efekty specjalne Frostpunk"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/ES/TrzaskStudio1_v2.png",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/ES/CreaturesofAva3.png",
+              "link": "/pl/blog/CreaturesofAva",
+              "alt": "Efekty specjalne Creatures of Ava"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/ES/Stock_Lubelska1.png",
+              "link": "/pl/blog/StockPolskaLub",
+              "alt": "Efekty specjalne Stock Polska | Lubelska"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/ES/CDPROJEKTRED2.png",
+              "rotateRight": true,
+              "link": "/pl/blog/AnimationsforCDPROJEKTRED",
+              "alt": "Efekty specjalne CD PROJEKT RED Witcher Cyberpunk 2077"
+            },
+            {
+              "slug": "image-37",
+              "videoUrl": "/video/Effects.mp4",
+              "link": "/pl/blog/FROSTPUNK2xTrzask",
+              "alt": "Efekty specjalne"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/ES/TrzaskStudio3.webp",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/ES/DyingLight2_8.png",
+              "link": "/pl/case-studies/Dying%20Light%202",
+              "alt": "Efekty specjalne Dying Light 2"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animuje w 3D",
+              "caption": "Ożywia ruchome postacie i obiekty w trójwymiarze"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Ma pomysły na richmedia",
+              "caption": "Interaktywne reklamy html5"
+            },
+            {
+              "slug": "social-media-video",
+              "title": "Kreuje Social Media Video",
+              "caption": "Animacje, które przyciągają uwagę w sieci"
+            },
+            {
+              "slug": "html5",
+              "title": "Zadziwia w banerach HTML5",
+              "caption": " Ma sposób na dynamiczne kreacje"
+            },
+            {
+              "slug": "montaz-i-lokalizacja",
+              "title": "Montuje i lokalizuje wideo",
+              "caption": "Wie, co to łączenie ujęć i wymiana treści"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Wymyśla mini gry",
+              "caption": "Interaktywne zabawy zwiększające zainteresowanie odbiorców  "
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Tworzy reklamy do TV i kina",
+              "caption": "Spoty do telewizji i na duże ekrany"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Robi animacje eventowe i LED",
+              "caption": "Efektowne realizacje na targi i ekrany"
+            }
+          ],
+
+          "accordion": [
+            {
+              "title": "Jakie są wymagania techniczne jeśli chcę przygotować wideo z efektami specjalnymi?",
+              "content": [
+                "Ważne, aby dostarczone wideo było w wysokiej rozdzielczości (najlepiej 4K) i nagrane profesjonalnym sprzętem. Dobre oświetlenie i stabilny obraz ułatwiają pracę, ale z materiałów nagranych telefonem też potrafimy zrobić świetne realizacje."
+              ]
+            },
+            {
+              "title": "Jakie rodzaje efektów CGI najbardziej lubicie robić?",
+              "content": [
+                "Uwielbiamy tworzyć efekty CGI, które są zabawne, ciekawe i intrygujące, takie które naprawdę zaskakują i zachwycają widzów. Nasz zespół doskonale łączy kreatywność z technologią, dostarczając wyjątkowe wizualne doświadczenia, które robią wrażenie."
+              ]
+            },
+            {
+              "title": "Jakie materiały przesłać, aby przygotować projekt z efektami specjalnymi?",
+              "content": [
+                "Potrzebny będzie brief kreatywny, który określi cele projektu, np. zwiększenie świadomości marki lub kampania reklamowa. Prosimy również o materiały referencyjne, brand book, inspiracje oraz materiały graficzne (.jpg, .psd) i wideo (.mp4, .mov, .aep) Twojego brandu."
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "image-3",
+          "bgImage": "/images/masonry-wall/SG/DootiDonuts_3Kroli_CGI1.webp",
+          "link": "/pl/blog/DootiDonutsx3Kroli",
+          "alt": "Animacje 3D Dooti Donuts"
+        },
+        {
+          "slug": "image-4",
+          "bgImage": "/images/masonry-wall/SG/DyingLight2_4.png",
+          "rotateRight": true,
+          "link": "/pl/case-studies/Dying%20Light%202",
+          "alt": "Montaż i lokalizacja Dying Light 2"
+        },
+        {
+          "slug": "image-5",
+          "bgImage": "/images/masonry-wall/SG/TrzaskStudio1.png",
+          "link": "/pl/blog/TrzaskShowreel",
+          "alt": "Trzask Studio agencja reklamy"
+        },
+        {
+          "videoUrl": "/video/Tymbark_Musly.mp4",
+          "alt": "Animacje 3D Tymbark Musly"
+        },
+        {
+          "slug": "image-7",
+          "bgImage": "/images/masonry-wall/SG/DootiDonuts2.png",
+          "link": "/pl/case-studies/DootiDonutsTiktok",
+          "alt": "Social Media Video Dooti Donuts"
+        },
+        {
+          "slug": "image-8",
+          "bgImage": "/images/masonry-wall/SG/PasiekiSadowskich_SocialMedia3.png",
+          "link": "/pl/blog/Pasieki%20Rodziny%20Sadowskich%20x%20Zakwasownia",
+          "alt": "Social Media Video Pasieki Sadowskich"
+        },
+        {
+          "slug": "richmedia",
+          "bgColor": "blue",
+          "title": "Ma pomysły na richmedia",
+          "caption": "Interaktywne reklamy html5",
+          "description": [
+            "Tworzymy kreatywne formaty reklam internetowych, które wciągają użytkowników i zachęcają do interakcji. Sprawiamy, że nasze kreacje przesuwają granice wyobraźni i schematy serwisów internetowych.",
+            "Kreujemy doświadczenia, które wciągają, a reklamę zmieniamy w angażującą zabawę. Nasze projekty rich media łamią bariery kreatywności i budują wizerunek marek jako nowoczesnych i zaangażowanych. "
+          ],
+          "content": [
+            {
+              "text": {
+                "title": "Eurogamer x Cyberpunk2077 - Totalna ‘demolka’ portalu!  ",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Szukasz emocjonujących i mega kreatywnych pomysłów na reklamę? Sprawdź kreację, w której przestrzeń portalu stała się elementem dynamicznej scenerii gry i weszła w interakcję z banerami reklamowymi, dosłownie niszcząc serwis!"
+                    },
+                    {
+                      "link": "/pl/case-studies/Eurogamer_Cyberpunk2077",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "rE9vmNfBaEY",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Cyberpunk 2077 - Eurogamer / Trailer: CD PROJEKT RED, Ad animation: Trzask Studio",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "WP.PL x MAX -  Przegląd trailerów na wyciągnięcie ręki",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz czegoś więcej niż reklam banerowych swojego produktu? Zobacz, jak nasza kreacja pozwoliła wybierać i oglądać trailery najgorętszych tytułów na platformie MAX! Zupełnie jak pilot do telewizora!"
+                    },
+                    {
+                      "link": "/pl/blog/WPMAX",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/hbo-max/max1.webp",
+                "link": "/pl/blog/WPMAX",
+                "target": "_blank",
+                "alt": "Richmedia MAX",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Lubella - Historie z zaskakującym twistem",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Potrzebujesz kreatywnej reklamy z sentymentalnym vibem? Nasz świąteczny projekt dla Lubelli z typowymi tekstami z rodzinnych spotkań podbił serca internautów. Wystarczyło jedno kliknięcie w ulubione zdanie, żeby zobaczyć, ile osób myśli tak samo!"
+                    },
+                    {
+                      "link": "/pl/case-studies/lubella",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "triPAAkT2ew",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Lubella - Święta / Production: Trzask Studio (design, animation, programming) 2020",
+                "withBackground": true
+              }
+            },
+            {
+              "text": {
+                "title": "Skontaktuj się z nami",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz stworzyć mega kreatywny, wychodzący poza schematy i maksymalnie angażujący projekt dla swojej marki? "
+                    }
+                  ],
+                  [
+                    {
+                      "paragraph": "Napisz do "
+                    },
+                    {
+                      "link": "/pl/contact",
+                      "text": "Joanny lub Piotra",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": " - oni wiedzą, jak to się robi!"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/Trzask_ContactUs_v4.gif",
+                "link": "/pl/contact",
+                "target": "_blank",
+                "alt": "Trzask Studio agencja reklamy"
+              }
+            }
+          ],
+          "elements": [
+            {
+              "slug": "case-studies-richmedia",
+              "title": "Zobacz Case Studies z kategorii Richmedia!",
+              "bgColor": "blue",
+              "link": "/pl/case-studies/?filters=Rich%20media",
+              "alt": "Richmedia"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/RM/TrzaskStudio1_v2.png",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "bgImage": "/images/masonry-wall/RM/Neonet_Babyliss.png",
+              "alt": "Richmedia Neonet Babyliss"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/RM/Lowicz2.webp",
+              "link": "/pl/case-studies/przetworki",
+              "alt": "Richmedia Łowicz"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/RM/Max.png",
+              "rotateRight": true,
+              "link": "/pl/blog/WPMAX",
+              "alt": "Richmedia MAX"
+            },
+            {
+              "slug": "image-37",
+              "videoUrl": "/video/richmedia.mp4",
+              "link": "/pl/case-studies/?filters=Rich%20media",
+              "alt": "Richmedia"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/RM/Tiger_game.webp",
+              "link": "/pl/case-studies/tiger",
+              "alt": "Richmedia Tiger"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/RM/Kubus2.png",
+              "link": "/pl/case-studies/kubus",
+              "alt": "Richmedia Kubuś"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animuje w 3D",
+              "caption": "Ożywia ruchome postacie i obiekty w trójwymiarze"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Realizuje efekty specjalne",
+              "caption": "Niezwykłe wizualne triki w video"
+            },
+            {
+              "slug": "social-media-video",
+              "title": "Kreuje Social Media Video",
+              "caption": "Animacje, które przyciągają uwagę w sieci"
+            },
+            {
+              "slug": "html5",
+              "title": "Zadziwia w banerach HTML5",
+              "caption": " Ma sposób na dynamiczne kreacje"
+            },
+            {
+              "slug": "montaz-i-lokalizacja",
+              "title": "Montuje i lokalizuje wideo",
+              "caption": "Wie, co to łączenie ujęć i wymiana treści"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Wymyśla mini gry",
+              "caption": "Interaktywne zabawy zwiększające zainteresowanie odbiorców  "
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Tworzy reklamy do TV i kina",
+              "caption": "Spoty do telewizji i na duże ekrany"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Robi animacje eventowe i LED",
+              "caption": "Efektowne realizacje na targi i ekrany"
+            }
+          ],
+          "accordion": [
+            {
+              "title": "Czy mogę zastosować rozwiązania rich media w standardowej reklamie do 150 kb?",
+              "content": [
+                "Tak, możliwe jest wykorzystanie rich media w standardowych reklamach. Na przykład, możemy zastosować funkcje takie jak sterowanie godziną, wykrywanie dnia tygodnia czy interaktywne przyciski, które otwierają różne sekcje reklamy."
+              ]
+            },
+            {
+              "title": "Jakie formaty reklam rich media są najskuteczniejsze na różnych platformach reklamowych?",
+              "content": [
+                "Najskuteczniejsze formaty rich media to interaktywne banery, reklamy pełnoekranowe, wideo in-banner oraz reklamy typu expandable, które rozkładają się po najechaniu myszką. Skuteczność formatu zależy od platformy – na desktopach najlepiej sprawdzają się interaktywne banery, a na urządzeniach mobilnych pełnoekranowe kreacje."
+              ]
+            },
+            {
+              "title": "Jakie interaktywności możemy dać w formacie rich media?",
+              "content": [
+                "Możemy dodać różnorodne elementy, takie jak quizy, ankiety, rozszerzenia wideo, slidery z produktami, interaktywne galerie czy mini gry. Czasem dodajemy interaktywne elementy, które symulują np. zmiany w serwisie po kliknięciu lub przeciąganiu, co zwiększa zaangażowanie użytkowników."
+              ]
+            },
+            {
+              "title": "Jakie są wymagania techniczne dla reklam rich media?",
+              "content": [
+                "Reklamy rich media zazwyczaj wymagają użycia technologii HTML5, CSS3 i JavaScript. Pliki muszą być zoptymalizowane pod kątem szybkiego ładowania i działania na różnych urządzeniach oraz przeglądarkach. Dodatkowe specyfikacje mogą zależeć od platformy reklamowej, takie jak maksymalny rozmiar pliku czy formaty mediów."
+              ]
+            },
+            {
+              "title": "Jakie są korzyści z zastosowania rich media w kampaniach reklamowych w porównaniu do tradycyjnych banerów?",
+              "content": [
+                "Rich media oferują znacznie wyższy poziom zaangażowania użytkowników w porównaniu do tradycyjnych banerów. Dzięki interaktywnym elementom użytkownicy mogą bezpośrednio angażować się w reklamę, co prowadzi do wyższych wskaźników kliknięć (CTR) i lepszej pamięci reklamy. Rich media pozwala również na bardziej kreatywne przedstawienie marki, co może przekładać się na większą lojalność klientów."
+              ]
+            },
+            {
+              "title": "Jakie materiały przesłać, aby przygotować projekt rich media?",
+              "content": [
+                "Potrzebny będzie brief kreatywny, który określi cele projektu, np. zwiększenie świadomości marki lub kampania reklamowa. Prosimy również o materiały referencyjne, brand book, inspiracje oraz materiały graficzne (.jpg, .psd) i wideo (.mp4, .mov, .aep) Twojego brandu."
+              ]
+            },
+            {
+              "title": "A czy robicie reklamy, które moglibyśmy wykorzystać uniwersalnie pod kilka produktów?",
+              "content": [
+                "Jasne, możemy stworzyć dynamiczne reklamy, które można łatwo dostosować do różnych produktów. Dzięki nim możemy wprowadzać różne wersje napisów, grafik produktów i tła, co sprawia, że każda reklama może być bardziej efektywna i angażująca dla konkretnej grupy odbiorców. Najczęściej używamy w tym celu platformy Doubleclick."
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "image-9",
+          "bgImage": "/images/masonry-wall/SG/PasiekiSadowskich_SocialMedia2.png",
+          "rotateLeft": true,
+          "link": "/pl/case-studies/PasiekiRodzinySadowskich",
+          "alt": "Social Media Video Pasieki Sadowskich"
+        },
+        {
+          "slug": "image-10",
+          "bgImage": "/images/masonry-wall/SG/TrzaskStudio1.gif",
+          "link": "/pl/blog/TrzaskShowreel",
+          "alt": "Trzask Studio agencja reklamy"
+        },
+        {
+          "bgImage": "/images/masonry-wall/SG/Amol.png",
+          "alt": "HTML 5 Amol"
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "elements": [
+        {
+          "showReelUrl": "/video/Trzask_ShowReel_2024_852x522.mp4",
+          "ytId": "KbbjhfmcoxI",
+          "ytIdMobile": "jeRegzjS7ok"
+        },
+        {
+          "slug": "image-11",
+          "bgImage": "/images/masonry-wall/SG/TrzaskStudio3_v5.png",
+          "link": "/pl/blog/TrzaskShowreel",
+          "alt": "Trzask Studio agencja reklamy"
+        },
+        {
+          "slug": "social-media-video",
+          "bgColor": "red",
+          "title": "Kreuje Social Media Video",
+          "caption": "Animacje, które przyciągają uwagę w sieci",
+          "description": [
+            "Działamy kreatywnie na platformach społecznościowych! Tworzymy estetyczne spoty i animacje, które z łatwością generują polubienia i komentarze, zachęcając odbiorców do interakcji. ",
+            "Budujemy silną obecność marki w mediach społecznościowych poprzez innowacyjne i angażujące treści. Kreujemy historie za pomocą obrazu, który żyje, żeby wzbudzać zainteresowanie i podziw."
+          ],
+          "content": [
+            {
+              "text": {
+                "title": "Dooti Donuts Influencer - Słodka osobowość internetowa",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Poszukujesz kreacji, która podbije sieć? Sprawdź animację z arcysłodkim donutem w roli głównej, którego internauci stworzyli w naszym generatorze. Oni wykreowali gwiazdę, my daliśmy jej trzy wymiary, glitter i sporo influencerskiego uroku."
+                    },
+                    {
+                      "link": "/pl/case-studies/Influencer%20Donut",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/case-donut-influ/Donut_Influencer_gif6.webp",
+                "link": "/pl/case-studies/Influencer%20Donut",
+                "target": "_blank",
+                "alt": "Efekty specjalne Frostpunk",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Health Labs Care - Magiczne sztuczki przy projektowaniu reklam",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Potrzebujesz wyrazistej reklamy w Internecie? W tym projekcie stworzyliśmy epickie kreacje na bazie otrzymanych kadrów. Zanimowaliśmy napisy, dodaliśmy neonowe akcenty oraz zbliżenia, tak, aby przyciągnąć wzrok widza."
+                    },
+                    {
+                      "link": "/pl/case-studies/HealthLabsCare",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "MdFVlk0M5a8",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Health Labs Care - Youtube ads / Production: Trzask Studio (vfx, sound, animation), Health Labs Care (photo session, art direction) 2021/2022",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Pasieki Rodziny Sadowskich - Słodki sekret biedronki ganiającej się z pszczołami ",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Szukasz pomysłu na kreację? Sprawdź, jak sięgnęliśmy po elementy graficzne z etykiet, żeby stworzyć przesłodkie animacje. Wybraliśmy najciekawsze motywy i ożywiliśmy je, aby podbiły social media."
+                    },
+                    {
+                      "link": "/pl/case-studies/PasiekiRodzinySadowskich",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "2NXc4J4yEpM",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Pasieki Rodziny Sadowskich - Social media ads / Production: Trzask Studio (sound, animation), Pasieki (illustrations) 2021/2022",
+                "withBackground": true
+              }
+            },
+            {
+              "text": {
+                "title": "Skontaktuj się z nami",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz stworzyć mega kreatywny, wychodzący poza schematy i maksymalnie angażujący projekt dla swojej marki? "
+                    }
+                  ],
+                  [
+                    {
+                      "paragraph": "Napisz do "
+                    },
+                    {
+                      "link": "/pl/contact",
+                      "text": "Joanny lub Piotra",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": " - oni wiedzą, jak to się robi!"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/Trzask_ContactUs_v4.gif",
+                "link": "/pl/contact",
+                "target": "_blank",
+                "alt": "Trzask Studio agencja reklamy"
+              }
+            }
+          ],
+          "elements": [
+            {
+              "slug": "case-studies-social-media-video",
+              "title": "Zobacz nasz projekt dla Dooti Donuts x 3 Króli!",
+              "bgColor": "blue",
+              "link": "/pl/blog/DootiDonutsx3Kroli",
+              "alt": "Social Media Video Dooti Donuts"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/SM/TrzaskStudio1_v2.png",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "bgImage": "/images/masonry-wall/SM/Lowicz.png",
+              "alt": "Social Media Video Łowicz"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/SM/DootiDonuts_3Kroli_CGI1.png",
+              "link": "/pl/blog/DootiDonutsx3Kroli",
+              "alt": "Social Media Video Dooti Donuts"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/SM/HealthLabs2.png",
+              "rotateRight": true,
+              "link": "/pl/case-studies/HealthLabsCare",
+              "alt": "Social Media Video Health Labs Care"
+            },
+            {
+              "slug": "image-37",
+              "videoUrl": "/video/Social-Media.mp4",
+              "link": "/pl/blog/DootiDonutsx3Kroli",
+              "alt": "Social Media Video Dooti Donuts"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/SM/PasiekiSadowskich.webp",
+              "link": "/pl/case-studies/PasiekiRodzinySadowskich",
+              "alt": "Social Media Video Pasieki Rodziny Sadowskich"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/SM/HealthLabs1.png",
+              "link": "/pl/case-studies/HealthLabsCare",
+              "alt": "Social Media Video Health Labs Care"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animuje w 3D",
+              "caption": "Ożywia ruchome postacie i obiekty w trójwymiarze"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Realizuje efekty specjalne",
+              "caption": "Niezwykłe wizualne triki w video"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Ma pomysły na richmedia",
+              "caption": "Interaktywne reklamy html5"
+            },
+            {
+              "slug": "html5",
+              "title": "Zadziwia w banerach HTML5",
+              "caption": " Ma sposób na dynamiczne kreacje"
+            },
+            {
+              "slug": "montaz-i-lokalizacja",
+              "title": "Montuje i lokalizuje wideo",
+              "caption": "Wie, co to łączenie ujęć i wymiana treści"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Wymyśla mini gry",
+              "caption": "Interaktywne zabawy zwiększające zainteresowanie odbiorców  "
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Tworzy reklamy do TV i kina",
+              "caption": "Spoty do telewizji i na duże ekrany"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Robi animacje eventowe i LED",
+              "caption": "Efektowne realizacje na targi i ekrany"
+            }
+          ],
+          "accordion": [
+            {
+              "title": "Jakie są najlepsze praktyki przy tworzeniu wideo na potrzeby mediów społecznościowych?",
+              "content": [
+                "Najlepsze praktyki obejmują tworzenie krótkich, dynamicznych treści (maksymalnie 15-60 sekund), dostosowanie formatu wideo do specyfikacji platformy oraz dodanie tekstu lub napisów, aby treść była zrozumiała nawet bez dźwięku. Kluczowe jest przyciągnięcie uwagi w pierwszych sekundach i zakończenie wyraźnym wezwaniem do działania (CTA)."
+              ]
+            },
+            {
+              "title": "Jakie formaty wideo najlepiej sprawdzają się na platformach takich jak Instagram i TikTok?",
+              "content": [
+                "Na Instagramie i TikToku najlepiej sprawdzają się krótkie, pionowe wideo (9:16), które szybko przyciągają uwagę użytkowników. Formaty takie jak Instagram Stories, Reels oraz TikTok są idealne do prezentowania dynamicznych i angażujących treści, które mają potencjał viralowy."
+              ]
+            },
+            {
+              "title": "Co możecie dla mnie zrobić z jednej reklamy wideo, którą mam?",
+              "content": [
+                "Możemy przygotować adaptację Twojej reklamy w różnych formatach i rozmiarach, takich jak pionowy, poziomy czy kwadratowy. Tworzymy wideo o dowolnej długości, które doskonale wpisuje się w potrzeby projektu. Dodajemy kreatywny montaż, aby całość miała niepowtarzalny styl i przyciągała uwagę."
+              ]
+            },
+            {
+              "title": "Jakie materiały przesłać, aby przygotować wideo na social media?",
+              "content": [
+                "Potrzebny będzie brief kreatywny, który określi cele projektu, np. zwiększenie świadomości marki lub kampania reklamowa. Prosimy również o materiały referencyjne, brand book, inspiracje oraz materiały graficzne (.jpg, .psd) i wideo (.mp4, .mov, .aep) Twojego brandu."
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "image-14",
+          "bgImage": "/images/masonry-wall/SG/Tymbark.png",
+          "link": "/pl/case-studies/tymbark",
+          "alt": "HTML 5 Tymbark"
+        },
+        {
+          "slug": "image-15",
+          "bgImage": "/images/masonry-wall/SG/Kubus.png",
+          "link": "/pl/case-studies/kubus",
+          "alt": "Richmedia Kubuś"
+        },
+        {
+          "bgImage": "/images/masonry-wall/SG/Goodyear.webp",
+          "alt": "Richmedia Goodyear"
+        },
+        {
+          "slug": "image-17",
+          "bgImage": "/images/masonry-wall/SG/CreaturesofAva.png",
+          "link": "/pl/blog/CreaturesofAva",
+          "alt": "Efekty specjalne Creatures of Ava"
+        },
+        {
+          "slug": "html5",
+          "bgColor": "blue",
+          "title": "Zadziwia w banerach HTML5",
+          "caption": " Ma sposób na dynamiczne kreacje",
+          "description": [
+            "Tworzymy banery reklamowe, które przyciągają wzrok. Rzucamy wyzwanie nudnym grafikom i stawiamy na estetyczne obrazy z maksymalnie kreatywnym visualem. Do tego tworzymy energiczny przekaz, który skutecznie oddaje przesłanie marki, a jednocześnie pozwala na budowanie interakcji z użytkownikiem.",
+            "Nasze kreacje są zoptymalizowane pod kątem różnych platform reklamowych i precyzyjnie dopasowane do odpowiednich specyfikacji. Kreatywnie ożywiamy obrazy, żeby przyciągnąć uwagę i podkręcić doświadczenie. Dzięki najnowszym technologiom webowym tworzymy treści, które doskonale komunikują przekaz marki. "
+          ],
+          "content": [
+            {
+              "text": {
+                "title": "Tymbark - Animacja z kultowymi kapslami marki",
+                "description": [
+                  [
+                    {
+                      "paragraph": "W tym projekcie użyliśmy gotowego spotu TV do stworzenia angażujących animacji ze sławnymi kapslami. Dodaliśmy dynamiczne pola tekstowe i dziesiątki scenariuszy, żeby każdy znalazł pod kapslem idealnie dobrane hasło."
+                    },
+                    {
+                      "link": "/pl/case-studies/tymbark",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "ZJEITryycfM",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Tymbark - Kapsle / Production: Trzask Studio (design, animation, programming) 2020",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Dying Lights 2 - Wielowymiarowe banery ze scenami z gry",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Świeży pomysł na kampanię banerową? W tym koncepcie sięgnęliśmy po najbardziej spektakularne sceny z gry, a potem zamknęliśmy je w mega skompresowanych rozmiarach, żeby sprawnie obiegły Internet!"
+                    },
+                    {
+                      "link": "/pl/case-studies/Dying%20Light%202",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/posts/DL2_970x250_All_Compress2.gif",
+                "link": "/pl/case-studies/Dying%20Light%202",
+                "target": "_blank",
+                "alt": "Richmedia MAX",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Przetworki - Czyli jak truskawka straciła wszystkie swoje pestki!",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Potrzebujesz reklamy, która przekona wymagających? Stworzyliśmy animację, w której udowodniliśmy, że dżem dla dzieci może być gładki. Przygotowaliśmy modele 3D Przetworków, a one z pomocą użytkownika ubijały dżem na jednolitą masę."
+                    },
+                    {
+                      "link": "/pl/case-studies/przetworki",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "rvvs_lBR4tc",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Łowicz - Extra gładki / Production: Trzask Studio (concept, design, animation, programming) 2019",
+                "withBackground": true
+              }
+            },
+            {
+              "text": {
+                "title": "Skontaktuj się z nami",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz stworzyć mega kreatywny, wychodzący poza schematy i maksymalnie angażujący projekt dla swojej marki? "
+                    }
+                  ],
+                  [
+                    {
+                      "paragraph": "Napisz do "
+                    },
+                    {
+                      "link": "/pl/contact",
+                      "text": "Joanny lub Piotra",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": " - oni wiedzą, jak to się robi!"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/Trzask_ContactUs_v4.gif",
+                "link": "/pl/contact",
+                "target": "_blank",
+                "alt": "Trzask Studio agencja reklamy"
+              }
+            }
+          ],
+          "elements": [
+            {
+              "slug": "case-studies-html5",
+              "title": "Zobacz Case Studies z kategorii html5!",
+              "bgColor": "blue",
+              "link": "/pl/case-studies/?filters=HTML5",
+              "alt": "HTML 5"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/H5/TrzaskStudio1_v2.png",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "bgImage": "/images/masonry-wall/H5/Witcher_gwent.png",
+              "alt": "HTML 5 CD PROJEKT RED Cyberpunk 2077 Witcher"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/H5/DyingLight2_7.png",
+              "link": "/pl/case-studies/Dying%20Light%202",
+              "alt": "HTML 5 Dying Light 2"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/H5/Tymbark.png",
+              "rotateRight": true,
+              "link": "/pl/case-studies/tymbark",
+              "alt": "HTML 5 Tymbark"
+            },
+            {
+              "slug": "image-37",
+              "videoUrl": "/video/HTML5_v2.mp4",
+              "link": "/pl/case-studies/?filters=HTML5",
+              "alt": "HTML 5"
+            },
+            {
+              "bgImage": "/images/masonry-wall/H5/Tymbark.webp",
+              "alt": "HTML 5 Tymbark"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/H5/Witcher.png",
+              "link": "/pl/blog/AnimationsforCDPROJEKTRED",
+              "alt": "HTML 5 CD PROJEKT RED Cyberpunk 2077 Witcher"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animuje w 3D",
+              "caption": "Ożywia ruchome postacie i obiekty w trójwymiarze"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Realizuje efekty specjalne",
+              "caption": "Niezwykłe wizualne triki w video"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Ma pomysły na richmedia",
+              "caption": "Interaktywne reklamy html5"
+            },
+            {
+              "slug": "social-media-video",
+              "title": "Kreuje Social Media Video",
+              "caption": "Animacje, które przyciągają uwagę w sieci"
+            },
+            {
+              "slug": "montaz-i-lokalizacja",
+              "title": "Montuje i lokalizuje wideo",
+              "caption": "Wie, co to łączenie ujęć i wymiana treści"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Wymyśla mini gry",
+              "caption": "Interaktywne zabawy zwiększające zainteresowanie odbiorców  "
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Tworzy reklamy do TV i kina",
+              "caption": "Spoty do telewizji i na duże ekrany"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Robi animacje eventowe i LED",
+              "caption": "Efektowne realizacje na targi i ekrany"
+            }
+          ],
+          "accordion": [
+            {
+              "title": "Jakie są główne korzyści z wykorzystania animacji HTML5 w porównaniu do tradycyjnych formatów statycznych?",
+              "content": [
+                "Baner animowany jest zdecydowanie bardziej przyciągający niż statyczny – dzięki ruchowi i efektom reklama staje się bardziej żywa i intrygująca. Zdecydowanie łatwiej zwraca na siebie uwagę."
+              ]
+            },
+            {
+              "title": "Jakie technologie są wykorzystywane do tworzenia animacji HTML5?",
+              "content": [
+                "Używamy narzędzi takich jak Adobe Animate oraz JavaScript. Adobe Animate umożliwia projektowanie animacji i eksportowanie ich jako kod HTML5. JavaScript umożliwia tworzenie animacji bezpośrednio w kodzie, co jest idealne dla prostszych efektów."
+              ]
+            },
+            {
+              "title": "Czy w 150kb można zrobić prawdziwie ciekawą reklamę?",
+              "content": [
+                "Pewnie! Jesteśmy mistrzami w optymalizacji jakości banerów! Potrafimy w 150kb zmieścić nawet poklatkowe spoty."
+              ]
+            },
+            {
+              "title": "Jak można obejść ograniczenia animacji HTML5?",
+              "content": [
+                "Ograniczenia mogą obejmować problemy z wydajnością na starszych lub mniej wydajnych urządzeniach oraz różnice w obsłudze animacji między różnymi przeglądarkami. Aby obejść te ograniczenia, należy zoptymalizować kod animacji, stosować techniki ładowania asynchronicznego oraz testować animacje na szerokiej gamie przeglądarek i urządzeń. Można również dostarczać alternatywne wersje animacji dla mniej wydajnych urządzeń, aby zapewnić dobrą wydajność i doświadczenie użytkownika."
+              ]
+            },
+            {
+              "title": "Czy w standardowych reklamach mogę użyć interakcji?",
+              "content": [
+                "Oczywiście! Chociaż są one nieco bardziej ograniczone, jak najbardziej jest taka możliwość."
+              ]
+            },
+            {
+              "title": "Jakie materiały przesłać, aby przygotować kampanię banerową w HTML5?",
+              "content": [
+                "Potrzebny będzie brief kreatywny. Określ, co chcesz osiągnąć dzięki współpracy, np. zwiększenie świadomości marki, kampania reklamowa, itp. Mediaplan, w którym określona będzie liczba formatów potrzebnych w kampanii oraz informacje dotyczące wymagań technicznych. Potrzebne będą także materiały referencyjne, brand book, inspiracje oraz najważniejsze: materiały graficzne (.jpg, .psd) Twojego brandu oraz wideo (.mp4, .mov, .aep)."
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "image-18",
+          "bgImage": "/images/masonry-wall/SG/HealthLabs3.png",
+          "link": "/pl/case-studies/HealthLabsCare",
+          "alt": "Social Media Video Health Labs Care"
+        },
+        {
+          "slug": "image-19",
+          "bgImage": "/images/masonry-wall/SG/Cyberpunk3.png",
+          "link": "/pl/blog/Cyberpunk2077UltimateEdition",
+          "alt": "Montaż i lokalizacja Cyberpunk 2077 CD PROJEKT RED"
+        },
+        {
+          "slug": "image-20",
+          "bgImage": "/images/masonry-wall/SG/Jars.png",
+          "link": "/pl/case-studies/jars",
+          "alt": "Montaż i lokalizacja Jars"
+        },
+        {
+          "slug": "image-21",
+          "bgImage": "/images/masonry-wall/SG/DyingLight2_1.webp",
+          "link": "/pl/case-studies/Dying%20Light%202",
+          "alt": "Montaż i lokalizacja Dying Light 2"
+        },
+        {
+          "slug": "montaz-i-lokalizacja",
+          "bgColor": "blue",
+          "title": "Montuje i lokalizuje wideo",
+          "caption": "Wie, co to łączenie ujęć i wymiana treści",
+          "description": [
+            "Wykorzystując zaawansowane narzędzia i różnorodne źródła, mistrzowsko kreujemy świat na nowo, tworząc zupełnie nową jakość materiałów reklamowych.",
+            "Czerpiąc z dostępnych materiałów tworzymy świeże, dynamiczne treści, spełniając oczekiwania naszych klientów przy oszczędności zarówno czasu, jak i budżetu."
+          ],
+          "content": [
+            {
+              "text": {
+                "title": "Cyberpunk2077: Ultimate Edition - Kampania wideo na światowym poziomie",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Szykujesz promocję swojego brandu na rynkach zagranicznych? Sprawdź, jak przygotowaliśmy ponad 100 wersji językowych mega wciągającego trailera gry Cyberpunk2077 i dopasowaliśmy go do różnych platform, żeby wieść o nowej edycji obiegła świat!"
+                    },
+                    {
+                      "link": "/pl/blog/Cyberpunk2077UltimateEdition",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/cyberpunk2077ultimate/cyberpunk2077ultimate_gif.webp",
+                "link": "/pl/blog/Cyberpunk2077UltimateEdition",
+                "target": "_blank",
+                "alt": "Montaż i lokalizacja Cyberpunk 2077: Ultimate Edition",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Dying Lights 2 - Mroczne uniwersum gry",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Potrzebujesz lokalizacji trailerów na wielu rynkach? W tym projekcie wprowadziliśmy w komunikacji podglądy przygotowanych materiałów. Dzięki temu mogliśmy działać sprawnie i na pełnych obrotach."
+                    },
+                    {
+                      "link": "/pl/case-studies/Dying%20Light%202",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "jelOdDP2xF8",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Główny trailer nowego DLC - Dying Light 2 Stay Human: Bloody Ties Announcement Trailer 2023",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "11 bits studios / The Invincible - Epicko zmontowana historia",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz stworzyć wciągający trailer swojej gry? Zobacz wideo, w którym kreatywnie zmontowaliśmy najlepsze sceny i zanimowaliśmy napisy, aby opowiedzieć spójną historię zawartą w grze."
+                    },
+                    {
+                      "link": "/pl/blog/11%20bit%20studios%20x%20Trzask",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "6eRlCyqz5L0",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "11 bit studios: The Invincible | Date Reveal Trailer",
+                "withBackground": true
+              }
+            },
+            {
+              "text": {
+                "title": "Skontaktuj się z nami",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz stworzyć mega kreatywny, wychodzący poza schematy i maksymalnie angażujący projekt dla swojej marki? "
+                    }
+                  ],
+                  [
+                    {
+                      "paragraph": "Napisz do "
+                    },
+                    {
+                      "link": "/pl/contact",
+                      "text": "Joanny lub Piotra",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": " - oni wiedzą, jak to się robi!"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/Trzask_ContactUs_v4.gif",
+                "link": "/pl/contact",
+                "target": "_blank",
+                "alt": "Trzask Studio agencja reklamy"
+              }
+            }
+          ],
+          "elements": [
+            {
+              "slug": "case-studies-montaz-i-lokalizacja",
+              "title": "Zobacz nasz projekt dla Cyberpunk 2077: Ultimate Edition!",
+              "bgColor": "blue",
+              "link": "/pl/blog/Cyberpunk2077UltimateEdition",
+              "alt": "Montaż i lokalizacja Cyberpunk 2077: Ultimate Edition"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/MiL/TrzaskStudio1_v2.png",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/MiL/DyingLight2_6.png",
+              "link": "/pl/case-studies/Dying%20Light%202",
+              "alt": "Montaż i lokalizacja Dying Light 2"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/MiL/Cyberpunk4.png",
+              "link": "/pl/blog/Cyberpunk2077UltimateEdition",
+              "alt": "Montaż i lokalizacja Cyberpunk 2077: Ultimate Edition"
+            },
+            {
+              "slug": "image-36",
+              "bgImage": "/images/masonry-wall/MiL/Frostpunk2.png",
+              "rotateRight": true,
+              "link": "/pl/blog/FROSTPUNK2xTrzask",
+              "alt": "Montaż i lokalizacja Frostpunk"
+            },
+            {
+              "slug": "image-37",
+              "videoUrl": "/video/Montage.mp4",
+              "link": "/pl/blog/Cyberpunk2077UltimateEdition",
+              "alt": "Montaż i lokalizacja Cyberpunk 2077: Ultimate Edition"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/MiL/TrzaskStudio2.png",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/MiL/CreaturesofAva2.png",
+              "link": "/pl/blog/CreaturesofAva",
+              "alt": "Montaż i lokalizacja Creatures of Ava"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animuje w 3D",
+              "caption": "Ożywia ruchome postacie i obiekty w trójwymiarze"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Realizuje efekty specjalne",
+              "caption": "Niezwykłe wizualne triki w video"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Ma pomysły na richmedia",
+              "caption": "Interaktywne reklamy html5"
+            },
+            {
+              "slug": "social-media-video",
+              "title": "Kreuje Social Media Video",
+              "caption": "Animacje, które przyciągają uwagę w sieci"
+            },
+            {
+              "slug": "html5",
+              "title": "Zadziwia w banerach HTML5",
+              "caption": " Ma sposób na dynamiczne kreacje"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Wymyśla mini gry",
+              "caption": "Interaktywne zabawy zwiększające zainteresowanie odbiorców  "
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Tworzy reklamy do TV i kina",
+              "caption": "Spoty do telewizji i na duże ekrany"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Robi animacje eventowe i LED",
+              "caption": "Efektowne realizacje na targi i ekrany"
+            }
+          ],
+          "accordion": [
+            {
+              "title": "Czy oferujecie usługi lokalizacji wideo na wiele języków jednocześnie?",
+              "content": ["Tak, oferujemy lokalizację wideo na wiele języków."]
+            },
+            {
+              "title": "Jak radzicie sobie z synchronizacją dźwięku i obrazu w różnych wersjach językowych?",
+              "content": [
+                "Synchronizujemy dubbing lub napisy z oryginalnym materiałem wideo, dbając o to, aby dźwięk pasował do ruchu warg i akcji na ekranie. Korzystamy z profesjonalnych tłumaczy i lektorów, aby zapewnić wysoką jakość w każdym języku."
+              ]
+            },
+            {
+              "title": "Jakie są najważniejsze aspekty, które należy wziąć pod uwagę podczas montażu materiałów wideo?",
+              "content": [
+                "Kluczowe aspekty montażu to płynność przejść, zgodność z rytmem i tempem, spójność stylistyczna oraz dopasowanie do celów projektu. Ważne jest także, aby materiał był dobrze zorganizowany i profesjonalnie wykończony, co zapewni jego efektywność i estetykę."
+              ]
+            },
+            {
+              "title": "Czy zajmujecie się także dodawaniem przypisów i oznaczeń prawnych do materiałów wideo?",
+              "content": [
+                "Tak, możemy dodawać lokalne przepisy, oznaczenia prawne i inne wymogi regulacyjne do materiałów wideo, aby upewnić się, że są zgodne z lokalnymi normami i przepisami. To ważne, aby materiał spełniał wszystkie wymagania prawne i był odpowiedni dla danego rynku."
+              ]
+            },
+            {
+              "title": "Jakie materiały przesłać, aby przygotować lokalizację wideo?",
+              "content": [
+                "Potrzebny będzie brief kreatywny, który określi cele projektu, np. zwiększenie świadomości marki lub kampania reklamowa. Prosimy również o materiały referencyjne, brand book, inspiracje oraz materiały graficzne (.jpg, .psd) i wideo (.mp4, .mov, .aep) Twojego brandu."
+              ]
+            },
+            {
+              "title": "Co mogę zrobić, aby moja lokalizacja wideo była jak najbardziej efektywna w różnych regionach?",
+              "content": [
+                "Aby lokalizacja była skuteczna, warto dostosować treści do lokalnych zwyczajów, kultury i preferencji. Używaj lokalnych idiomów i stylów komunikacji oraz zadbaj o to, aby napisy i dubbing były precyzyjne i dobrze synchronizowane z obrazem. Testowanie wersji lokalnych przed publikacją pomoże wyeliminować potencjalne problemy."
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "image-22",
+          "bgImage": "/images/masonry-wall/SG/TrzaskStudio2.gif",
+          "link": "/pl/blog/TrzaskShowreel",
+          "alt": "Trzask Studio agencja reklamy"
+        },
+        {
+          "slug": "image-23",
+          "bgImage": "/images/masonry-wall/SG/Cyberpunk2.png",
+          "link": "/pl/case-studies/Eurogamer_Cyberpunk2077",
+          "alt": "Montaż i lokalizacja Cyberpunk 2077 CD PROJEKT RED"
+        },
+        {
+          "slug": "image-24",
+          "bgImage": "/images/masonry-wall/SG/DyingLight2_3.png",
+          "link": "/pl/case-studies/Dying%20Light%202",
+          "alt": "Montaż i lokalizacja Dying Light 2"
+        },
+        {
+          "slug": "image-25",
+          "bgImage": "/images/masonry-wall/SG/TheInvincible.png",
+          "rotateRight": true,
+          "link": "/pl/blog/11%20bit%20studios%20x%20Trzask",
+          "alt": "Montaż i lokalizacja The Invincible"
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "elements": [
+        {
+          "slug": "mini-gry",
+          "bgColor": "blue",
+          "title": "Wymyśla mini gry",
+          "caption": "Interaktywne zabawy zwiększające zainteresowanie odbiorców  ",
+          "description": [
+            "Przenosimy reklamę na nowy poziom. Znamy skuteczny sposób na zwiększenie zainteresowania odbiorców i nie zawahamy się go użyć! Nasze mini gry to źródło czystej rozrywki i idealne narzędzie do zwiększenia zaangażowania.",
+            "Zabieramy odbiorców w szaloną podróż, wykorzystując kreatywne animacje i zaskakujące koncepty. Tworzymy je z myślą o interaktywnym doświadczeniu i ekscytującej zabawie, podkreślając pozytywny wizerunek marki. Zabawne, angażujące i idealne do budowania kontaktu z odbiorcą!"
+          ],
+          "content": [
+            {
+              "text": {
+                "title": "Paczka Donutów - Grywalizacja w wirtualnym pudełku z donutami",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Poszukujesz chwytliwego pomysłu na landing page? Zobacz, jak stworzyliśmy wirtualny dom donutów, przygotowaliśmy pokoje tematyczne i naszpikowaliśmy je hotspotami. A na koniec wkręciliśmy użytkowników w poszukiwania czapki Mikołaja."
+                    },
+                    {
+                      "link": "/pl/case-studies/PaczkaDonutow",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "FJGEZE9Ox-E",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Dooti Donuts - Dom donutów / Production: Trzask Studio (art direction, vfx, sound, animation, 3d modeling) 2021",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Sanostol - Gra w oldschoolowym klimacie",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Potrzebujesz kreacji innej niż wszystkie? W tym projekcie postawiliśmy na miks poklatkowej animacji pixelartowej, mechanizmu legendarnych gier platformowych i dobrej zabawy, żeby wyeksponować właściwości produktu."
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/posts/Sanostol-Header2.webp",
+                "target": "_blank",
+                "alt": "Mini Gry Sanostol",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Tiger - Rozgrywka w reklamie, która wciąga",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Zależy ci na maksymalnym zaangażowaniu odbiorców? Sprawdź naszą reklamę, w której każdy mógł wejść do rywalizacji w grze promującej loterię."
+                    },
+                    {
+                      "link": "/pl/case-studies/tiger",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "uz94ZFxR1zM",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Tiger - Game / Production: Trzask Studio (concept, design, animation, programming) 2019",
+                "withBackground": true
+              }
+            },
+            {
+              "text": {
+                "title": "Skontaktuj się z nami",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz stworzyć mega kreatywny, wychodzący poza schematy i maksymalnie angażujący projekt dla swojej marki? "
+                    }
+                  ],
+                  [
+                    {
+                      "paragraph": "Napisz do "
+                    },
+                    {
+                      "link": "/pl/contact",
+                      "text": "Joanny lub Piotra",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": " - oni wiedzą, jak to się robi!"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/Trzask_ContactUs_v4.gif",
+                "link": "/pl/contact",
+                "target": "_blank",
+                "alt": "Trzask Studio agencja reklamy"
+              }
+            }
+          ],
+          "elements": [
+            {
+              "slug": "case-studies-mini-gry",
+              "title": "Zobacz nasz projekt dla Paczki Donutów!",
+              "bgColor": "blue",
+              "link": "/pl/case-studies/PaczkaDonutow",
+              "alt": "Mini Gry Dooti Donuts"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/MG/TrzaskStudio3.webp",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "bgImage": "/images/masonry-wall/MG/Sanostol_Game.png",
+              "alt": "Mini Gry Sanostol"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/MG/Tiger_Game.png",
+              "link": "/pl/case-studies/tiger",
+              "alt": "Mini Gry Tiger"
+            },
+            {
+              "bgImage": "/images/masonry-wall/MG/DootiDonuts_Game.png",
+              "rotateRight": true,
+              "alt": "Mini Gry Dooti Donuts"
+            },
+            {
+              "slug": "image-37",
+              "videoUrl": "/video/Mini-Games.mp4",
+              "link": "/pl/case-studies/PaczkaDonutow",
+              "alt": "Mini Gry Dooti Donuts"
+            },
+            {
+              "bgImage": "/images/masonry-wall/MG/DootiDonuts_Game.webp",
+              "alt": "Mini Gry Dooti Donuts"
+            },
+            {
+              "slug": "image-39",
+              "bgImage": "/images/masonry-wall/MG/TrzaskStudio2.png",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animuje w 3D",
+              "caption": "Ożywia ruchome postacie i obiekty w trójwymiarze"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Realizuje efekty specjalne",
+              "caption": "Niezwykłe wizualne triki w video"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Ma pomysły na richmedia",
+              "caption": "Interaktywne reklamy html5"
+            },
+            {
+              "slug": "social-media-video",
+              "title": "Kreuje Social Media Video",
+              "caption": "Animacje, które przyciągają uwagę w sieci"
+            },
+            {
+              "slug": "html5",
+              "title": "Zadziwia w banerach HTML5",
+              "caption": " Ma sposób na dynamiczne kreacje"
+            },
+            {
+              "slug": "montaz-i-lokalizacja",
+              "title": "Montuje i lokalizuje wideo",
+              "caption": "Wie, co to łączenie ujęć i wymiana treści"
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Tworzy reklamy do TV i kina",
+              "caption": "Spoty do telewizji i na duże ekrany"
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Robi animacje eventowe i LED",
+              "caption": "Efektowne realizacje na targi i ekrany"
+            }
+          ],
+          "accordion": [
+            {
+              "title": "Jakie technologie wykorzystujecie do tworzenia mini gier na potrzeby kampanii reklamowych?",
+              "content": [
+                "Do tworzenia mini gier używamy technologii takich jak HTML5, CSS3, JavaScript. Te technologie pozwalają na tworzenie gier działających płynnie na różnych platformach, zarówno na komputerach, jak i urządzeniach mobilnych."
+              ]
+            },
+            {
+              "title": "Jakie są kroki w procesie tworzenia mini gry od koncepcji do publikacji?",
+              "content": [
+                "Proces tworzenia mini gry obejmuje etapy takie jak: rozwinięcie pomysłu i konceptu, stworzenie storyboardu, kodowanie gry, animowanie, testowanie oraz optymalizacja. Po akceptacji końcowej wersji, gra jest wdrażana i publikowana na odpowiednich platformach."
+              ]
+            },
+            {
+              "title": "Jak mini gry mogą zwiększyć zaangażowanie użytkowników w kampaniach reklamowych?",
+              "content": [
+                "Mini gry zwiększają zaangażowanie poprzez interaktywność, która sprawia, że użytkownicy spędzają więcej czasu z marką. Gry mogą również oferować nagrody, takie jak zniżki lub dostęp do ekskluzywnych treści, co dodatkowo motywuje do udziału i buduje pozytywne skojarzenia z marką."
+              ]
+            },
+            {
+              "title": "Jakie są wyzwania związane z optymalizacją mini gier na różne urządzenia i platformy?",
+              "content": [
+                "Optymalizacja wymaga uwzględnienia różnic w rozdzielczościach ekranów, wydajności procesorów oraz zgodności przeglądarek. Kluczowym wyzwaniem jest zapewnienie płynności działania gry na słabszych urządzeniach, przy jednoczesnym zachowaniu wysokiej jakości grafiki i responsywności. Używamy narzędzi do testowania wydajności, aby zapewnić jak najlepsze doświadczenie użytkownika na każdej platformie."
+              ]
+            },
+            {
+              "title": "Jakie materiały przesłać, aby przygotować mini grę na naszą stronę?",
+              "content": [
+                "Potrzebny będzie brief kreatywny. Określ, co chcesz osiągnąć dzięki współpracy, np. zwiększenie świadomości marki, kampania reklamowa, itp. Potrzebne będą też materiały referencyjne, brand book, inspiracje oraz najważniejsze: materiały graficzne (.jpg, .psd) Twojego brandu oraz wideo (.mp4, .mov, .aep)."
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "image-333",
+          "bgImage": "/images/masonry-wall/SG/TrzaskStudio5_v2.png",
+          "rotateLeft": true,
+          "link": "/pl/blog/TrzaskShowreel",
+          "alt": "Trzask Studio agencja reklamy"
+        },
+        {
+          "slug": "reklamy-do-tv-i-kina",
+          "bgColor": "red",
+          "title": "Tworzy reklamy do TV i kina",
+          "caption": "Spoty do telewizji i na duże ekrany",
+          "description": [
+            "Tworzymy reklamy, które wyróżniają się w telewizji i kinie, stając się niekwestionowanymi gwiazdami ekranu. Kreujemy uniwersalne w formie animacje, przyciągające wzrok i rozbudzające wyobraźnię.",
+            "Nasze produkcje są estetyczne i przyjemne w odbiorze, ale przede wszystkim skoncentrowane na przekazie. Komunikujemy treści reklamowe w kreatywnych obrazach, o których trudno zapomnieć."
+          ],
+          "content": [
+            {
+              "text": {
+                "title": "Tymbark Deli&Fruits - Lekka przekąska w lekkim spocie",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Potrzebujesz reklamy TV, która poruszy zmysły? W tym projekcie postawiliśmy na mega lekkość. Stworzyliśmy animacje 3D kremowych przekąsek, otoczyliśmy je soczystymi owocami i zawiesiliśmy w błogim stanie nieważkości."
+                    },
+                    {
+                      "link": "/pl/case-studies/Tymbark%20DeliFruits",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/tymbark/tymbark_gif.gif",
+                "target": "_blank",
+                "link": "/pl/case-studies/Tymbark%20DeliFruits",
+                "alt": "Reklamy do TV i Kina Tymbark",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Tofflairs - Demo gry we wciągającym spocie",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Poszukujesz pomysłu na reklamę, która cię wyróżni? Sprawdź, jak połączyliśmy klasyczny motyw gry platformowej ze słodziutkimi karmelkami, żeby pokazać, jak łatwo wziąć udział w loterii zorganizowanej przez markę."
+                    },
+                    {
+                      "link": "/pl/case-studies/tofflairs",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "qBUFY9eSgYE",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Tofflairs - Przyklejaj Nagrody / Production: Trzask Studio (design, animation) 2021 (Finalny spot, scena nawiązująca do platformowych gier oraz ruchomym menu!)",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Tymbark Musly - Wideo, które przemawia do zmysłów",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz zaskoczyć widzów swoim spotem? W tym projekcie połączyliśmy aktorskie sceny z animacjami 3D przepysznych owoców. Dodaliśmy opadające płatki migdałów i mega kreatywne przejścia, żeby podbić lekkość produktu."
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "xJ8JL__uYFk",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Tymbark Musly / Production: Trzask Studio (vfx, sound, animation, 3D, storyboard) 2024",
+                "withBackground": true
+              }
+            },
+            {
+              "text": {
+                "title": "Skontaktuj się z nami",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz stworzyć mega kreatywny, wychodzący poza schematy i maksymalnie angażujący projekt dla swojej marki? "
+                    }
+                  ],
+                  [
+                    {
+                      "paragraph": "Napisz do "
+                    },
+                    {
+                      "link": "/pl/contact",
+                      "text": "Joanny lub Piotra",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": " - oni wiedzą, jak to się robi!"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/Trzask_ContactUs_v4.gif",
+                "link": "/pl/contact",
+                "target": "_blank",
+                "alt": "Trzask Studio agencja reklamy"
+              }
+            }
+          ],
+          "elements": [
+            {
+              "slug": "case-studies-reklamy-do-tv-i-kina",
+              "title": "Zobacz nasz projekt dla Tymbark Deli&Fruits!",
+              "bgColor": "blue",
+              "link": "/pl/case-studies/Tymbark%20DeliFruits",
+              "alt": "Reklamy do TV i Kina Tymbark"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/TV/TrzaskStudio2.webp",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "bgImage": "/images/masonry-wall/TV/Rimmel.png",
+              "alt": "Reklamy do TV i Kina Rimmel"
+            },
+            {
+              "slug": "image-35",
+              "bgImage": "/images/masonry-wall/TV/Tofflairs1.png",
+              "link": "/pl/case-studies/tofflairs",
+              "alt": "Reklamy do TV i Kina Tofflairs"
+            },
+            {
+              "bgImage": "/images/masonry-wall/TV/Playboy.png",
+              "rotateRight": true,
+              "alt": "Reklamy do TV i Kina Rimmel"
+            },
+            {
+              "slug": "image-37",
+              "videoUrl": "/video/TV.mp4",
+              "link": "/pl/case-studies/Tymbark%20DeliFruits",
+              "alt": "Reklamy do TV i Kina Tymbark"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/TV/Tofflairs.webp",
+              "link": "/pl/case-studies/tofflairs",
+              "alt": "Reklamy do TV i Kina Tofflairs"
+            },
+            {
+              "bgImage": "/images/masonry-wall/TV/Dare.png",
+              "alt": "Reklamy do TV i Kina Rimmel"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animuje w 3D",
+              "caption": "Ożywia ruchome postacie i obiekty w trójwymiarze"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Realizuje efekty specjalne",
+              "caption": "Niezwykłe wizualne triki w video"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Ma pomysły na richmedia",
+              "caption": "Interaktywne reklamy html5"
+            },
+            {
+              "slug": "social-media-video",
+              "title": "Kreuje Social Media Video",
+              "caption": "Animacje, które przyciągają uwagę w sieci"
+            },
+            {
+              "slug": "html5",
+              "title": "Zadziwia w banerach HTML5",
+              "caption": " Ma sposób na dynamiczne kreacje"
+            },
+            {
+              "slug": "montaz-i-lokalizacja",
+              "title": "Montuje i lokalizuje wideo",
+              "caption": "Wie, co to łączenie ujęć i wymiana treści"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Wymyśla mini gry",
+              "caption": "Interaktywne zabawy zwiększające zainteresowanie odbiorców  "
+            },
+            {
+              "slug": "animacje-eventowe-i-LED",
+              "title": "Robi animacje eventowe i LED",
+              "caption": "Efektowne realizacje na targi i ekrany"
+            }
+          ],
+          "accordion": [
+            {
+              "title": "Jakie są kluczowe różnice w produkcji reklam telewizyjnych w porównaniu do kinowych?",
+              "content": [
+                "Reklamy kinowe często mają wyższą rozdzielczość i szerszy format (np. 4K lub IMAX), co wymaga bardziej zaawansowanego sprzętu do renderowania. Dźwięk w reklamach kinowych również musi być zoptymalizowany pod kątem systemów dźwiękowych kina, takich jak Dolby Atmos. Proces produkcji różni się również pod kątem storytellingu – reklamy kinowe często mają więcej czasu na rozwinięcie historii, co wpływa na sposób jej opowiadania."
+              ]
+            },
+            {
+              "title": "Jakie standardy techniczne muszą spełniać reklamy przeznaczone do emisji w TV i kinie?",
+              "content": [
+                "Reklamy telewizyjne muszą spełniać standardy nadawców, takie jak odpowiednia rozdzielczość (zwykle 1080p), kodowanie dźwięku, czas trwania reklamy oraz zgodność z wymogami dotyczącymi jasności i koloru. Reklamy kinowe wymagają natomiast wyższej rozdzielczości (często 4K), zaawansowanego miksowania dźwięku i przestrzegania specyficznych standardów kinowych, takich jak DCP (Digital Cinema Package)."
+              ]
+            },
+            {
+              "title": "Czy zajmujecie się wrzucaniem reklam do stacji telewizyjnych?",
+              "content": [
+                "Pewnie, wrzucaliśmy już na niejedną platformę: TVN, Polsat, TVP oraz przez platformę Peach."
+              ]
+            },
+            {
+              "title": "Jakie materiały przesłać, aby przygotować video do TV?",
+              "content": [
+                "Potrzebny będzie brief kreatywny. Określ, co chcesz osiągnąć dzięki współpracy, np. zwiększenie świadomości marki, kampania reklamowa, itp. Potrzebne będą też materiały referencyjne, brand book, inspiracje oraz najważniejsze: materiały graficzne (.jpg, .psd) Twojego brandu oraz wideo (.mp4, .mov, .aep)."
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "image-27",
+          "bgImage": "/images/masonry-wall/SG/Blik.png",
+          "link": "/pl/case-studies/blik",
+          "alt": "Efekty specjalne Blik"
+        },
+        {
+          "slug": "image-28",
+          "bgImage": "/images/masonry-wall/SG/Frostpunk1_v2.png",
+          "link": "/pl/blog/FROSTPUNK2xTrzask",
+          "alt": "Efekty specjalne Frostpunk"
+        },
+        {
+          "slug": "image-29",
+          "bgImage": "/images/masonry-wall/SG/DyingLight2_2.webp",
+          "link": "/pl/case-studies/Dying%20Light%202",
+          "alt": "Montaż i lokalizacja Dying Light 2"
+        },
+        {
+          "slug": "image-30",
+          "bgImage": "/images/masonry-wall/SG/Loreal.png",
+          "link": "/pl/blog/Podwodny%20Event",
+          "alt": "Animacje eventowe i LED L'Oréal"
+        },
+        {
+          "bgImage": "/images/masonry-wall/SG/DootiDonuts_Game3.png",
+          "rotateRight": true,
+          "alt": "Mini Gry Dooti Donuts"
+        },
+        {
+          "slug": "image-32",
+          "bgImage": "/images/masonry-wall/SG/DyingLight2_2.png",
+          "link": "/pl/case-studies/Dying%20Light%202",
+          "alt": "Montaż i lokalizacja Dying Light 2"
+        },
+        {
+          "slug": "animacje-eventowe-i-LED",
+          "bgColor": "red",
+          "title": "Robi animacje eventowe i LED",
+          "caption": "Efektowne realizacje na targi i ekrany",
+          "description": [
+            "Przygotowujemy animacje na topowe wydarzenia i robimy wszystko, żeby zrobiły na uczestnikach niezapomniane wrażenie . Dzięki dynamicznym i angażującym kreacjom pomagamy w pełni wykorzystać przestrzeń wystawową i przyciągnąć uwagę uczestników eventów.",
+            "Tworzymy reklamy LED, które dzięki możliwości wyświetlania ruchomych treści, skutecznie zwiększają widoczność marki w przestrzeniach publicznych. Dopasowujemy treści do potrzeb odbiorców, prezentując je w postaci estetycznych efektów wizualnych, które grają z otoczeniem. "
+          ],
+          "content": [
+            {
+              "text": {
+                "title": "Wielton - Oprawa multimedialna, która przyciąga uwagę",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Atrakcyjna animacja na targi? W tej kreacji postawiliśmy na energiczne wizualizacje podkreślające charakter produktów marki. Stworzyliśmy realistyczny model naczepy i dopasowaliśmy jej look do klimatu stoiska. "
+                    },
+                    {
+                      "link": "/pl/blog/Wielton",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "ezKhfOiH4eU",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Wielton / Production: Trzask Studio (animation) 2022",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "TEDx Polska - Animacja tętniąca życiem miasta",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Potrzebujesz zapadającej w pamięć prezentacji na event? Zobacz, jak za pomocą czerwonej linii, układającej się w ikoniczne kształty, stworzyć mega animację, która idealnie oddała klimat wydarzenia TEDx i ducha Warszawy."
+                    },
+                    {
+                      "link": "/pl/case-studies/TEDx%20Polska",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "qkZqwguaIvk",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "TEDx In a Heartbeat / Promo video / Production: Trzask Studio (Sfx, sound, animation) / 2016",
+                "withBackground": false
+              }
+            },
+            {
+              "text": {
+                "title": "Stock Polska Lubelska - Vibe rajskich wakacji w kilku slajdach",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Brak pomysłu na prezentację, która zachwyci słuchaczy? Sprawdź, jak stworzyliśmy świeżą, tętniącą letnim klimatem prezentację na event promocyjny Stocka. Podkręciliśmy efekt zmrożonych butelek, dodaliśmy rajskie akcenty i trochę animacyjnej magii. Efekt? Wow!"
+                    },
+                    {
+                      "link": "/pl/blog/StockPolskaLub",
+                      "text": " Czytaj więcej.",
+                      "target": "_blank"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "video": {
+                "ytId": "7PEe5WpEQxA",
+                "autoplay": 0,
+                "mute": 0,
+                "loop": 1,
+                "caption": "Stock Polska - Lubelska / Production: Trzask Studio (design, animation) 2024",
+                "withBackground": true
+              }
+            },
+            {
+              "text": {
+                "title": "Skontaktuj się z nami",
+                "description": [
+                  [
+                    {
+                      "paragraph": "Chcesz stworzyć mega kreatywny, wychodzący poza schematy i maksymalnie angażujący projekt dla swojej marki? "
+                    }
+                  ],
+                  [
+                    {
+                      "paragraph": "Napisz do "
+                    },
+                    {
+                      "link": "/pl/contact",
+                      "text": "Joanny lub Piotra",
+                      "target": "_blank"
+                    },
+                    {
+                      "paragraph": " - oni wiedzą, jak to się robi!"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "img": {
+                "src": "/images/blog/Trzask_ContactUs_v4.gif",
+                "link": "/pl/contact",
+                "target": "_blank",
+                "alt": "Trzask Studio agencja reklamy"
+              }
+            }
+          ],
+          "elements": [
+            {
+              "slug": "case-studies-animacje-eventowe-i-LED",
+              "title": "Zobacz nasz projekt dla SaarGummi Neo!",
+              "bgColor": "blue",
+              "link": "/pl/case-studies/SaarGummi%20Neo",
+              "alt": "Animacje eventowe i LED SaarGummi Neo"
+            },
+            {
+              "slug": "image-33",
+              "bgImage": "/images/masonry-wall/LED/TrzaskStudio1.png",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "slug": "image-34",
+              "bgImage": "/images/masonry-wall/LED/Wielton.png",
+              "link": "/pl/blog/Wielton",
+              "alt": "Animacje eventowe i LED Wielton"
+            },
+            {
+              "bgImage": "/images/masonry-wall/LED/Stock.png",
+              "link": "/pl/blog/StockPolskaLub",
+              "alt": "Animacje eventowe i LED Stock"
+            },
+            {
+              "bgImage": "/images/masonry-wall/LED/SaarGummi.png",
+              "rotateRight": true,
+              "link": "/pl/case-studies/SaarGummi%20Neo",
+              "alt": "Animacje eventowe i LED SaarGummi Neo"
+            },
+            {
+              "slug": "image-37",
+              "videoUrl": "/video/LED.mp4",
+              "link": "/pl/case-studies/SaarGummi%20Neo",
+              "alt": "Animacje eventowe i LED SaarGummi Neo"
+            },
+            {
+              "slug": "image-38",
+              "bgImage": "/images/masonry-wall/LED/TrzaskStudio2.png",
+              "link": "/pl/blog/TrzaskShowreel",
+              "alt": "Trzask Studio agencja reklamy"
+            },
+            {
+              "bgImage": "/images/masonry-wall/LED/Maspex.png",
+              "alt": "Animacje eventowe i LED Maspex"
+            }
+          ],
+          "otherSkills": [
+            {
+              "slug": "animacje-3d",
+              "title": "Animuje w 3D",
+              "caption": "Ożywia ruchome postacie i obiekty w trójwymiarze"
+            },
+            {
+              "slug": "efekty-specjalne",
+              "title": "Realizuje efekty specjalne",
+              "caption": "Niezwykłe wizualne triki w video"
+            },
+            {
+              "slug": "richmedia",
+              "title": "Ma pomysły na richmedia",
+              "caption": "Interaktywne reklamy html5"
+            },
+            {
+              "slug": "social-media-video",
+              "title": "Kreuje Social Media Video",
+              "caption": "Animacje, które przyciągają uwagę w sieci"
+            },
+            {
+              "slug": "html5",
+              "title": "Zadziwia w banerach HTML5",
+              "caption": " Ma sposób na dynamiczne kreacje"
+            },
+            {
+              "slug": "montaz-i-lokalizacja",
+              "title": "Montuje i lokalizuje wideo",
+              "caption": "Wie, co to łączenie ujęć i wymiana treści"
+            },
+            {
+              "slug": "mini-gry",
+              "title": "Wymyśla mini gry",
+              "caption": "Interaktywne zabawy zwiększające zainteresowanie odbiorców  "
+            },
+            {
+              "slug": "reklamy-do-tv-i-kina",
+              "title": "Tworzy reklamy do TV i kina",
+              "caption": "Spoty do telewizji i na duże ekrany"
+            }
+          ],
+          "accordion": [
+            {
+              "title": "Jakie są kluczowe aspekty planowania i realizacji animacji LED na dużych ekranach podczas eventów?",
+              "content": [
+                "Kluczowe aspekty to dopasowanie rozdzielczości i formatu animacji do specyfikacji ekranów LED, synchronizacja animacji z innymi elementami wydarzenia (np. muzyką, występami), oraz zapewnienie odpowiedniej jasności i kontrastu animacji, aby były dobrze widoczne w różnych warunkach oświetleniowych."
+              ]
+            },
+            {
+              "title": "Jakie czynniki wpływają na dobór animacji LED na różne typy eventów, jak konferencje czy targi?",
+              "content": [
+                "Dobór animacji LED zależy od charakteru eventu, jego wielkości, tematyki oraz wymagań estetycznych. Na przykład, na konferencjach ważne są przejrzystość i czytelność treści. Na targach natomiast animacje LED mogą służyć do przyciągania uwagi i prezentacji produktów. Wybór odpowiednich animacji zależy od tych czynników oraz od preferencji i oczekiwań."
+              ]
+            },
+            {
+              "title": "Jakie materiały przesłać, aby przygotować animację na targi?",
+              "content": [
+                "Potrzebny będzie brief kreatywny. Określ, co chcesz osiągnąć dzięki współpracy, np. zwiększenie świadomości marki, kampania reklamowa, itp. Potrzebne będą też materiały referencyjne, brand book, inspiracje oraz najważniejsze: materiały graficzne (.jpg, .psd) Twojego brandu oraz wideo (.mp4, .mov, .aep)."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
