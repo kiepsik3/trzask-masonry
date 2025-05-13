@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import cn from "classnames";
 import { ReactComponent as Arrow } from "../../assets/img/arrow.svg";
 import "./accordion.scss";
+import { Headline3 } from "../../typography/Headlines/Headlines";
+import Paragraph from "../../typography/Paragraph/Paragraph";
 
 export function Accordion(props) {
   return (
@@ -20,12 +22,14 @@ function AccordionItem(props) {
       className={cn("accordion-element", active ? "active" : "")}
       onClick={() => setActive(!active)}
     >
-      <h3>
+      <Headline3>
         {props.title} <Arrow />
-      </h3>
+      </Headline3>
       <div className="accordion-content">
         {props.content.map((content, idx) => (
-          <p key={idx}>{content}</p>
+          <Paragraph small opacity key={idx}>
+            {content}
+          </Paragraph>
         ))}
       </div>
     </div>

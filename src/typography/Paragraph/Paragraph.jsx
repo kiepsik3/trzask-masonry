@@ -6,7 +6,11 @@ export default function Paragraph(props) {
   const size = props.small ? "small" : "regular";
   return (
     <p
-      className={cn(`paragraph-${size}`, props.opacity && "opacity")}
+      className={cn(
+        `paragraph-${size}`,
+        props.opacity && "opacity",
+        props.className,
+      )}
       style={props.style}
     >
       {props.children}

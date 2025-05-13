@@ -5,14 +5,17 @@
   align-items: center;
   height: 328px;
   position: relative;
-  margin-bottom: 20px;
+  margin-top: 12px;
+  margin-bottom: 80px;
 
   @media (max-width: 767px) {
-    height: 200px
+    height: 200px;
+    margin-bottom: 60px;
   }
 
-  @media (max-width: 575px) {
-    height: 150px
+  @media (max-width: 639px) {
+    height: 150px;
+    margin-bottom: 50px;
   }
 
   &-bg {
@@ -27,7 +30,7 @@
   &.right {
     margin-left: 60px;
 
-    @media (max-width: 575px) {
+    @media (max-width: 639px) {
       margin-left: 0;
     }
   }

@@ -13,7 +13,7 @@
       line-height: 32px;
       opacity: 1;
 
-      @media (max-width: 575px) {
+      @media (max-width: 639px) {
         font-size: 18px;
         line-height: 26px;
       }
@@ -59,7 +59,7 @@
     position: absolute;
     top: 0;
 
-    @media (max-width: 1199px) {
+    @media (max-width: 1279px) {
       display: none;
     }
   }

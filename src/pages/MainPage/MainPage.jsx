@@ -4,6 +4,7 @@ import { MasonryWall } from "../../components/MasonryWall/MasonryWall";
 // import exportFromJSON from "export-from-json";
 import { Builder, Parser } from "xml2js";
 import { Helmet } from "react-helmet";
+import { Headline1 } from "../../typography/Headlines/Headlines";
 
 const MainPage = (props) => {
   function aa() {
@@ -150,7 +151,7 @@ const MainPage = (props) => {
         {/*<button onClick={() => aa()}>aa</button>*/}
         {/*<button onClick={() => bb()}>bb</button>*/}
         {/*<button onClick={() => cc()}>cc</button>*/}
-        <h1 className="main-page-header">{props.title}</h1>
+        <Headline1 className="main-page-header">{props.title}</Headline1>
         {props.walls?.map((wall, idx) => (
           <MasonryWall data={wall.elements} set={wall.set} key={idx} />
         ))}

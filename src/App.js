@@ -6,12 +6,14 @@ import Footer from "./components/Footer/Footer";
 import useFetch from "./hooks/useFetch";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { Newsletter } from "./components/Newsletter/Newsletter";
-import RecommendationsPage from "./pages/Recommendations/RecommendationsPage";
+import Recommendations from "./pages/Recommendations/Recommendations";
 import BlogList from "./pages/Blog/BlogList/BlogList";
 import Article from "./pages/Blog/Article/Article";
 import CaseStudies from "./pages/CaseStudies/CaseStudies";
 import CaseStudyDetails from "./pages/CaseStudies/CaseStudyDetails/CaseStudyDetails";
 import About from "./pages/About/About";
+import { Contact } from "./pages/Contact/Contact";
+import recommendations from "./data/recommendations.json";
 import masonryWall from "./data/masonry-wall-pl.json";
 import blog from "./data/blog-pl.json";
 import caseStudies from "./data/case-studies-pl.json";
@@ -27,79 +29,94 @@ function App() {
     window.location.pathname.lastIndexOf("/"),
   );
 
-  const isRecommendationsPage = currentSlug === "/recommendations";
-  const isTransparentHeader = currentSlug === "/about";
+  const isTransparentHeader =
+    currentSlug === "/about" || currentSlug === "/contact";
 
   return (
     <>
       <BrowserRouter>
         <Header menu={masonryWall?.menu} isTransparent={isTransparentHeader} />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Navigate to="/pl" />} />
-          {masonryWall && (
-            <>
-              <Route path="/pl" exact element={<MainPage {...masonryWall} />} />
-              <Route
-                path="/pl/skills/:slug"
-                element={<SkillPage {...masonryWall} />}
-              />
-            </>
-          )}
-          {blog && (
-            <>
-              <Route
-                path={`/pl/blog`}
-                exact
-                element={
-                  <BlogList {...blog} homepageKeywords={masonryWall.keywords} />
-                }
-              />
-              <Route
-                path={`/pl/blog/:slug`}
-                element={
-                  <Article {...blog} homepageKeywords={masonryWall.keywords} />
-                }
-              />
-            </>
-          )}
+        <main>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Navigate to="/pl" />} />
+            {masonryWall && (
+              <>
+                <Route
+                  path="/pl"
+                  exact
+                  element={<MainPage {...masonryWall} />}
+                />
+                <Route
+                  path="/pl/skills/:slug"
+                  element={<SkillPage {...masonryWall} />}
+                />
+              </>
+            )}
+            {blog && (
+              <>
+                <Route
+                  path={`/pl/blog`}
+                  exact
+                  element={
+                    <BlogList
+                      {...blog}
+                      homepageKeywords={masonryWall.keywords}
+                    />
+                  }
+                />
+                <Route
+                  path={`/pl/blog/:slug`}
+                  element={
+                    <Article
+                      {...blog}
+                      homepageKeywords={masonryWall.keywords}
+                    />
+                  }
+                />
+              </>
+            )}
 
-          {caseStudies && (
-            <>
-              <Route
-                path={"/pl/case-studies"}
-                exact
-                element={
-                  <CaseStudies
-                    {...caseStudies}
-                    homepageKeywords={masonryWall.keywords}
-                  />
-                }
-              />
-              <Route
-                path={`/pl/case-studies/:slug`}
-                element={
-                  <CaseStudyDetails
-                    {...caseStudies}
-                    homepageKeywords={masonryWall.keywords}
-                  />
-                }
-              />
-            </>
-          )}
-          <Route
-            path="/pl/about"
-            element={<About homepageKeywords={masonryWall.keywords} />}
-          />
-          <Route path="/pl/recommendations" element={<RecommendationsPage />} />
-        </Routes>
-      </BrowserRouter>
-      {!isRecommendationsPage && (
-        <>
+            {caseStudies && (
+              <>
+                <Route
+                  path={"/pl/case-studies"}
+                  exact
+                  element={
+                    <CaseStudies
+                      {...caseStudies}
+                      homepageKeywords={masonryWall.keywords}
+                    />
+                  }
+                />
+                <Route
+                  path={`/pl/case-studies/:slug`}
+                  element={
+                    <CaseStudyDetails
+                      {...caseStudies}
+                      homepageKeywords={masonryWall.keywords}
+                    />
+                  }
+                />
+              </>
+            )}
+            <Route
+              path="/pl/about"
+              element={<About homepageKeywords={masonryWall.keywords} />}
+            />
+            <Route
+              path="/pl/contact"
+              element={<Contact homepageKeywords={masonryWall.keywords} />}
+            />
+            <Route
+              path="/pl/recommendations"
+              element={<Recommendations {...recommendations} />}
+            />
+          </Routes>
           <Newsletter />
-          <Footer />
-        </>
-      )}
+        </main>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

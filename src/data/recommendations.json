@@ -1,0 +1,35 @@
+{
+  "recommendations": [
+    {
+      "bgColor": "blue",
+      "text": "Ekstra motyw - przenosimy wirtualnego \uD83C\uDF69 donuta do rzeczywistości na kolejnej płaszczyźnie! Magia w stylu Trzaska!",
+      "author": {
+        "name": "Mateusz Gradziński",
+        "company": "Brand Manager Stokson"
+      },
+      "logo": "img/recommendations/stokson.svg"
+    },
+    {
+      "text": "Praca z Waszym zespołem była sprawna, ❤\uFE0F\u200D\uD83D\uDD25 kreatywna \u2028i na czas. Czyli w skrócie \u2028- TRZASK :)",
+      "author": {
+        "name": "Michał Makowski",
+        "company": "Senior Brand Manager Tymbark"
+      },
+      "logo": "img/recommendations/tymbark.svg",
+      "rotateLeft": true
+    },
+    {
+      "bgColor": "blue",
+      "text": "Zespół Trzask jak zwykle pozytywnie nas zaskoczył swoją kreatywnością. Proaktywne i profesjonalne podejście do tak ważnego projektu, jakim jest Pilgrim Outpost, to jest coś, co jest dla nas szczególnie istotne. Nieszablonowa postawa teamu Piotra pozwoliła na stworzenie świetnej animacji, która idealnie odzwierciedla świat Dying Light 2 Stay Human.",
+      "author": {
+        "name": "Magda Marcinkowska",
+        "company": "Digital Producer - Team Lead Techland"
+      },
+      "logo": "img/recommendations/techland.svg"
+    },
+    {
+      "bgImage": "img/recommendations/heart-big.svg",
+      "alt": "heart"
+    }
+  ]
+}

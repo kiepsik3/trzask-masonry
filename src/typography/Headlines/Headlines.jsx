@@ -25,3 +25,11 @@ export function Headline3(props) {
     </h3>
   );
 }
+
+export function Headline4(props) {
+  return (
+    <h3 className={cn("headline-4", props.violet && "violet", props.className)}>
+      {props.children}
+    </h3>
+  );
+}

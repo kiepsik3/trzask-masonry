@@ -5,17 +5,18 @@
 
   &.with-background {
     background-color: $color-turquoise;
+    margin-bottom: 80px;
     padding: 80px 150px;
 
     @media (max-width: 1399px) {
       padding: 70px 120px;
     }
 
-    @media (max-width: 1199px) {
+    @media (max-width: 1279px) {
       padding: 60px 100px;
     }
 
-    @media (max-width: 991px) {
+    @media (max-width: 1023px) {
       padding: 50px 70px;
     }
 
@@ -23,7 +24,7 @@
       padding: 35px 50px;
     }
 
-    @media (max-width: 575px) {
+    @media (max-width: 639px) {
       padding: 20px;
     }
   }
@@ -32,13 +33,13 @@
 
     padding-bottom: 32px;
 
-    @media (max-width: 575px) {
+    @media (max-width: 639px) {
       padding-bottom: 20px;
     }
   }
 
   &.square {
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       max-width: 75%;
       margin: 0 auto;
     }
@@ -67,11 +68,11 @@
     display: block;
     margin-top: 32px;
 
-    @media (max-width: 991px) {
+    @media (max-width: 1023px) {
       margin-top: 24px;
     }
 
-    @media (max-width: 575px) {
+    @media (max-width: 639px) {
       margin-top: 20px;
     }
 

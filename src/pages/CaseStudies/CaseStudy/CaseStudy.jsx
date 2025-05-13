@@ -23,7 +23,7 @@ export default function CaseStudy(props) {
               {c}
             </Paragraph>
           ))}
-          <Button label="Czytaj" />
+          <Button label="Czytaj" withArrow />
         </Col>
 
         <Col md={6} lg={{ span: 7, offset: 1 }}>

@@ -11,20 +11,6 @@ export function MasonryWall(props) {
   const [width, setWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    const videoElement = document.getElementById("video");
-
-    // document.body.addEventListener("click", () => {
-    //   videoElement.play();
-    // });
-    //
-    // document.body.addEventListener("touchstart", () => {
-    //   videoElement.play();
-    // });
-
-    // videoElement.addEventListener("suspend", () => {
-    //   videoElement.play();
-    // });
-
     window.addEventListener("resize", () => {
       setWidth(window.innerWidth);
     });

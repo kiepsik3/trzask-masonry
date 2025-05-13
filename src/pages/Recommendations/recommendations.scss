@@ -1,0 +1,8 @@
+  .recommendations {
+    padding-top: 170px;
+    margin-bottom: 170px;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 80px;
+      padding: 120px 12px 0;
+    }
+  }

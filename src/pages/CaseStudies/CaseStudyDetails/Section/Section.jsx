@@ -28,7 +28,7 @@ export default function Section(props) {
                 {l.description.map((d) => (
                   <Description
                     description={d}
-                    className={"Section-description"}
+                    className="section-description"
                     small
                   />
                 ))}
@@ -46,7 +46,7 @@ export default function Section(props) {
                     <Image {...l.img} isLeft />
                   ))}
                 {l.quote && <Quote {...l.quote} noOffset />}
-                {l.exclamation && <Exclamation {...l.exclamation} />}
+                {l.exclemation && <Exclamation {...l.exclemation} />}
               </div>
             ))}
           </Col>
@@ -71,7 +71,7 @@ export default function Section(props) {
                     <Image {...r.img} isRight />
                   ))}
                 {r.quote && <Quote {...r.quote} noOffset />}
-                {r.exclamation && <Exclamation {...r.exclamation} isRight />}
+                {r.exclemation && <Exclamation {...r.exclemation} isRight />}
               </div>
             ))}
           </Col>
@@ -90,7 +90,7 @@ export default function Section(props) {
               ))}
             {props.video && <Video {...props.video} />}
             {props.quote && <Quote {...props.quote} />}
-            {props.exclamation && <Exclamation {...props.exclamation} />}
+            {props.exclemation && <Exclamation {...props.exclemation} />}
           </Col>
         </Row>
       ) : (
@@ -106,7 +106,7 @@ export default function Section(props) {
               props.description.map((d) => (
                 <Description
                   description={d}
-                  className={"Section-description"}
+                  className="section-description"
                   small
                 />
               ))}
@@ -127,7 +127,7 @@ export default function Section(props) {
               ))}
             {props.video && <Video {...props.video} />}
             {props.quote && <Quote {...props.quote} />}
-            {props.exclamation && <Exclamation {...props.exclamation} />}
+            {props.exclemation && <Exclamation {...props.exclemation} />}
           </Col>
         </Row>
       )}

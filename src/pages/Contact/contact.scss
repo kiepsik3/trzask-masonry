@@ -1,0 +1,69 @@
+@import '../../lib/scss/colors.scss';
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 170px 0;
+  background-color: $color-turquoise;
+
+  @media (max-width: 1279px) {
+    height: auto;
+    padding: 132px 12px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 132px 12px 80px;
+  }
+
+  .contact-container {
+    max-width: 701px;
+  }
+
+  h1 {
+    color: white;
+    font-weight: 500;
+  }
+
+  .items {
+    display: flex;
+    gap: 50px;
+    @media (max-width: 639px) {
+     flex-direction: column;
+    }
+
+    .item {
+      flex-basis: 50%;
+
+      img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        color: black;
+
+        span {
+          font-weight: 800;
+        }
+      }
+
+      a {
+        opacity: 0.35;
+        text-decoration: underline;
+
+        &:hover {
+          color: #f5616f;
+          opacity: 1;
+        }
+      }
+
+      .socialMediaLinks {
+        display: flex;
+        gap: 5px;
+      }
+    }
+  }
+}

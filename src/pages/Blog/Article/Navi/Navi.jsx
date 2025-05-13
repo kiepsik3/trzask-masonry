@@ -50,7 +50,7 @@ export default function Navi(props) {
         <Link
           to={`/pl/blog/${prevItem?.slug}`}
           className={cn(
-            "Navi-link",
+            "navi-link",
             prevItem?.slug === undefined && "disabled",
           )}
           ref={(el) => {
@@ -80,7 +80,7 @@ export default function Navi(props) {
         <Link
           to={`/pl/blog/${nextItem?.slug}`}
           className={cn(
-            "Navi-link",
+            "navi-link",
             nextItem?.slug === undefined && "disabled",
           )}
           ref={(el) => {

@@ -13,7 +13,7 @@
     margin-bottom: 80px;
   }
 
-  @media (max-width: 575px) {
+  @media (max-width: 639px) {
     margin-bottom: 50px;
     border-top: none;
     background-color: transparent;
@@ -23,10 +23,10 @@
     color: white;
     margin-bottom: 0;
     padding: 0 70px;
-    @media (max-width: 991px) {
+    @media (max-width: 1023px) {
       padding: 0 50px;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 1023px) {
       padding: 0 24px;
     }
     @media (max-width: 767px) {
@@ -35,7 +35,7 @@
       text-align: center;
       border-bottom: 2px solid black;
     }
-    @media (max-width: 575px) {
+    @media (max-width: 639px) {
       background-color: white;
       color: $color-blue;
       padding: 0 0 8px;
@@ -54,14 +54,14 @@
       display: flex;
       flex-wrap: wrap;
       padding: 24px 0 16px 70px;
-      @media (max-width: 1199px) {
+      @media (max-width: 1279px) {
         padding-left: 50px;
       }
-      @media (max-width: 991px) {
+      @media (max-width: 1023px) {
         padding-left: 24px;
       }
 
-      @media (max-width: 575px) {
+      @media (max-width: 639px) {
         padding: 12px 0 4px 12px;
       }
 
@@ -77,11 +77,11 @@
         color: white;
         margin-bottom: 0;
         flex-basis: 195px;
-        @media (max-width: 1199px) {
+        @media (max-width: 1279px) {
           flex-basis: 100%;
           margin-bottom: 12px;
         }
-        @media (max-width: 575px) {
+        @media (max-width: 639px) {
           margin-bottom: 8px;
           font-size: 16px
         }
@@ -96,7 +96,7 @@
       .checkbox {
         margin-right: 24px;
         margin-bottom: 8px;
-        @media (max-width: 575px) {
+        @media (max-width: 639px) {
           margin-right: 6px;
           flex-basis: calc(33% - 18px);
           flex-grow: 1;
@@ -112,7 +112,7 @@
           background: url("../../../assets/img/checkbox.svg") no-repeat;
           color: white;
           cursor: url("../../../assets/img/hand.png") 0 0, auto;
-          @media (max-width: 575px) {
+          @media (max-width: 639px) {
             font-size: 15px;
           }
         }

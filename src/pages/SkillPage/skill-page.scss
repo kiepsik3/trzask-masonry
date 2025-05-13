@@ -39,34 +39,15 @@
       }
 
       h1 {
-        font-size: 50px;
-        font-weight: 800;
         margin-bottom: 80px;
         @media screen and (max-width: 1279px) {
           margin-bottom: 60px;
         }
         @media screen and (max-width: 1023px) {
           margin-bottom: 50px;
-          font-size: 42px;
         }
         @media screen and (max-width: 767px) {
           margin-bottom: 40px;
-          font-size: 36px;
-        }
-      }
-
-      h3 {
-        font-size: 22px;
-        font-weight: 800;
-        margin-bottom: 20px;
-      }
-
-      p {
-        font-size: 22px;
-        color: $color-grey;
-        margin-bottom: 16px;
-        @media screen and (max-width: 767px) {
-          font-size: 18px;
         }
       }
     }
@@ -102,17 +83,14 @@
   }
 
   .sections {
-    max-width: 992px;
+    max-width: 1024px;
     margin: 0 auto;
     .section {
       margin-top: 72px;
 
       .text {
         h2 {
-          font-size: 32px;
-          line-height: 42px;
           font-weight: 500;
-          margin-bottom: 20px;
         }
 
         p {
@@ -170,19 +148,6 @@
         @media screen and (max-width: 767px) {
           flex-basis: 100%;
         }
-
-        h2 {
-          font-size: 32px;
-          line-height: 42px;
-          font-weight: 800;
-          margin-bottom: 20px;
-        }
-
-        p {
-          font-size: 18px;
-          margin-bottom: 16px;
-          opacity: .6;
-        }
       }
 
       &:last-child {
@@ -200,9 +165,7 @@
       margin-top: 80px;
     }
 
-    h2 {
-      font-size: 50px;
-      font-weight: 800;
+    h1 {
       margin-bottom: 80px;
       text-align: center;
       @media screen and (max-width: 1279px) {
@@ -210,11 +173,9 @@
       }
       @media screen and (max-width: 1023px) {
         margin-bottom: 50px;
-        font-size: 42px;
       }
       @media screen and (max-width: 767px) {
         margin-bottom: 40px;
-        font-size: 36px;
       }
     }
 
@@ -426,15 +387,14 @@
 
       h3 {
         font-size: 22px;
-        font-weight: 800;
         color: white;
+        margin-bottom: 0;
         @media screen and (min-width: 1024px) and (max-width: 1279px) {
           font-size: 18px;
         }
       }
 
       p {
-        font-size: 18px;
         color: white;
         margin-top: 12px;
         @media screen and (min-width: 1024px) and (max-width: 1279px) {

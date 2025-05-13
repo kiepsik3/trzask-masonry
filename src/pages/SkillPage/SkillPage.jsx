@@ -12,6 +12,13 @@ import Text from "../../components/Text/Text";
 import Image from "../../components/Image/Image";
 import Video from "../../components/Video/Video";
 import { Accordion } from "../../components/Accordion/Accordion";
+import {
+  Headline1,
+  Headline2,
+  Headline3,
+  Headline4,
+} from "../../typography/Headlines/Headlines";
+import Paragraph from "../../typography/Paragraph/Paragraph";
 
 const SkillPage = (props) => {
   const { slug } = useParams();
@@ -76,10 +83,12 @@ const SkillPage = (props) => {
             Lista
           </Link>
           <div>
-            <h1>{element?.title}</h1>
-            <h3>{element?.caption}</h3>
+            <Headline1>{element?.title}</Headline1>
+            <Headline3>{element?.caption}</Headline3>
             {element?.description?.map((d, idx) => (
-              <p key={idx}>{d}</p>
+              <Paragraph opacity key={idx}>
+                {d}
+              </Paragraph>
             ))}
           </div>
         </div>
@@ -93,7 +102,7 @@ const SkillPage = (props) => {
             <div className="section" key={idx}>
               {section.text && (
                 <div className="text">
-                  <h2>{section.text.title}</h2>
+                  <Headline2>{section.text.title}</Headline2>
                   {section.text.description.map((d) => (
                     <Text text={d} />
                   ))}
@@ -108,11 +117,11 @@ const SkillPage = (props) => {
         {element?.accordion && (
           <div className="faq-section">
             <div>
-              <h2>Najczęściej zadawane pytania</h2>
-              <p>
+              <Headline2>Najczęściej zadawane pytania</Headline2>
+              <Paragraph small opacity>
                 Jeżeli nie znajdujesz odpowiedzi na swoje pytanie, nie wahaj sie
                 i skontaktuj się z nami.
-              </p>
+              </Paragraph>
             </div>
             <Accordion items={element.accordion} />
           </div>
@@ -120,7 +129,7 @@ const SkillPage = (props) => {
 
         {element?.otherSkills && (
           <div className="other-skills">
-            <h2>Pozostałe skille</h2>
+            <Headline1>Pozostałe skille</Headline1>
             <div className="skills-masonry">
               {element.otherSkills.map((skill, index) => (
                 <Link
@@ -128,8 +137,8 @@ const SkillPage = (props) => {
                   className={cn(`skill skill-${index + 1}`)}
                   key={index}
                 >
-                  <h3>{skill.title}</h3>
-                  <p>{skill.caption}</p>
+                  <Headline4>{skill.title}</Headline4>
+                  <Paragraph small>{skill.caption}</Paragraph>
                   <button>
                     Więcej
                     <Arrow />

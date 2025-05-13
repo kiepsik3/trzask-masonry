@@ -104,6 +104,7 @@ export default function CaseStudies(props) {
         {(items.length > itemsAmount || filteredItems.length <= 0) && (
           <Button
             label="Więcej postów"
+            withArrow
             onClick={() => setItemsAmount(itemsAmount + 3)}
           />
         )}

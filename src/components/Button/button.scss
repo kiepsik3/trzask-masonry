@@ -12,6 +12,7 @@
   padding: 15px 40px;
 
   &:hover {
+    color: black;
     &::before {
       transform: rotate(-6deg) translateY(-50%);
       top: 42%;

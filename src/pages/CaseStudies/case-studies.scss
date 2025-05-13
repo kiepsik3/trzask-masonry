@@ -1,14 +1,14 @@
 .case-studies {
   padding-top: 132px;
 
-  @media (max-width: 575px) {
+  @media (max-width: 639px) {
     padding: 110px 8px 0;
   }
 
   &-header {
     margin-bottom: 110px;
 
-    @media (max-width: 575px) {
+    @media (max-width: 639px) {
       margin-bottom: 60px;
 
     }
@@ -17,7 +17,7 @@
   &-info {
     align-self: center;
 
-    @media (max-width: 575px) {
+    @media (max-width: 639px) {
       order: 1;
       text-align: center;
 
@@ -27,7 +27,7 @@
   &-img {
     width: 260px !important;
 
-    @media (max-width: 575px) {
+    @media (max-width: 639px) {
       width: 200px;
       display: block;
       margin: 0 auto 32px

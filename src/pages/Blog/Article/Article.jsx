@@ -58,7 +58,7 @@ export default function Article(props) {
         <div className="article">
           <Container
             className={cn(
-              "article-link-header",
+              "article-link-header container 2xl:max-w-[1320px]",
               visible && "visible",
               pinned && "pinned",
             )}
@@ -68,7 +68,7 @@ export default function Article(props) {
               Lista
             </Link>
           </Container>
-          <Container>
+          <Container className="container 2xl:max-w-[1320px]">
             <Row>
               <Col lg={2}>
                 <Link to="/pl/blog" className="article-link">

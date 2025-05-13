@@ -19,14 +19,10 @@
       align-items: center;
       justify-content: space-between;
       gap: 16px;
-      font-size: 24px;
-      line-height: 32px;
       font-weight: 500;
+      margin-bottom: 0;
       padding: 24px;
       cursor: pointer;
-      @media screen and (max-width: 767px) {
-        font-size: 20px;
-      }
       svg {
         transform: rotate(90deg);
         transition: all .3s;
@@ -43,10 +39,6 @@
     transition: all .3s;
 
     p {
-      font-size: 18px;
-      line-height: 26px;
-      margin-bottom: 16px;
-      opacity: 0.6;
       &:last-child {
         margin-bottom: 24px;
       }

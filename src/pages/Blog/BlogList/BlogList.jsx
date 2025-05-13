@@ -58,7 +58,7 @@ export default function BlogList(props) {
         <link rel="canonical" href={window.location.href} />
       </Helmet>
       <div className="blog-list">
-        <Container>
+        <Container className="container 2xl:max-w-[1320px]">
           <Row>
             <Col sm={5} md={3} lg={2} className="blog-list-sidebar">
               <Headline1 violet>{title}</Headline1>
@@ -136,6 +136,7 @@ export default function BlogList(props) {
                 filteredCategory && (
                   <Button
                     label="Więcej postów"
+                    withArrow
                     onClick={() =>
                       setFilteredItemsAmount(filteredItemsAmount + 4)
                     }
@@ -144,6 +145,7 @@ export default function BlogList(props) {
               {items.length > itemsAmount && !filteredCategory && (
                 <Button
                   label="Więcej postów"
+                  withArrow
                   onClick={() => setItemsAmount(itemsAmount + 4)}
                 />
               )}
