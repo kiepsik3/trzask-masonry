@@ -30,6 +30,229 @@
     {
       "bgImage": "img/recommendations/heart-big.svg",
       "alt": "heart"
+    },
+    {
+      "bgColor": "red",
+      "text": "„Współpraca z Trzask! Studio sprawiła nam dużo satysfakcji. Zdecydowaliśmy się na przygotowanie animacji, ponieważ wideo dużo lepiej oddziaływuje na zrozumienie procesu nie tylko wewnątrz naszej organizacji, ale szczególnie na zrozumienie i poznanie produktu po stronie producentów pojazdów. Złożoność tematu i jego szczegółowość w tym projekcie była dość duża, ale ekipa Trzask! Studio i mój zespół włożyli wiele wysiłku w ten projekt, tworząc niezwykle dobrze zaprojektowany i wyjaśniający detale film.”",
+      "author": {
+        "name": "Sven Müller",
+        "company": "Managing Director of SaarGummi Neo"
+      },
+      "logo": "img/recommendations/saar.svg"
+    },
+    {
+      "bgColor": "blue",
+      "text": "Bardzo sobie cenię szybką responsywność, gotowość \ndo pomocy oraz cierpliwość w stosunku do uwag i zmian naszych klientów \uD83E\uDD17",
+      "author": {
+        "name": "Urszula Turzyńska",
+        "company": "Marketing Manager Stokson"
+      },
+      "logo": "img/recommendations/brand.svg"
+    },
+    {
+      "text": "Cała akcja przekroczyła nasze oczekiwania! Wszystkie działania, które zaplanowaliśmy przyczyniły się do sukcesu nowego donuta GENZIE. To na pewno nie była ostatnia aktywacja z kreatorem, \u2028który zdecydowanie udowodnił swoją skuteczność. Dziękujemy \u2028ekipie Trzask za stworzenie takiego narzędzia.",
+      "author": {
+        "name": "Konrad Wiktor",
+        "company": "Brand Kolektyw"
+      },
+      "logo": "img/recommendations/stokson.svg"
+    },
+    {
+      "bgColor": "blue",
+      "text": "Dobry i sympatyczny kontakt. Profesjonalizm. Nieszablonowe \uD83E\uDD17 pomysły, dopasowanie do budżetu (często niewielkiego) klienta.",
+      "author": {
+        "name": "Karolina Kachel",
+        "company": "Grupa Maspex"
+      },
+      "logo": "img/recommendations/maspex.svg",
+      "rotateRight": true
+    },
+    {
+      "text": "Zespół Piotra sprawdził się niesamowicie, zaskoczyli nas tymi animacjami, niezwykłe było to, że udało się to zamknąć w tak małych formach banerowych. \nIch praca pozwoliła nam wzmocnić działania marketingowe nie tylko na polu materiałów wideo ale również i przy kampaniach display.",
+      "author": {
+        "name": "Hanna Kwiatkowska",
+        "company": "Senior Marketing Project Manager Techland"
+      },
+      "logo": "img/recommendations/techland.svg"
+    },
+    {
+      "bgColor": "red",
+      "text": "Wszystko :) terminowość, słowność, jakość, człowieczość, subtelność ✨",
+      "author": {
+        "name": "Ola Kołaczkowska",
+        "company": "GroupM"
+      },
+      "logo": "img/recommendations/groupm.svg",
+      "rotateLeft": true
+    },
+    {
+      "bgColor": "blue",
+      "text": "W Health Labs Care zależy nam \u2028aby komunikacja, którą tworzymy, odzwierciedlała misję i wizję marki, \u2028jaką jest dbanie o zdrowie, piękno \u2028i samopoczucie naszych klientów. Współpraca ze Studiem Trzask pokazała, jak świetnie rozumieją \nnasz przekaz, co doceniliśmy nie \u2028tylko my, ale również nasi klienci.",
+      "author": {
+        "name": "Michał Duszczyk",
+        "company": "Creative Director Health Labs Care"
+      },
+      "logo": "img/recommendations/healthlabs.svg"
+    },
+    {
+      "bgColor": "red",
+      "text": "Współpraca ze studiem Trzask zawsze sprawia nam wiele radości i dodaje inspiracji. To nie tylko zespół, który wykonuje solidną pracę, ale przede wszystkim osoby pełne kreatywnej energii, które rozumieją naszą markę, jak mało kto!",
+      "author": {
+        "name": "Mateusz Gradziński",
+        "company": "Brand Manager Stokson"
+      },
+      "logo": "img/recommendations/stokson.svg"
+    },
+    {
+      "bgColor": "blue",
+      "text": "Praca z Trzask Studio to czysta przyjemność. Szybko, profesjonalnie, elastycznie \ni na czas. Polecam.",
+      "author": {
+        "name": "Jolanta Gralewska",
+        "company": "Dyrektor Marketingu i Sprzedaży Bandi"
+      },
+      "logo": "img/recommendations/bandi.svg"
+    },
+    {
+      "bgImage": "img/recommendations/heart.svg",
+      "alt": "heart"
+    },
+    {
+      "text": "Drodzy, jesteście \u2028absolutnie świetni - zarówno client service'owo, jak \u2028i egzekucyjnie. Gdyby \u2028to zależało ode mnie \u2028to współpracowałabym \u2028tylko z Wami nonstop \uD83D\uDC96",
+      "author": {
+        "name": "Rozalia Mikołajczak",
+        "company": "inStreamly"
+      },
+      "logo": "img/recommendations/instreamly.svg"
+    },
+    {
+      "bgColor": "red",
+      "text": "Profeska. Wiem, ze będzie dowiezione \uD83D\uDE80 Czuje tez, że jest opiekun, który dba o to, żeby nasze potrzeby były spełnione!",
+      "author": {
+        "name": "Michał Malenta",
+        "company": "CDPR"
+      },
+      "logo": "img/recommendations/cdp.svg"
+    },
+    {
+      "bgImage": "img/recommendations/stars.svg",
+      "alt": "stars"
+    },
+    {
+      "text": "Współpraca na linii Trzask i Przestrzeń to nie tylko kilka lat wzajemnych doświadczeń projektowych, które nigdy nas nie zawiodły, ale również czas rozwijania relacji i wzajemnej wymiany doświadczeń czy wiedzy. Za nami bardzo dużo wspólnych działań \ni razem realizowanych kampanii digitalowych, z których bardzo \u2028się cieszymy. Mamy nadzieję i apetyt na więcej.",
+      "author": {
+        "name": "Mateusz Ciećwierski",
+        "company": "Chief Operating Officer Przestrzeń"
+      },
+      "logo": "img/recommendations/przestrzen.svg"
+    },
+    {
+      "bgColor": "red",
+      "text": "Polecam Trzask do współpracy. Przemili, zaangażowani i responsywni ludzie. Szybko wstrzelili się w nasze oczekiwania. Działają sprawnie, a dodatkowo przyjęli ten projekt z dość nieprzyjemnym harmo.",
+      "author": {
+        "name": "Anna Pietrzak",
+        "company": "Senior Producer CDPR"
+      },
+      "logo": "img/recommendations/cdp.svg"
+    },
+    {
+      "bgColor": "blue",
+      "text": "Dziękuję pięknie za wspólne projekty! :)",
+      "author": {
+        "name": "Magdalena Kerber",
+        "company": "PR and Communication \u2028Manager 2koma7"
+      },
+      "logo": "img/recommendations/2koma7.svg"
+    },
+    {
+      "bgColor": "blue",
+      "text": "Na tle innych kreacji digitalowych wykorzystywanych w tej kampanii rich media przygotowane dla marki Lubella przez studio Trzask charakteryzowały się zdecydowanie dłuższym czasem kontaktu odbiorcy z materiałem. \u2028Dały więc odbiorcom bardzo dobrą możliwość wczucia się w klimat naszego świątecznego spotu \uD83D\uDC96",
+      "author": {
+        "name": "Paulina Grębowiec",
+        "company": "Digital Specialist, Dział Marketingu Maspex"
+      },
+      "logo": "img/recommendations/maspex.svg"
+    },
+    {
+      "bgColor": "red",
+      "text": "Otwartość \u2028i chęć działania. Zainteresowanie nietypowymi projektami \uD83D\uDC7E",
+      "author": {
+        "name": "Dawid Frątczak",
+        "company": "Lemon Sky"
+      },
+      "logo": "img/recommendations/lemonsky.svg",
+      "rotateRight": true
+    },
+    {
+      "bgColor": "blue",
+      "text": "Super pro i przy tym bardzo miło. Jesteście \"głodni\" jak my \uD83D\uDE0E",
+      "author": {
+        "name": "Marek Dorobisz",
+        "company": "Media Impact"
+      },
+      "logo": "img/recommendations/mediaimpact.svg"
+    },
+    {
+      "text": "Jesteście dla mnie pełnym zaskoczeniem w tym pozytywnym tego \u2028słowa znaczeniu \uD83D\uDCA5",
+      "author": {
+        "name": "Maciej Wronecki",
+        "company": "Happy Endians"
+      },
+      "logo": "img/recommendations/happyendians.svg"
+    },
+    {
+      "bgImage": "img/recommendations/starandheart.svg",
+      "alt": "starandheart"
+    },
+    {
+      "bgImage": "img/recommendations/monster.svg",
+      "alt": "monster"
+    },
+    {
+      "text": "Bezpośredniość \u2028(w dobrych tych słów znaczeniu), otwartość na poszukiwanie rozwiązań, partnerstwo.”",
+      "author": {
+        "name": "Anna Ruszczyńska",
+        "company": "Buzzgrow"
+      },
+      "logo": "img/recommendations/happyendians.svg"
+    },
+    {
+      "text": "Mając animacje, których możemy swobodnie i wielokrotnie używać \u2028w naszych mediach społecznościowych zdecydowanie oszczędza czas. Współpraca ze studiem Trzask to czysta przyjemność. \u2028Nie możemy się doczekać, co jeszcze nam pokażą!",
+      "author": {
+        "name": "Anna Osiecka",
+        "company": "Kierowniczka marketingu Pasieki Sadowskich"
+      },
+      "logo": "img/recommendations/pasieki.svg"
+    },
+    {
+      "bgColor": "red",
+      "text": "Efekt końcowy reklamy był satysfakcjonujący. Umiejętne dopasowanie naszych materiałów \u2028do świata gamingu sprawiło, \nże udało się stworzyć film, który jednocześnie był oryginalny \u2028i spójny z naszą standardową komunikacją.",
+      "author": {
+        "name": "Aleksandra Kucała",
+        "company": "Senior Category Manager Wawel"
+      },
+      "logo": "img/recommendations/wawel.svg"
+    },
+    {
+      "bgColor": "blue",
+      "text": "Jesteście super! ⭐ Myśląc o Was, jako o agencji, jesteście nielicznymi, którzy dowożą wszystko \nw 100%.",
+      "author": {
+        "name": "Paulina Pęcikiewicz",
+        "company": "Grupa Maspex (Lubella)"
+      },
+      "logo": "img/recommendations/maspex.svg"
+    },
+    {
+      "bgImage": "img/recommendations/heartsandstars.svg",
+      "alt": "heartsandstars"
+    },
+    {
+      "bgColor": "blue",
+      "text": "Trzask świetnie odzwierciedlili klimat \u2028JARS, idealnie przedstawiając horrorowo-humorystyczną naturę gry. Dzięki tym animacjom historia Victora ożyła, \u2028a wszystko oglądało się jak super \u2028jakości kreskówkę z dreszczykiem!",
+      "author": {
+        "name": "Dawid Frątczak",
+        "company": "Creative Director MouseTrap Games"
+      },
+      "logo": "img/recommendations/mousetrap.svg"
     }
   ]
 }
