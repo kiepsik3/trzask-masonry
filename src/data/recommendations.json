@@ -7,7 +7,7 @@
         "name": "Mateusz Gradziński",
         "company": "Brand Manager Stokson"
       },
-      "logo": "img/recommendations/stokson.svg"
+      "logo": "/images/recommendations/stokson.svg"
     },
     {
       "text": "Praca z Waszym zespołem była sprawna, ❤\uFE0F\u200D\uD83D\uDD25 kreatywna \u2028i na czas. Czyli w skrócie \u2028- TRZASK :)",
@@ -15,7 +15,7 @@
         "name": "Michał Makowski",
         "company": "Senior Brand Manager Tymbark"
       },
-      "logo": "img/recommendations/tymbark.svg",
+      "logo": "/images/recommendations/tymbark.svg",
       "rotateLeft": true
     },
     {
@@ -25,10 +25,10 @@
         "name": "Magda Marcinkowska",
         "company": "Digital Producer - Team Lead Techland"
       },
-      "logo": "img/recommendations/techland.svg"
+      "logo": "/images/recommendations/techland.svg"
     },
     {
-      "bgImage": "img/recommendations/heart-big.svg",
+      "bgImage": "/images/recommendations/heart-big.svg",
       "alt": "heart"
     },
     {
@@ -38,7 +38,7 @@
         "name": "Sven Müller",
         "company": "Managing Director of SaarGummi Neo"
       },
-      "logo": "img/recommendations/saar.svg"
+      "logo": "/images/recommendations/saar.svg"
     },
     {
       "bgColor": "blue",
@@ -47,7 +47,7 @@
         "name": "Urszula Turzyńska",
         "company": "Marketing Manager Stokson"
       },
-      "logo": "img/recommendations/brand.svg"
+      "logo": "/images/recommendations/brand.svg"
     },
     {
       "text": "Cała akcja przekroczyła nasze oczekiwania! Wszystkie działania, które zaplanowaliśmy przyczyniły się do sukcesu nowego donuta GENZIE. To na pewno nie była ostatnia aktywacja z kreatorem, \u2028który zdecydowanie udowodnił swoją skuteczność. Dziękujemy \u2028ekipie Trzask za stworzenie takiego narzędzia.",
@@ -55,7 +55,7 @@
         "name": "Konrad Wiktor",
         "company": "Brand Kolektyw"
       },
-      "logo": "img/recommendations/stokson.svg"
+      "logo": "/images/recommendations/stokson.svg"
     },
     {
       "bgColor": "blue",
@@ -64,7 +64,7 @@
         "name": "Karolina Kachel",
         "company": "Grupa Maspex"
       },
-      "logo": "img/recommendations/maspex.svg",
+      "logo": "/images/recommendations/maspex.svg",
       "rotateRight": true
     },
     {
@@ -73,7 +73,7 @@
         "name": "Hanna Kwiatkowska",
         "company": "Senior Marketing Project Manager Techland"
       },
-      "logo": "img/recommendations/techland.svg"
+      "logo": "/images/recommendations/techland.svg"
     },
     {
       "bgColor": "red",
@@ -82,7 +82,7 @@
         "name": "Ola Kołaczkowska",
         "company": "GroupM"
       },
-      "logo": "img/recommendations/groupm.svg",
+      "logo": "/images/recommendations/groupm.svg",
       "rotateLeft": true
     },
     {
@@ -92,7 +92,7 @@
         "name": "Michał Duszczyk",
         "company": "Creative Director Health Labs Care"
       },
-      "logo": "img/recommendations/healthlabs.svg"
+      "logo": "/images/recommendations/healthlabs.svg"
     },
     {
       "bgColor": "red",
@@ -101,7 +101,7 @@
         "name": "Mateusz Gradziński",
         "company": "Brand Manager Stokson"
       },
-      "logo": "img/recommendations/stokson.svg"
+      "logo": "/images/recommendations/stokson.svg"
     },
     {
       "bgColor": "blue",
@@ -110,10 +110,10 @@
         "name": "Jolanta Gralewska",
         "company": "Dyrektor Marketingu i Sprzedaży Bandi"
       },
-      "logo": "img/recommendations/bandi.svg"
+      "logo": "/images/recommendations/bandi.svg"
     },
     {
-      "bgImage": "img/recommendations/heart.svg",
+      "bgImage": "/images/recommendations/heart.svg",
       "alt": "heart"
     },
     {
@@ -122,7 +122,7 @@
         "name": "Rozalia Mikołajczak",
         "company": "inStreamly"
       },
-      "logo": "img/recommendations/instreamly.svg"
+      "logo": "/images/recommendations/instreamly.svg"
     },
     {
       "bgColor": "red",
@@ -131,10 +131,10 @@
         "name": "Michał Malenta",
         "company": "CDPR"
       },
-      "logo": "img/recommendations/cdp.svg"
+      "logo": "/images/recommendations/cdp.svg"
     },
     {
-      "bgImage": "img/recommendations/stars.svg",
+      "bgImage": "/images/recommendations/stars.svg",
       "alt": "stars"
     },
     {
@@ -143,7 +143,7 @@
         "name": "Mateusz Ciećwierski",
         "company": "Chief Operating Officer Przestrzeń"
       },
-      "logo": "img/recommendations/przestrzen.svg"
+      "logo": "/images/recommendations/przestrzen.svg"
     },
     {
       "bgColor": "red",
@@ -152,7 +152,7 @@
         "name": "Anna Pietrzak",
         "company": "Senior Producer CDPR"
       },
-      "logo": "img/recommendations/cdp.svg"
+      "logo": "/images/recommendations/cdp.svg"
     },
     {
       "bgColor": "blue",
@@ -161,7 +161,7 @@
         "name": "Magdalena Kerber",
         "company": "PR and Communication \u2028Manager 2koma7"
       },
-      "logo": "img/recommendations/2koma7.svg"
+      "logo": "/images/recommendations/2koma7.svg"
     },
     {
       "bgColor": "blue",
@@ -170,7 +170,7 @@
         "name": "Paulina Grębowiec",
         "company": "Digital Specialist, Dział Marketingu Maspex"
       },
-      "logo": "img/recommendations/maspex.svg"
+      "logo": "/images/recommendations/maspex.svg"
     },
     {
       "bgColor": "red",
@@ -179,7 +179,7 @@
         "name": "Dawid Frątczak",
         "company": "Lemon Sky"
       },
-      "logo": "img/recommendations/lemonsky.svg",
+      "logo": "/images/recommendations/lemonsky.svg",
       "rotateRight": true
     },
     {
@@ -189,7 +189,7 @@
         "name": "Marek Dorobisz",
         "company": "Media Impact"
       },
-      "logo": "img/recommendations/mediaimpact.svg"
+      "logo": "/images/recommendations/mediaimpact.svg"
     },
     {
       "text": "Jesteście dla mnie pełnym zaskoczeniem w tym pozytywnym tego \u2028słowa znaczeniu \uD83D\uDCA5",
@@ -197,14 +197,14 @@
         "name": "Maciej Wronecki",
         "company": "Happy Endians"
       },
-      "logo": "img/recommendations/happyendians.svg"
+      "logo": "/images/recommendations/happyendians.svg"
     },
     {
-      "bgImage": "img/recommendations/starandheart.svg",
+      "bgImage": "/images/recommendations/starandheart.svg",
       "alt": "starandheart"
     },
     {
-      "bgImage": "img/recommendations/monster.svg",
+      "bgImage": "/images/recommendations/monster.svg",
       "alt": "monster"
     },
     {
@@ -213,7 +213,7 @@
         "name": "Anna Ruszczyńska",
         "company": "Buzzgrow"
       },
-      "logo": "img/recommendations/happyendians.svg"
+      "logo": "/images/recommendations/happyendians.svg"
     },
     {
       "text": "Mając animacje, których możemy swobodnie i wielokrotnie używać \u2028w naszych mediach społecznościowych zdecydowanie oszczędza czas. Współpraca ze studiem Trzask to czysta przyjemność. \u2028Nie możemy się doczekać, co jeszcze nam pokażą!",
@@ -221,7 +221,7 @@
         "name": "Anna Osiecka",
         "company": "Kierowniczka marketingu Pasieki Sadowskich"
       },
-      "logo": "img/recommendations/pasieki.svg"
+      "logo": "/images/recommendations/pasieki.svg"
     },
     {
       "bgColor": "red",
@@ -230,7 +230,7 @@
         "name": "Aleksandra Kucała",
         "company": "Senior Category Manager Wawel"
       },
-      "logo": "img/recommendations/wawel.svg"
+      "logo": "/images/recommendations/wawel.svg"
     },
     {
       "bgColor": "blue",
@@ -239,10 +239,10 @@
         "name": "Paulina Pęcikiewicz",
         "company": "Grupa Maspex (Lubella)"
       },
-      "logo": "img/recommendations/maspex.svg"
+      "logo": "/images/recommendations/maspex.svg"
     },
     {
-      "bgImage": "img/recommendations/heartsandstars.svg",
+      "bgImage": "/images/recommendations/heartsandstars.svg",
       "alt": "heartsandstars"
     },
     {
@@ -252,7 +252,7 @@
         "name": "Dawid Frątczak",
         "company": "Creative Director MouseTrap Games"
       },
-      "logo": "img/recommendations/mousetrap.svg"
+      "logo": "/images/recommendations/mousetrap.svg"
     }
   ]
 }
