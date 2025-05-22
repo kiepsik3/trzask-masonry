@@ -1,0 +1,220 @@
+@import '../../lib/scss/colors.scss';
+
+.contact-form {
+  display: flex;
+  max-height: 90vh;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  transition: all .35s;
+  z-index: 1;
+
+  &.active {
+    right: 0;
+  }
+
+  .contact-form-image {
+    height: 100%;
+  }
+
+  .form-data {
+    background-color: white;
+    width: 724px;
+    height: 100%;
+    padding: 32px;
+
+    .close-icon {
+      position: absolute;
+      top: 40px;
+      right: 32px;
+      cursor: pointer;
+      transition: all .35s;
+
+      &:hover {
+        transform: rotate(-90deg);
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-height: 527px;
+      overflow-y: auto;
+      gap: 32px;
+      margin-top: 32px;
+      position: relative;
+
+      > * {
+        flex-shrink: 0;
+      }
+
+      input, textarea {
+        width: 100%;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 800;
+        padding: 16px 20px;
+        border: 3px solid $color-blue;
+        outline: none;
+        transition: all .35s;
+
+        &:hover {
+          background-color: rgba(126, 88, 236, 0.1);
+        }
+      }
+
+      .additional-info {
+        p {
+          font-weight: 800;
+        }
+
+        .selection {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+
+          input[type=checkbox], input[type=radio] {
+            display: none;
+          }
+
+          input[type=checkbox] + label, input[type=radio] + label, {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 800;
+            border: 3px solid #F0EBFF;
+            background-color: #F0EBFF;
+            padding: 8px 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            @media (width < 768px) {
+              padding: 9px;
+              height: 40px;
+            }
+          }
+
+          input[type=checkbox]:hover + label, input[type=radio]:hover + label {
+            border-color: $color-blue;
+          }
+
+          input[type=checkbox]:checked + label, input[type=radio]:checked + label {
+            color: white;
+            background-color: $color-blue;
+            border-color: $color-blue;
+          }
+        }
+      }
+
+      .newsletter {
+        input[type=checkbox] {
+          display: none;
+        }
+
+        input[type=checkbox] + label {
+          font-size: 18px;
+          padding-left: 30px;
+          color: $color-grey;
+          background-image: url("../../assets/img/checkbox.svg");
+          background-repeat: no-repeat;
+          background-position: 0 2px;
+          cursor: url("../../assets/img/hand.png") 0 0, auto;
+          @media (max-width: 639px) {
+            font-size: 15px;
+          }
+        }
+
+        input[type=checkbox]:hover + label {
+          background-image: url("../../assets/img/checkbox-hover-violet.svg");
+        }
+
+        input[type=checkbox]:checked + label {
+          background-image: url("../../assets/img/checkbox-checked-violet.svg");
+        }
+      }
+
+      button {
+        position: static;
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  }
+
+  &-cover-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    transition: all .35s;
+
+    &.opened {
+      background-color: rgba(0, 0, 0, 0.5);
+      pointer-events: auto;
+    }
+  }
+
+  &-button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 150px;
+    color: white;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 800;
+    background-color: $color-blue;
+    padding: 8px 24px;
+    border: 3px solid $color-blue;
+    transition: all .3s;
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+
+    svg {
+      margin-left: 7px;
+    }
+  }
+
+  .status-info {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 36px 24px;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+
+    &.success {
+      background-color: rgba(44, 193, 59, 0.9);
+    }
+
+    &.error {
+      background-color: rgba(242, 87, 99, 0.9);
+    }
+
+    .close-icon {
+      width: 16px;
+      top: 16px;
+      right: 16px;
+    }
+  }
+
+  .loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}

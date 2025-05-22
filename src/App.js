@@ -14,16 +14,16 @@ import CaseStudyDetails from "./pages/CaseStudies/CaseStudyDetails/CaseStudyDeta
 import About from "./pages/About/About";
 import { Contact } from "./pages/Contact/Contact";
 import recommendations from "./data/recommendations.json";
-import masonryWall from "./data/masonry-wall-pl.json";
-import blog from "./data/blog-pl.json";
-import caseStudies from "./data/case-studies-pl.json";
+// import masonryWall from "./data/masonry-wall-pl.json";
+// import blog from "./data/blog-pl.json";
+// import caseStudies from "./data/case-studies-pl.json";
 
 function App() {
   const domain = window.location.origin;
 
-  // const { data: masonryWall } = useFetch(`${domain}/masonry-wall-pl.json`);
-  // const { data: caseStudies } = useFetch(`${domain}/case-studies-pl.json`);
-  // const { data: blog } = useFetch(`${domain}/blog-pl.json`);
+  const { data: masonryWall } = useFetch(`${domain}/masonry-wall-pl.json`);
+  const { data: caseStudies } = useFetch(`${domain}/case-studies-pl.json`);
+  const { data: blog } = useFetch(`${domain}/blog-pl.json`);
 
   const currentSlug = window.location.pathname.substring(
     window.location.pathname.lastIndexOf("/"),
@@ -61,7 +61,7 @@ function App() {
                   element={
                     <BlogList
                       {...blog}
-                      homepageKeywords={masonryWall.keywords}
+                      homepageKeywords={masonryWall?.keywords}
                     />
                   }
                 />
@@ -70,7 +70,7 @@ function App() {
                   element={
                     <Article
                       {...blog}
-                      homepageKeywords={masonryWall.keywords}
+                      homepageKeywords={masonryWall?.keywords}
                     />
                   }
                 />
@@ -85,7 +85,7 @@ function App() {
                   element={
                     <CaseStudies
                       {...caseStudies}
-                      homepageKeywords={masonryWall.keywords}
+                      homepageKeywords={masonryWall?.keywords}
                     />
                   }
                 />
@@ -94,7 +94,7 @@ function App() {
                   element={
                     <CaseStudyDetails
                       {...caseStudies}
-                      homepageKeywords={masonryWall.keywords}
+                      homepageKeywords={masonryWall?.keywords}
                     />
                   }
                 />
@@ -102,11 +102,11 @@ function App() {
             )}
             <Route
               path="/pl/about"
-              element={<About homepageKeywords={masonryWall.keywords} />}
+              element={<About homepageKeywords={masonryWall?.keywords} />}
             />
             <Route
               path="/pl/contact"
-              element={<Contact homepageKeywords={masonryWall.keywords} />}
+              element={<Contact homepageKeywords={masonryWall?.keywords} />}
             />
             <Route
               path="/pl/recommendations"

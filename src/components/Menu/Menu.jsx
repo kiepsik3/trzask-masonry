@@ -22,7 +22,7 @@ export function Menu(props) {
 
   return (
     <>
-      {isOpen && <div className="menu-cover-bg" />}
+      <div className={cn("menu-cover-bg", isOpen && "opened")} />
       <div className={cn("menu", isOpen && "active")}>
         <ul>
           {props?.menu?.map((item, idx) =>
@@ -74,7 +74,7 @@ export function Menu(props) {
         toggle={setOpen}
         size={48}
         color={isOpen ? "#ffffff" : "#000000"}
-        distance="sm"
+        distance="lg"
       />
     </>
   );

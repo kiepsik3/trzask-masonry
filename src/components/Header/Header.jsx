@@ -4,6 +4,7 @@ import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import cn from "classnames";
 import "./header.scss";
 import { Menu } from "../Menu/Menu";
+import { ContactForm } from "../ContactForm/ContactForm";
 
 export default function Header(props) {
   const [collapsed, setCollapsed] = useState(false);
@@ -38,10 +39,11 @@ export default function Header(props) {
         pinned && "pinned",
       )}
     >
-      <div className="container flex items-center justify-between">
-        <a href="/pl" className="header-logo">
+      <div className="container flex items-center">
+        <a href="/pl">
           <Logo />
         </a>
+        <ContactForm />
         <Menu menu={props.menu} />
       </div>
     </header>

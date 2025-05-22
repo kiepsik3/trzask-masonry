@@ -109,7 +109,9 @@
         input[type=checkbox] + label {
           font-size: 18px;
           padding-left: 30px;
-          background: url("../../../assets/img/checkbox.svg") no-repeat;
+          background-image: url("../../../assets/img/checkbox.svg");
+          background-repeat: no-repeat;
+          background-position: 0 2px;
           color: white;
           cursor: url("../../../assets/img/hand.png") 0 0, auto;
           @media (max-width: 639px) {
@@ -118,12 +120,11 @@
         }
 
         input[type=checkbox]:hover + label {
-          padding-left: 30px;
-          background: url("../../../assets/img/checkbox-hover.svg") no-repeat;
+          background-image: url("../../../assets/img/checkbox-hover.svg");
         }
 
         input[type=checkbox]:checked + label {
-          background: url("../../../assets/img/checkbox-checked.svg") no-repeat;
+          background-image: url("../../../assets/img/checkbox-checked.svg");
         }
       }
     }
