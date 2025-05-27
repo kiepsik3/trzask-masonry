@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import cn from "classnames";
 import contactFormImg from "../../assets/img/contact-form-img.png";
+import contactFormImgMobile from "../../assets/img/contact-form-img-mobile.png";
 import closeIcon from "../../assets/img/close.svg";
 import closeIconWhite from "../../assets/img/close-white.svg";
 import "./contact-form.scss";
@@ -22,7 +23,7 @@ export function ContactForm(props) {
   const categories = [
     "Animacja 3D",
     "Efekty specjalne",
-    "Rich media",
+    "Rich Media",
     "Video social media",
     "Reklama html5",
     "Reklama wideo TV",
@@ -57,8 +58,8 @@ export function ContactForm(props) {
     setFormStatus("submitting");
 
     emailjs
-      .send("service_uczanct", "template_mspv4wm", formData, {
-        publicKey: "rrZu5831fnZlEGccb",
+      .send("service_n3dxwu8", "template_nb7zpja", formData, {
+        publicKey: "dMXFlqJYjQehPt-C3",
       })
       .then(
         () => {
@@ -94,6 +95,7 @@ export function ContactForm(props) {
           className="contact-form-image"
           alt="contactImg"
         />
+
         <div className="form-data">
           <img
             src={closeIcon}
@@ -104,7 +106,7 @@ export function ContactForm(props) {
             alt="closeIcon"
             className="close-icon"
           />
-          <div className="border-b-2 border-black pb-2">
+          <div className="md:border-b-2 border-black md:pb-2">
             <Headline1>Napisz do nas!</Headline1>
             <Paragraph small opacity>
               Zawsze szukamy nowych wyzwań 💥
@@ -112,6 +114,11 @@ export function ContactForm(props) {
               Masz projekt, w którym Trzask może się wykazać?
             </Paragraph>
           </div>
+          <img
+            src={contactFormImgMobile}
+            className="contact-form-image-mobile"
+            alt="contactImg"
+          />
           <form onSubmit={sendEmail} ref={form}>
             <input
               type="email"

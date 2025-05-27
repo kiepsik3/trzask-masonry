@@ -1,3 +1,5 @@
+import React from "react";
+import { Helmet } from "react-helmet";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import MainPage from "./pages/MainPage/MainPage";
 import SkillPage from "./pages/SkillPage/SkillPage";
@@ -34,6 +36,9 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <BrowserRouter>
         <Header menu={masonryWall?.menu} isTransparent={isTransparentHeader} />
         <main>
@@ -110,7 +115,12 @@ function App() {
             />
             <Route
               path="/pl/recommendations"
-              element={<Recommendations {...recommendations} />}
+              element={
+                <Recommendations
+                  {...recommendations}
+                  homepageKeywords={masonryWall?.keywords}
+                />
+              }
             />
           </Routes>
           <Newsletter />

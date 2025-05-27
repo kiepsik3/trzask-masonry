@@ -9,7 +9,12 @@ export default function Recommendations(props) {
   return (
     <>
       <Helmet>
-        <title>TRZ / RECOMMENDATIONS</title>
+        <title>TRZ / REKOMENDACJE</title>
+        <meta
+          name="description"
+          content="Profesjonalne studio animacji specjalizujące się w reklamie internetowej. Tworzymy interaktywne rich media, grywalne playable ads, gry na landing page'ach, reklamy video oraz spektakularne animacje wszelkiej maści."
+        />
+        <meta name="keywords" content={props.homepageKeywords.join(", ")} />
         <link rel="canonical" href={window.location.href} />
       </Helmet>
 

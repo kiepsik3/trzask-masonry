@@ -39,7 +39,7 @@ export default function Header(props) {
         pinned && "pinned",
       )}
     >
-      <div className="container flex items-center">
+      <div className="container 2xl:max-w-[1320px] flex items-center">
         <a href="/pl">
           <Logo />
         </a>
